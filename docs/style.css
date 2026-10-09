@@ -1,0 +1,32 @@
+:root { --green:#2f6f4f; --green-d:#22533b; --bg:#f5f3ec; --card:#fff; --ink:#1e2a23;
+        --good:#2e9e5b; --bad:#d04a3a; --muted:#6b756f; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#141a16; --card:#1f2823; --ink:#eef2ee; --muted:#9aa59e; --green:#4a9a72; --green-d:#3b8160; }
+}
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html,body { margin:0; background:var(--bg); color:var(--ink);
+  font:17px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif; }
+#app { max-width:520px; margin:0 auto; min-height:100dvh; display:flex; flex-direction:column;
+  padding:max(16px,env(safe-area-inset-top)) 16px max(16px,env(safe-area-inset-bottom)); }
+h1 { font-size:2rem; margin:.2em 0; } p { margin:.4em 0; }
+.center { margin:auto 0; text-align:center; }
+.hero { font-size:4rem; }
+.btn { display:block; width:100%; padding:16px; margin:10px 0; border:0; border-radius:14px;
+  background:var(--green); color:#fff; font:inherit; font-weight:600; cursor:pointer; }
+.btn:active { background:var(--green-d); }
+.btn.ghost { background:transparent; color:var(--green); border:2px solid var(--green); }
+.top { display:flex; justify-content:space-between; color:var(--muted); font-size:.9rem; padding:4px 2px 10px; }
+.bar { height:6px; background:rgba(128,128,128,.25); border-radius:3px; overflow:hidden; margin-bottom:12px; }
+.bar > i { display:block; height:100%; background:var(--green); transition:width .3s; }
+.photo { width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:16px; background:#0002; }
+.choices { display:grid; gap:10px; margin-top:14px; }
+.choice { padding:15px; border-radius:12px; border:2px solid transparent; background:var(--card);
+  color:var(--ink); font:inherit; text-align:left; cursor:pointer; box-shadow:0 1px 3px #0002; }
+.choice.good { background:var(--good); color:#fff; }
+.choice.bad { background:var(--bad); color:#fff; }
+.choice:disabled { opacity:1; }
+.credit { font-size:.75rem; color:var(--muted); margin:10px 2px 0; }
+.credit a { color:inherit; }
+.sci { font-style:italic; color:var(--muted); }
+.score { font-size:3rem; font-weight:700; }
+.miss { text-align:left; background:var(--card); border-radius:12px; padding:8px 14px; margin:14px 0; }
