@@ -3,7 +3,7 @@
  * one Markdown file per report to bugs/ in the GitHub repo.
  *
  * Route:  POST https://birds-api.sethhopper.com/report
- * Body:   { photo: "img/northern-cardinal-2.jpg", reason: "...", pageUrl, userAgent, website }
+ * Body:   flag: { photo: "img/northern-cardinal-2.jpg", reason }  |  bug: { text, context }  (+ pageUrl, userAgent, website)
  * Env:    GITHUB_TOKEN (secret, Contents read/write on REPO only), REPO, BRANCH, ALLOWED_ORIGINS
  */
 const PHOTO_RE = /^img\/[a-z0-9-]+-\d\.jpg$/;   // only real photo ids are accepted
@@ -29,19 +29,25 @@ export default {
     try { body = await request.json(); } catch { return reply({ error: "bad_json" }, 400, h); }
     if (body.website) return reply({ ok: true }, 200, h);           // honeypot
 
+    // Two kinds of report: a photo flag ({photo, reason}) or a general bug ({text, context}).
     const photo = String(body.photo || "");
-    if (!PHOTO_RE.test(photo)) return reply({ error: "bad_photo" }, 400, h);
-    const reason = String(body.reason || "").trim().slice(0, MAX_REASON) || "(no reason given)";
+    const isFlag = photo !== "";
+    if (isFlag && !PHOTO_RE.test(photo)) return reply({ error: "bad_photo" }, 400, h);
+    const reason = String((isFlag ? body.reason : body.text) || "").trim().slice(0, MAX_REASON);
+    if (!isFlag && reason.length < 3) return reply({ error: "empty_report" }, 400, h);
+    const text = reason || "(no reason given)";
 
     const now = new Date();
     const stamp = now.toISOString().replace(/:/g, "-").replace(/\.\d+Z$/, "Z");
     const path = `bugs/${stamp}_${Math.random().toString(36).slice(2, 8)}.md`;
     const front = {
-      photo, submitted: now.toISOString(), status: "open",
+      kind: isFlag ? "flag" : "bug",
+      ...(isFlag ? { photo } : { context: clip(body.context, 600) }),
+      submitted: now.toISOString(), status: "open",
       page_url: clip(body.pageUrl, 300), user_agent: clip(body.userAgent, 300),
     };
     const md = "---\n" + Object.entries(front).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join("\n")
-      + "\n---\n\n" + reason + "\n";
+      + "\n---\n\n" + text + "\n";
 
     const gh = await fetch(`https://api.github.com/repos/${env.REPO}/contents/${path}`, {
       method: "PUT",
@@ -51,7 +57,7 @@ export default {
         "User-Agent": "birdquiz-bug-worker",
         "X-GitHub-Api-Version": "2022-11-28",
       },
-      body: JSON.stringify({ message: `flag: ${photo} — ${reason.replace(/\s+/g, " ").slice(0, 50)}`,
+      body: JSON.stringify({ message: `${isFlag ? "flag: " + photo : "bug"} — ${text.replace(/\s+/g, " ").slice(0, 50)}`,
                              content: b64(md), branch: env.BRANCH || "main" }),
     });
     if (!gh.ok) return reply({ error: "commit_failed", status: gh.status,

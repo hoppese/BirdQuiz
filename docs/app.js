@@ -199,6 +199,44 @@ function renderReview(k) {
   window.scrollTo(0, 0);
 }
 
+// ---- general bug report (button at the bottom of every screen) ----
+function bugContext() {
+  const q = state && state.questions && state.questions[state.i];
+  return [`mode=${mode}`, `level=${level}`, state ? `question=${state.i + 1}/${ROUND_LENGTH}` : "home",
+          q ? `bird=${q.answer.id}` : "", q ? `photo=${q.photo.file}` : "", q && q.sound ? `sound=${q.sound.file}` : "",
+          `screen=${innerWidth}x${innerHeight}`].filter(Boolean).join(" ");
+}
+function openBugReport() {
+  const sheet = document.createElement("div");
+  sheet.className = "sheet";
+  sheet.innerHTML = `<div class="sheetbody"><button class="close" aria-label="Close">✕</button>
+    <h2>Report a bug</h2><p class="credit">What went wrong? We'll note which screen you were on automatically.</p>
+    <textarea id="bugtext" rows="5" placeholder="What happened, and what did you expect?"></textarea>
+    <p id="bugmsg" class="credit"></p><button class="btn" id="bugsend">Send report</button></div>`;
+  sheet.onclick = e => { if (e.target === sheet || e.target.closest(".close")) sheet.remove(); };
+  document.body.appendChild(sheet);
+  const text = sheet.querySelector("#bugtext"), msg = sheet.querySelector("#bugmsg"), send = sheet.querySelector("#bugsend");
+  text.focus();
+  send.onclick = async () => {
+    if (text.value.trim().length < 3) { msg.textContent = "Please describe the problem first."; return; }
+    send.disabled = true; msg.textContent = "Sending…";
+    try {
+      const r = await fetch(REPORT_URL, { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: text.value, context: bugContext(), pageUrl: location.href, userAgent: navigator.userAgent }) });
+      if (!r.ok) throw new Error(r.status);
+      sheet.querySelector(".sheetbody").innerHTML = `<button class="close" aria-label="Close">✕</button>
+        <h2>Thanks! 🐞</h2><p>Your report was sent.</p>`;
+      setTimeout(() => sheet.remove(), 1800);
+    } catch { send.disabled = false; msg.textContent = "Couldn't send (are you online?). Your text is still here — try again."; }
+  };
+}
+// keep a small "Report a bug" link at the end of whatever screen is showing
+new MutationObserver(() => {
+  if (app.lastElementChild && app.lastElementChild.id === "bugfoot") return;
+  const f = document.createElement("p"); f.id = "bugfoot"; f.className = "bugfoot";
+  f.innerHTML = `<button>🐞 Report a bug</button>`; f.firstChild.onclick = openBugReport; app.appendChild(f);
+}).observe(app, { childList: true });
+
 fetch("birds.json").then(r => r.json()).then(d => { birds = d; renderHome(); retryFlags(); })
   .catch(() => app.innerHTML = "<p>Couldn't load bird data.</p>");
 

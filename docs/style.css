@@ -62,3 +62,6 @@ h1 { font-size:2rem; margin:.2em 0; } p { margin:.4em 0; }
 .player p { margin:12px 0 0; color:var(--muted); }
 .player.mini { padding:10px; margin-bottom:10px; } .player.mini button { width:48px; height:48px; font-size:1.2rem; } .player.mini p { display:none; }
 .snd audio { width:100%; margin-top:4px; } .snd { margin:8px 0; }
+
+.bugfoot { text-align:center; margin:18px 0 4px; } .bugfoot button { border:0; background:none; color:var(--muted); font:inherit; font-size:.8rem; cursor:pointer; text-decoration:underline; }
+textarea { width:100%; border-radius:12px; border:2px solid rgba(128,128,128,.35); background:var(--card); color:var(--ink); font:inherit; padding:12px; resize:vertical; margin-top:10px; }
