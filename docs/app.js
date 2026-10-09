@@ -7,7 +7,7 @@ const LEVELS = {
   hard:   { label: "Hard",   blurb: "Look-alike choices from the same family" },
 };
 const app = document.getElementById("app");
-let birds = [], state = null, level = "medium";
+let birds = [], state = null, level = "medium", mode = "photo";
 
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) {
   const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -40,23 +40,34 @@ const QUIZ_TYPES = {
     const photo = pick(goodPhotos(answer));
     return { type: "photo", answer, photo, options: shuffle([answer, ...distractors(answer, pool)]) };
   },
-  // song(answer, pool) { ... }  // future: audio from xeno-canto
+  song(answer, pool) {
+    const sound = pick(answer.sounds);
+    const photo = pick(goodPhotos(answer));
+    return { type: "song", answer, sound, photo, options: shuffle([answer, ...distractors(answer, pool)]) };
+  },
 };
 
 function newRound() {
-  const pool = level === "easy" ? birds.filter(b => b.easy) : birds;
-  const playable = shuffle(pool.filter(b => goodPhotos(b).length));
+  let pool = level === "easy" ? birds.filter(b => b.easy) : birds;
+  const ok = b => goodPhotos(b).length && (mode === "photo" || (b.sounds || []).length);
+  if (mode === "song") pool = pool.filter(b => (b.sounds || []).length);
+  const playable = shuffle(pool.filter(ok));
   state = { i: 0, score: 0, missed: [],
-            questions: playable.slice(0, ROUND_LENGTH).map(b => QUIZ_TYPES.photo(b, pool)) };
+            questions: playable.slice(0, ROUND_LENGTH).map(b => QUIZ_TYPES[mode](b, pool)) };
   renderQuestion();
 }
 
 // ---- views ----
+const hasSounds = () => birds.filter(b => (b.sounds || []).length).length >= 20;
 function renderHome() {
   app.innerHTML = `<div class="center"><div class="hero">🐦</div><h1>Bird Quiz</h1>
-    <p>Name the bird from its photo.</p><p class="sci">${birds.length} North American species</p>
+    <p>Name the bird from its ${mode === "photo" ? "photo" : "song"}.</p>
+    <div class="seg"><button data-mode="photo" class="${mode === "photo" ? "on" : ""}">📷 Photos</button>${
+      hasSounds() ? `<button data-mode="song" class="${mode === "song" ? "on" : ""}">🔊 Sounds</button>` : ""}</div>
+    <p class="sci">${birds.length} North American species</p>
     ${Object.entries(LEVELS).map(([k, v]) => `<button class="btn level" data-level="${k}">
       ${v.label}<small>${v.blurb}</small></button>`).join("")}</div>`;
+  app.querySelectorAll(".seg button").forEach(b => b.onclick = () => { mode = b.dataset.mode; renderHome(); });
   app.querySelectorAll(".level").forEach(b => b.onclick = () => { level = b.dataset.level; newRound(); });
 }
 
@@ -68,12 +79,24 @@ function renderQuestion() {
   app.innerHTML = `
     <div class="top"><span>${LEVELS[level].label} · ${state.i + 1} of ${ROUND_LENGTH}</span><span>Score ${state.score}</span></div>
     <div class="bar"><i style="width:${state.i / ROUND_LENGTH * 100}%"></i></div>
-    <div id="pic">${photoHTML(q.photo)}</div>
+    <div id="pic">${q.type === "song" ? playerHTML(q.sound) : photoHTML(q.photo)}</div>
     <div class="choices">${q.options.map((o, k) =>
       `<button class="choice" data-k="${k}">${esc(o.name)}</button>`).join("")}</div>
     <div id="after"></div>`;
   app.querySelectorAll(".choice").forEach(b => b.onclick = () => answer(q, +b.dataset.k));
+  wirePlayer();
 }
+
+// ---- sound player ----
+const playerHTML = s => `<div class="player"><audio id="clip" src="${esc(s.file)}" preload="auto"></audio>
+  <button id="play" aria-label="Play">▶</button><p>Listen, then pick the bird</p></div>`;
+function wirePlayer() {
+  const clip = document.getElementById("clip"), btn = document.getElementById("play");
+  if (!clip) return;
+  btn.onclick = () => clip.paused ? clip.play() : clip.pause();
+  clip.onplay = () => btn.textContent = "⏸"; clip.onpause = clip.onended = () => btn.textContent = "▶";
+}
+const stopClips = () => document.querySelectorAll("audio").forEach(a => a.pause());
 
 function flagButton(q) {
   return `<button class="flagbtn" id="flag" title="Flag this photo">🚩 Flag photo</button>`;
@@ -96,19 +119,25 @@ function answer(q, k) {
     if (q.options[j] === q.answer) b.classList.add("good");
     else if (j === k) b.classList.add("bad");
   });
-  document.getElementById("pic").insertAdjacentHTML("beforeend",
+  if (q.type === "song") {          // reveal the bird; keep the player for replays
+    document.querySelector(".player").classList.add("mini");
+    document.getElementById("pic").insertAdjacentHTML("beforeend", photoHTML(q.photo));
+  }
+  document.querySelector("#pic .photowrap").insertAdjacentHTML("beforeend",
     `<button class="infobtn" id="info" aria-label="About this bird">i</button>`);
   document.getElementById("info").onclick = () => openInfo(q.answer);
   const last = state.i === ROUND_LENGTH - 1;
   document.getElementById("after").innerHTML = `
     <p class="credit">${right ? "✅ Correct!" : "❌ It was the"} <b>${esc(q.answer.name)}</b>
       <span class="sci">(${esc(q.answer.scientific)})</span><br>
+      ${q.type === "song" ? `Sound: ${esc(q.sound.author)}, ${esc(q.sound.license)} —
+      <a href="${esc(q.sound.source)}" target="_blank" rel="noopener">source</a><br>` : ""}
       Photo: ${esc(q.photo.author)}, ${esc(q.photo.license)} —
       <a href="${esc(q.photo.source)}" target="_blank" rel="noopener">source</a>
       · ${flagButton(q)}</p>
     <button class="btn" id="next">${last ? "See results" : "Next"}</button>`;
   wireFlag(q);
-  document.getElementById("next").onclick = () => { state.i++; last ? renderResults() : renderQuestion(); };
+  document.getElementById("next").onclick = () => { stopClips(); state.i++; last ? renderResults() : renderQuestion(); };
 }
 
 // ---- info sheet ----
@@ -120,7 +149,9 @@ function infoHTML(b) {
     ${sec("About", i.about)}${sec("Diet", i.diet)}${sec("Habitat & range", i.habitat)}
     ${m ? `<h3>Range map</h3><img class="map" alt="Range map of ${esc(b.name)}" src="${esc(m.file)}">
       <p class="credit">Map: ${esc(m.author)}, ${esc(m.license)} — <a href="${esc(m.source)}" target="_blank" rel="noopener">source</a></p>` : ""}
-    <div id="sounds"></div>
+    ${(b.sounds || []).length ? `<h3>Sounds</h3>${b.sounds.map(x => `<div class="snd"><b>${x.kind === "song" ? "Song" : "Call"}</b>
+      <audio controls preload="none" src="${esc(x.file)}"></audio>
+      <p class="credit">${esc(x.author)}, ${esc(x.license)} — <a href="${esc(x.source)}" target="_blank" rel="noopener">xeno-canto</a></p></div>`).join("")}` : ""}
     ${i.wiki ? `<p class="credit">Text from <a href="${esc(i.wiki)}" target="_blank" rel="noopener">Wikipedia</a>
       (CC BY-SA 4.0).</p>` : ""}`;
 }

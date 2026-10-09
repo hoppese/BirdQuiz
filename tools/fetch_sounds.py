@@ -6,22 +6,34 @@ import json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.reque
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_birds import ROOT, UA, strip
 
-KEY = os.environ.get("XC_API_KEY") or sys.exit("Set XC_API_KEY (see docstring)")
+import getpass
+KEY = os.environ.get("XC_API_KEY") or getpass.getpass("Paste xeno-canto API key (hidden), then Enter: ").strip()
+if not KEY: sys.exit("No key given")
 AUDIO = os.path.join(ROOT, "docs", "audio")
 OK_LIC = re.compile(r"creativecommons\.org/(licenses/by(-sa)?/|publicdomain/zero/)")  # no NC / ND
 KINDS = ["song", "call"]
 
 def get(url):
-    for a in range(4):
+    for a in range(5):
         try: return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=60).read()
-        except Exception: time.sleep(2 * (a + 1))
+        except Exception as e:
+            print("   request problem:", str(e)[:80], "- retrying", flush=True); time.sleep(5 * (a + 1))
     return None
 
+# strict first, then looser, until something with a reusable license turns up
+QUERIES = ['sp:"{sci}" type:{kind} q:A len:6-40 area:america', 'sp:"{sci}" type:{kind} q:A len:6-40',
+           'sp:"{sci}" type:{kind} q:">C" len:4-60', 'sp:"{sci}" type:{kind}']
 def search(sci, kind):
-    q = f'sp:"{sci}" type:{kind} q:A len:6-40 area:america'
-    d = get("https://xeno-canto.org/api/3/recordings?" + urllib.parse.urlencode({"query": q, "key": KEY}))
-    recs = json.loads(d).get("recordings", []) if d else []
-    return [r for r in recs if OK_LIC.search(r.get("lic", "")) and r.get("file")]
+    for tmpl in QUERIES:
+        time.sleep(1.2)                       # xeno-canto rate limit
+        d = get("https://xeno-canto.org/api/3/recordings?" +
+                urllib.parse.urlencode({"query": tmpl.format(sci=sci, kind=kind), "key": KEY}))
+        if not d: continue
+        j = json.loads(d)
+        if j.get("error"): print("   api error:", j.get("message"), flush=True); continue
+        good = [r for r in j.get("recordings", []) if OK_LIC.search(r.get("lic", "")) and r.get("file")]
+        if good: return good
+    return []
 
 def main():
     path = os.path.join(ROOT, "docs", "birds.json"); os.makedirs(AUDIO, exist_ok=True)

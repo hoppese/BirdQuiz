@@ -37,7 +37,23 @@
     "author": "Jebbles",
     "file": "maps/northern-cardinal.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/northern-cardinal-song.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/797998"
+   },
+   {
+    "kind": "call",
+    "file": "audio/northern-cardinal-call.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/870690"
+   }
+  ]
  },
  {
   "id": "blue-jay",
@@ -77,7 +93,16 @@
     "author": "Jebbles",
     "file": "maps/blue-jay.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/blue-jay-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/935610"
+   }
+  ]
  },
  {
   "id": "american-robin",
@@ -117,7 +142,16 @@
     "author": "Cephas",
     "file": "maps/american-robin.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/american-robin-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/254484"
+   }
+  ]
  },
  {
   "id": "american-goldfinch",
@@ -157,7 +191,23 @@
     "author": "Jebbles",
     "file": "maps/american-goldfinch.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/american-goldfinch-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/935614"
+   },
+   {
+    "kind": "call",
+    "file": "audio/american-goldfinch-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/124312"
+   }
+  ]
  },
  {
   "id": "house-finch",
@@ -197,7 +247,16 @@
     "author": "Cephas",
     "file": "maps/house-finch.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/house-finch-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/99546"
+   }
+  ]
  },
  {
   "id": "purple-finch",
@@ -237,7 +296,16 @@
     "author": "Nk",
     "file": "maps/purple-finch.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/purple-finch-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/935606"
+   }
+  ]
  },
  {
   "id": "black-capped-chickadee",
@@ -277,7 +345,23 @@
     "author": "Cephas",
     "file": "maps/black-capped-chickadee.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/black-capped-chickadee-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/935615"
+   },
+   {
+    "kind": "call",
+    "file": "audio/black-capped-chickadee-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/935615"
+   }
+  ]
  },
  {
   "id": "carolina-chickadee",
@@ -317,7 +401,23 @@
     "author": "Ken Thomas",
     "file": "maps/carolina-chickadee.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/carolina-chickadee-song.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/870687"
+   },
+   {
+    "kind": "call",
+    "file": "audio/carolina-chickadee-call.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/870687"
+   }
+  ]
  },
  {
   "id": "tufted-titmouse",
@@ -357,7 +457,16 @@
     "author": "Jebbles",
     "file": "maps/tufted-titmouse.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/tufted-titmouse-call.mp3",
+    "author": "The Vermont Birder Guy",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/789382"
+   }
+  ]
  },
  {
   "id": "white-breasted-nuthatch",
@@ -397,7 +506,16 @@
     "author": "Jebbles",
     "file": "maps/white-breasted-nuthatch.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/white-breasted-nuthatch-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/121070"
+   }
+  ]
  },
  {
   "id": "red-breasted-nuthatch",
@@ -437,7 +555,23 @@
     "author": "Cephas",
     "file": "maps/red-breasted-nuthatch.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/red-breasted-nuthatch-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/935601"
+   },
+   {
+    "kind": "call",
+    "file": "audio/red-breasted-nuthatch-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/935612"
+   }
+  ]
  },
  {
   "id": "downy-woodpecker",
@@ -477,7 +611,16 @@
     "author": "Jebbles",
     "file": "maps/downy-woodpecker.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/downy-woodpecker-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/115431"
+   }
+  ]
  },
  {
   "id": "hairy-woodpecker",
@@ -516,7 +659,16 @@
     "author": "Cephas",
     "file": "maps/hairy-woodpecker.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/hairy-woodpecker-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/934304"
+   }
+  ]
  },
  {
   "id": "red-bellied-woodpecker",
@@ -555,7 +707,8 @@
     "author": "Jebbles",
     "file": "maps/red-bellied-woodpecker.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "pileated-woodpecker",
@@ -593,7 +746,16 @@
     "author": "Jebbles",
     "file": "maps/pileated-woodpecker.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/pileated-woodpecker-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/61518"
+   }
+  ]
  },
  {
   "id": "northern-flicker",
@@ -633,7 +795,16 @@
     "author": "Cephas",
     "file": "maps/northern-flicker.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/northern-flicker-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/104536"
+   }
+  ]
  },
  {
   "id": "yellow-bellied-sapsucker",
@@ -673,7 +844,16 @@
     "author": "Cephas",
     "file": "maps/yellow-bellied-sapsucker.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/yellow-bellied-sapsucker-call.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/870691"
+   }
+  ]
  },
  {
   "id": "red-headed-woodpecker",
@@ -712,7 +892,16 @@
     "author": "Jebbles",
     "file": "maps/red-headed-woodpecker.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/red-headed-woodpecker-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/254605"
+   }
+  ]
  },
  {
   "id": "mourning-dove",
@@ -752,7 +941,16 @@
     "author": "Jebbles",
     "file": "maps/mourning-dove.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/mourning-dove-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/128006"
+   }
+  ]
  },
  {
   "id": "rock-pigeon",
@@ -792,7 +990,23 @@
     "author": "Viktor Kravtchenko",
     "file": "maps/rock-pigeon.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/rock-pigeon-song.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1136258"
+   },
+   {
+    "kind": "call",
+    "file": "audio/rock-pigeon-call.mp3",
+    "author": "Marie-Lan Ta\u00ff Pamart",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/541143"
+   }
+  ]
  },
  {
   "id": "eurasian-collared-dove",
@@ -832,7 +1046,23 @@
     "author": "Osado",
     "file": "maps/eurasian-collared-dove.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/eurasian-collared-dove-song.mp3",
+    "author": "Lionel Triboulin",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1062731"
+   },
+   {
+    "kind": "call",
+    "file": "audio/eurasian-collared-dove-call.mp3",
+    "author": "Philippe Grange",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1181444"
+   }
+  ]
  },
  {
   "id": "northern-mockingbird",
@@ -872,7 +1102,16 @@
     "author": "Cephas",
     "file": "maps/northern-mockingbird.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/northern-mockingbird-song.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/884705"
+   }
+  ]
  },
  {
   "id": "gray-catbird",
@@ -912,7 +1151,23 @@
     "author": "Charles J. Sharp",
     "file": "maps/gray-catbird.jpg"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/gray-catbird-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/134153"
+   },
+   {
+    "kind": "call",
+    "file": "audio/gray-catbird-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/922438"
+   }
+  ]
  },
  {
   "id": "brown-thrasher",
@@ -952,7 +1207,16 @@
     "author": "Cephas",
     "file": "maps/brown-thrasher.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/brown-thrasher-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/320485"
+   }
+  ]
  },
  {
   "id": "eastern-bluebird",
@@ -992,7 +1256,23 @@
     "author": "Cephas",
     "file": "maps/eastern-bluebird.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/eastern-bluebird-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/179669"
+   },
+   {
+    "kind": "call",
+    "file": "audio/eastern-bluebird-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/179669"
+   }
+  ]
  },
  {
   "id": "western-bluebird",
@@ -1032,7 +1312,16 @@
     "author": "compiled by rbrausse with Quantum GIS\nMap data based on: Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.\nRange data based on: Ridgely, R. S., T. F. Allnutt, T. Brooks, D. K. McNicol, D. W. Mehlman, B. E. Young, and J. R. Zook. 2007. Digital Distribution Maps of the Birds of the Western Hemisphere, version 3.0. NatureServe, Arlington, Virginia, USA.",
     "file": "maps/western-bluebird.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/western-bluebird-song.mp3",
+    "author": "Ryan Winkleman",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/322143"
+   }
+  ]
  },
  {
   "id": "mountain-bluebird",
@@ -1072,7 +1361,16 @@
     "author": "Cephas",
     "file": "maps/mountain-bluebird.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/mountain-bluebird-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/254430"
+   }
+  ]
  },
  {
   "id": "hermit-thrush",
@@ -1111,7 +1409,23 @@
     "author": "Cephas",
     "file": "maps/hermit-thrush.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/hermit-thrush-song.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/801743"
+   },
+   {
+    "kind": "call",
+    "file": "audio/hermit-thrush-call.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1071279"
+   }
+  ]
  },
  {
   "id": "wood-thrush",
@@ -1151,7 +1465,23 @@
     "author": "Cephas",
     "file": "maps/wood-thrush.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/wood-thrush-song.mp3",
+    "author": "Philip Vanbergen",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1103243"
+   },
+   {
+    "kind": "call",
+    "file": "audio/wood-thrush-call.mp3",
+    "author": "Oliver Komar",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/463748"
+   }
+  ]
  },
  {
   "id": "cedar-waxwing",
@@ -1191,7 +1521,16 @@
     "author": "Cephas",
     "file": "maps/cedar-waxwing.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/cedar-waxwing-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/142622"
+   }
+  ]
  },
  {
   "id": "european-starling",
@@ -1231,7 +1570,23 @@
     "author": "MPF",
     "file": "maps/european-starling.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/european-starling-song.mp3",
+    "author": "Philippe Grange",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1180950"
+   },
+   {
+    "kind": "call",
+    "file": "audio/european-starling-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/934628"
+   }
+  ]
  },
  {
   "id": "house-sparrow",
@@ -1265,7 +1620,23 @@
    "diet": "As an adult, the house sparrow mostly feeds on the seeds of cereals and weeds, but it is opportunistic and adaptable, and eats whatever foods are available. In towns and cities, it often scavenges for food in garbage containers and congregates in the outdoors of restaurants and other eating establishments to feed on leftover food and crumbs.",
    "habitat": "The house sparrow originated in the Middle East and spread, along with agriculture, to most of Eurasia and parts of North Africa. Since the mid-19th century, it has reached most of the world, chiefly due to deliberate introductions, but also through natural and shipborne dispersal.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/house-sparrow-song.mp3",
+    "author": "Philippe_Grange",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1152146"
+   },
+   {
+    "kind": "call",
+    "file": "audio/house-sparrow-call.mp3",
+    "author": "Philippe_Grange",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1152146"
+   }
+  ]
  },
  {
   "id": "song-sparrow",
@@ -1304,7 +1675,16 @@
     "author": "Cephas",
     "file": "maps/song-sparrow.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/song-sparrow-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/570789"
+   }
+  ]
  },
  {
   "id": "white-throated-sparrow",
@@ -1343,7 +1723,16 @@
     "author": "Isochrone",
     "file": "maps/white-throated-sparrow.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/white-throated-sparrow-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/569523"
+   }
+  ]
  },
  {
   "id": "white-crowned-sparrow",
@@ -1382,7 +1771,16 @@
     "author": "Cephas",
     "file": "maps/white-crowned-sparrow.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/white-crowned-sparrow-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/565001"
+   }
+  ]
  },
  {
   "id": "dark-eyed-junco",
@@ -1421,7 +1819,16 @@
     "author": "Cephas",
     "file": "maps/dark-eyed-junco.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/dark-eyed-junco-song.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/797245"
+   }
+  ]
  },
  {
   "id": "chipping-sparrow",
@@ -1460,7 +1867,16 @@
     "author": "Cephas",
     "file": "maps/chipping-sparrow.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/chipping-sparrow-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/254450"
+   }
+  ]
  },
  {
   "id": "eastern-towhee",
@@ -1500,7 +1916,16 @@
     "author": "Cephas",
     "file": "maps/eastern-towhee.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/eastern-towhee-call.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1077973"
+   }
+  ]
  },
  {
   "id": "red-winged-blackbird",
@@ -1534,7 +1959,16 @@
    "diet": "The red-winged blackbird is omnivorous. It feeds primarily on plant materials, including seeds from weeds and waste grain such as corn and rice, but about a quarter of its diet consists of insects and other small animals, and considerably more so during breeding season.",
    "habitat": "The red-winged blackbird is widely spread throughout North America, except in the arid desert, high mountain ranges, and arctic or dense afforestation regions. It breeds from central-eastern Alaska and Yukon in the northwest, and Newfoundland in the northeast, to northern Costa Rica in the south, and from the Atlantic to the Pacific.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/red-winged-blackbird-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/75497"
+   }
+  ]
  },
  {
   "id": "brown-headed-cowbird",
@@ -1573,7 +2007,23 @@
     "author": "Cephas",
     "file": "maps/brown-headed-cowbird.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/brown-headed-cowbird-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/102972"
+   },
+   {
+    "kind": "call",
+    "file": "audio/brown-headed-cowbird-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/320357"
+   }
+  ]
  },
  {
   "id": "common-grackle",
@@ -1607,7 +2057,16 @@
    "diet": "The common grackle forages on the ground, in shallow water, or in shrubs; it may steal food from other birds. It is omnivorous, eating insects, minnows, frogs, eggs, berries, seeds, grain, and even small birds and rodents. Grackles at outdoor eating areas often wait eagerly until someone drops some food. They rush forward and try to grab it, often snatching food out of the beak of another bird.",
    "habitat": "The breeding habitat is open and semiopen areas across North America east of the Rocky Mountains. The nest is a well-concealed cup in dense trees (particularly pine) or shrubs, usually near water; sometimes, the common grackle nests in cavities or in man-made structures. It often nests in colonies, some being quite large. Bird houses are also a suitable nesting site. Four to seven eggs are in a clutch.",
    "status": "Near Threatened"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/common-grackle-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/82756"
+   }
+  ]
  },
  {
   "id": "baltimore-oriole",
@@ -1647,7 +2106,16 @@
     "author": "Cephas",
     "file": "maps/baltimore-oriole.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/baltimore-oriole-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/178046"
+   }
+  ]
  },
  {
   "id": "eastern-meadowlark",
@@ -1687,7 +2155,23 @@
     "author": "Charles J. Sharp",
     "file": "maps/eastern-meadowlark.jpg"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/eastern-meadowlark-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/320443"
+   },
+   {
+    "kind": "call",
+    "file": "audio/eastern-meadowlark-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/320480"
+   }
+  ]
  },
  {
   "id": "western-meadowlark",
@@ -1727,7 +2211,23 @@
     "author": "Cephas",
     "file": "maps/western-meadowlark.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/western-meadowlark-song.mp3",
+    "author": "Peter Wilton",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/550994"
+   },
+   {
+    "kind": "call",
+    "file": "audio/western-meadowlark-call.mp3",
+    "author": "Peter Wilton",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/550994"
+   }
+  ]
  },
  {
   "id": "bobolink",
@@ -1761,7 +2261,16 @@
    "diet": "Bobolinks forage on or near the ground and mainly eat seeds and insects. They are nicknamed the \"armyworm bird\" because of their predation on large numbers of armyworms, including the true armyworm (Mythimna unipuncta) and the fall armyworm (Spodoptera frugiperda), acting as a natural pest control.",
    "habitat": "The bobolink breeds in the summer in North America across much of southern Canada and the northern United States; from 1966 to 2015 the species experienced a greater than 1.5% annual population decrease throughout most of its breeding range, extending from the Midwestern United States to the Canadian Maritimes. The bobolink migrates long distances, wintering in southern South America.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/bobolink-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1001756"
+   }
+  ]
  },
  {
   "id": "american-crow",
@@ -1801,7 +2310,16 @@
     "author": "Cephas",
     "file": "maps/american-crow.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/american-crow-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/682428"
+   }
+  ]
  },
  {
   "id": "common-raven",
@@ -1835,7 +2353,23 @@
    "diet": "Common ravens are omnivorous and highly opportunistic: their diet may vary widely with location, season and serendipity. For example, those foraging on tundra on the Arctic North Slope of Alaska obtained about half their energy needs from predation, mainly of microtine rodents, and half by scavenging, mainly of caribou and ptarmigan carcasses.",
    "habitat": "The common raven can thrive in varied climates; it has the largest range of any member of the genus, and one of the largest of any passerine. They range throughout the Holarctic from Arctic and temperate habitats in North America and Eurasia to the deserts of North Africa, and to islands in the Pacific Ocean.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/common-raven-song.mp3",
+    "author": "Carlo Fracasso",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/788419"
+   },
+   {
+    "kind": "call",
+    "file": "audio/common-raven-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/922424"
+   }
+  ]
  },
  {
   "id": "steller-s-jay",
@@ -1875,7 +2409,16 @@
     "author": "Cephas",
     "file": "maps/steller-s-jay.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/steller-s-jay-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/109654"
+   }
+  ]
  },
  {
   "id": "california-scrub-jay",
@@ -1915,7 +2458,16 @@
     "author": "Cephas",
     "file": "maps/california-scrub-jay.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/california-scrub-jay-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/110976"
+   }
+  ]
  },
  {
   "id": "black-billed-magpie",
@@ -1955,7 +2507,16 @@
     "author": "Cephas",
     "file": "maps/black-billed-magpie.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/black-billed-magpie-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/254489"
+   }
+  ]
  },
  {
   "id": "clark-s-nutcracker",
@@ -1995,7 +2556,16 @@
     "author": "Cephas",
     "file": "maps/clark-s-nutcracker.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/clark-s-nutcracker-call.mp3",
+    "author": "Diana Doyle",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/704701"
+   }
+  ]
  },
  {
   "id": "canada-jay",
@@ -2035,7 +2605,23 @@
     "author": "Cephas",
     "file": "maps/canada-jay.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/canada-jay-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/254432"
+   },
+   {
+    "kind": "call",
+    "file": "audio/canada-jay-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/993113"
+   }
+  ]
  },
  {
   "id": "carolina-wren",
@@ -2075,7 +2661,16 @@
     "author": "Map: xZise (Originally Haylli made valid by carol)\nEdits: Gaff",
     "file": "maps/carolina-wren.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/carolina-wren-call.mp3",
+    "author": "Rick Wheat",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/947224"
+   }
+  ]
  },
  {
   "id": "house-wren",
@@ -2107,7 +2702,16 @@
    "wiki": "https://en.wikipedia.org/wiki/Northern_house_wren",
    "about": "The northern house wren (Troglodytes aedon) is a very small passerine in the wren family Troglodytidae. It is found in southern Canada, the USA and Mexico. It occurs in most suburban areas in its range. It formerly included many subspecies resident in South America and in the Caribbean that are now considered as separate species. The name troglodytes means \"hole dweller\", and is a reference to the bird's tendency to disappear into crevices when hunting insects or to seek shelter.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/house-wren-call.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/953380"
+   }
+  ]
  },
  {
   "id": "marsh-wren",
@@ -2147,7 +2751,16 @@
     "author": "Cephas",
     "file": "maps/marsh-wren.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/marsh-wren-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/108481"
+   }
+  ]
  },
  {
   "id": "golden-crowned-kinglet",
@@ -2186,7 +2799,23 @@
     "author": "Cephas",
     "file": "maps/golden-crowned-kinglet.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/golden-crowned-kinglet-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/671806"
+   },
+   {
+    "kind": "call",
+    "file": "audio/golden-crowned-kinglet-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/111113"
+   }
+  ]
  },
  {
   "id": "ruby-crowned-kinglet",
@@ -2224,7 +2853,16 @@
     "author": "Cephas",
     "file": "maps/ruby-crowned-kinglet.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/ruby-crowned-kinglet-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/175095"
+   }
+  ]
  },
  {
   "id": "ruby-throated-hummingbird",
@@ -2264,7 +2902,16 @@
     "author": "Jebbles",
     "file": "maps/ruby-throated-hummingbird.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/ruby-throated-hummingbird-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/109598"
+   }
+  ]
  },
  {
   "id": "anna-s-hummingbird",
@@ -2303,7 +2950,23 @@
     "author": "(c) William Walker, some rights reserved (CC BY)",
     "file": "maps/anna-s-hummingbird.jpg"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/anna-s-hummingbird-song.mp3",
+    "author": "Bushman",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/157666"
+   },
+   {
+    "kind": "call",
+    "file": "audio/anna-s-hummingbird-call.mp3",
+    "author": "Bushman",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/153035"
+   }
+  ]
  },
  {
   "id": "rufous-hummingbird",
@@ -2343,7 +3006,8 @@
     "author": "Gt516juan98",
     "file": "maps/rufous-hummingbird.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "black-chinned-hummingbird",
@@ -2383,7 +3047,8 @@
     "author": "Cephas",
     "file": "maps/black-chinned-hummingbird.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "barn-swallow",
@@ -2423,7 +3088,16 @@
     "author": "Imagesincommons",
     "file": "maps/barn-swallow.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/barn-swallow-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1103661"
+   }
+  ]
  },
  {
   "id": "tree-swallow",
@@ -2463,7 +3137,23 @@
     "author": "Cephas",
     "file": "maps/tree-swallow.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/tree-swallow-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/935597"
+   },
+   {
+    "kind": "call",
+    "file": "audio/tree-swallow-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/935597"
+   }
+  ]
  },
  {
   "id": "purple-martin",
@@ -2503,7 +3193,23 @@
     "author": "Cephas",
     "file": "maps/purple-martin.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/purple-martin-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/371463"
+   },
+   {
+    "kind": "call",
+    "file": "audio/purple-martin-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/82759"
+   }
+  ]
  },
  {
   "id": "chimney-swift",
@@ -2543,7 +3249,23 @@
     "author": "America_Federal_Provincial_y_Departamental.PNG: Yo mismo\nderivative work: Presidentman",
     "file": "maps/chimney-swift.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/chimney-swift-song.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/796220"
+   },
+   {
+    "kind": "call",
+    "file": "audio/chimney-swift-call.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/796220"
+   }
+  ]
  },
  {
   "id": "eastern-phoebe",
@@ -2583,7 +3305,23 @@
     "author": "Cephas",
     "file": "maps/eastern-phoebe.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/eastern-phoebe-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/132866"
+   },
+   {
+    "kind": "call",
+    "file": "audio/eastern-phoebe-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/99544"
+   }
+  ]
  },
  {
   "id": "eastern-kingbird",
@@ -2623,7 +3361,23 @@
     "author": "Cephas",
     "file": "maps/eastern-kingbird.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/eastern-kingbird-song.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/796025"
+   },
+   {
+    "kind": "call",
+    "file": "audio/eastern-kingbird-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/179703"
+   }
+  ]
  },
  {
   "id": "western-kingbird",
@@ -2662,7 +3416,8 @@
     "author": "Cephas",
     "file": "maps/western-kingbird.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "scissor-tailed-flycatcher",
@@ -2702,7 +3457,8 @@
     "author": "Cephas",
     "file": "maps/scissor-tailed-flycatcher.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "vermilion-flycatcher",
@@ -2742,7 +3498,8 @@
     "author": "Cephas",
     "file": "maps/vermilion-flycatcher.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "great-crested-flycatcher",
@@ -2782,7 +3539,23 @@
     "author": "Cephas",
     "file": "maps/great-crested-flycatcher.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/great-crested-flycatcher-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/137719"
+   },
+   {
+    "kind": "call",
+    "file": "audio/great-crested-flycatcher-call.mp3",
+    "author": "Philip Vanbergen",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/636905"
+   }
+  ]
  },
  {
   "id": "yellow-warbler",
@@ -2820,7 +3593,23 @@
     "author": "MPF",
     "file": "maps/yellow-warbler.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/yellow-warbler-song.mp3",
+    "author": "Andres Felipe Espinosa",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/688344"
+   },
+   {
+    "kind": "call",
+    "file": "audio/yellow-warbler-call.mp3",
+    "author": "Gean Carlo Vald\u00e9s",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1033958"
+   }
+  ]
  },
  {
   "id": "yellow-rumped-warbler",
@@ -2860,7 +3649,16 @@
     "author": "Cephas",
     "file": "maps/yellow-rumped-warbler.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/yellow-rumped-warbler-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/570786"
+   }
+  ]
  },
  {
   "id": "common-yellowthroat",
@@ -2899,7 +3697,16 @@
     "author": "Cephas",
     "file": "maps/common-yellowthroat.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/common-yellowthroat-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/86759"
+   }
+  ]
  },
  {
   "id": "american-redstart",
@@ -2939,7 +3746,23 @@
     "author": "Cephas",
     "file": "maps/american-redstart.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/american-redstart-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/79972"
+   },
+   {
+    "kind": "call",
+    "file": "audio/american-redstart-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/77881"
+   }
+  ]
  },
  {
   "id": "black-and-white-warbler",
@@ -2979,7 +3802,16 @@
     "author": "Cephas",
     "file": "maps/black-and-white-warbler.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/black-and-white-warbler-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/613378"
+   }
+  ]
  },
  {
   "id": "ovenbird",
@@ -3019,7 +3851,16 @@
     "author": "Cephas",
     "file": "maps/ovenbird.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/ovenbird-song.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/797247"
+   }
+  ]
  },
  {
   "id": "scarlet-tanager",
@@ -3057,7 +3898,23 @@
     "author": "Cephas",
     "file": "maps/scarlet-tanager.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/scarlet-tanager-song.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1145165"
+   },
+   {
+    "kind": "call",
+    "file": "audio/scarlet-tanager-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/241113"
+   }
+  ]
  },
  {
   "id": "summer-tanager",
@@ -3096,7 +3953,16 @@
     "author": "Cephas",
     "file": "maps/summer-tanager.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/summer-tanager-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/320483"
+   }
+  ]
  },
  {
   "id": "western-tanager",
@@ -3136,7 +4002,16 @@
     "author": "Cephas",
     "file": "maps/western-tanager.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/western-tanager-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/254618"
+   }
+  ]
  },
  {
   "id": "rose-breasted-grosbeak",
@@ -3176,7 +4051,16 @@
     "author": "Cephas",
     "file": "maps/rose-breasted-grosbeak.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/rose-breasted-grosbeak-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/133913"
+   }
+  ]
  },
  {
   "id": "black-headed-grosbeak",
@@ -3216,7 +4100,16 @@
     "author": "Cephas",
     "file": "maps/black-headed-grosbeak.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/black-headed-grosbeak-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/254456"
+   }
+  ]
  },
  {
   "id": "indigo-bunting",
@@ -3256,7 +4149,16 @@
     "author": "Hey jude, don't let me down",
     "file": "maps/indigo-bunting.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/indigo-bunting-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/59831"
+   }
+  ]
  },
  {
   "id": "painted-bunting",
@@ -3296,7 +4198,8 @@
     "author": "Olga007",
     "file": "maps/painted-bunting.jpg"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "evening-grosbeak",
@@ -3334,7 +4237,8 @@
     "author": "Cephas",
     "file": "maps/evening-grosbeak.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "pine-siskin",
@@ -3374,7 +4278,16 @@
     "author": "Cephas",
     "file": "maps/pine-siskin.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/pine-siskin-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/994719"
+   }
+  ]
  },
  {
   "id": "red-crossbill",
@@ -3412,7 +4325,8 @@
     "author": "Cephas",
     "file": "maps/red-crossbill.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "pine-grosbeak",
@@ -3445,7 +4359,23 @@
    "about": "The pine grosbeak (Pinicola enucleator) is a large member of the true finch family, Fringillidae. It is the only species in the genus Pinicola. It is found in coniferous woods across Alaska, the western mountains of the United States, Canada, and in subarctic Fennoscandia and across the Palearctic to Siberia. The species is a frugivore, especially in winter, favoring small fruits, such as rowans (mountain-ashes in the New World). With fruit-crop abundance varying from year to year, pine grosbeak is one of many subarctic-resident bird species that exhibit irruptive behavior.",
    "habitat": "Pine grosbeaks breed in the boreal forests of northern Eurasia and North America, and typically either remain resident near their breeding grounds or migrate relatively short distances to the southern extent of boreal forests. During irruptive years, more travel to southern boreal forests and some move further south.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/pine-grosbeak-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/994340"
+   },
+   {
+    "kind": "call",
+    "file": "audio/pine-grosbeak-call.mp3",
+    "author": "Teet Sirotkin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1157228"
+   }
+  ]
  },
  {
   "id": "snow-bunting",
@@ -3485,7 +4415,16 @@
     "author": "Cephas",
     "file": "maps/snow-bunting.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/snow-bunting-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/950371"
+   }
+  ]
  },
  {
   "id": "horned-lark",
@@ -3518,7 +4457,8 @@
    "about": "The horned lark or shore lark (Eremophila alpestris) is a species of lark in the family Alaudidae found across the northern hemisphere. It is known as \"horned lark\" in North America for distinctive feathers on the heads of the male birds in summer, and as \"shore lark\" in Europe because it can be found on shorelines in the winter.",
    "habitat": "The horned lark breeds across much of North America from the high Arctic south to the Isthmus of Tehuantepec, northernmost Europe and Asia and in the mountains of southeast Europe. There is also an isolated population on a plateau in Colombia. It is mainly resident in the south of its range, but northern populations of this passerine bird are migratory, moving further south in winter. This is a bird of open ground.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": []
  },
  {
   "id": "belted-kingfisher",
@@ -3557,7 +4497,16 @@
     "author": "Jebbles",
     "file": "maps/belted-kingfisher.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/belted-kingfisher-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1008797"
+   }
+  ]
  },
  {
   "id": "great-blue-heron",
@@ -3597,7 +4546,8 @@
     "author": "Ken Thomas",
     "file": "maps/great-blue-heron.jpg"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "great-egret",
@@ -3631,7 +4581,8 @@
    "diet": "The great egret forages in shallow water or in drier habitats, feeding mainly on fish, frogs, other amphibians, mice, snakes, crayfish, aquatic insects, grasshoppers, and other insects",
    "habitat": "The great egret is generally a very successful species with a large and expanding range, occurring worldwide in temperate and tropical habitats. It is ubiquitous across the Sun Belt of the United States and in the Neotropics. In the Nordic countries, it was historically a rare visitor. The first breeding was observed in Sweden in 2012 and in Denmark in 2014.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": []
  },
  {
   "id": "snowy-egret",
@@ -3671,7 +4622,8 @@
     "author": "Cephas",
     "file": "maps/snowy-egret.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "green-heron",
@@ -3702,7 +4654,23 @@
   "info": {
    "wiki": "https://en.wikipedia.org/wiki/Green_heron",
    "about": "The green heron (Butorides virescens) is a small heron of North and Central America. Butorides is from Middle English butor \"bittern\" and Ancient Greek -oides, \"resembling\", and virescens is Latin for \"greenish\". It was long considered conspecific with its sister species the striated heron (Butorides striata); when treated together, they were called \"green-backed heron\"."
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/green-heron-song.mp3",
+    "author": "Audrey Plassio",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/469642"
+   },
+   {
+    "kind": "call",
+    "file": "audio/green-heron-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/109391"
+   }
+  ]
  },
  {
   "id": "black-crowned-night-heron",
@@ -3741,7 +4709,16 @@
     "author": "Cephas",
     "file": "maps/black-crowned-night-heron.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/black-crowned-night-heron-call.mp3",
+    "author": "Philippe Grange",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1177915"
+   }
+  ]
  },
  {
   "id": "american-bittern",
@@ -3780,7 +4757,16 @@
     "author": "Cephas",
     "file": "maps/american-bittern.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/american-bittern-song.mp3",
+    "author": "Justin Watts",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/368194"
+   }
+  ]
  },
  {
   "id": "sandhill-crane",
@@ -3819,7 +4805,16 @@
     "author": "Cephas",
     "file": "maps/sandhill-crane.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/sandhill-crane-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/111490"
+   }
+  ]
  },
  {
   "id": "whooping-crane",
@@ -3858,7 +4853,8 @@
     "author": "Cephas",
     "file": "maps/whooping-crane.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "wood-stork",
@@ -3898,7 +4894,8 @@
     "author": "Cephas",
     "file": "maps/wood-stork.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "roseate-spoonbill",
@@ -3937,7 +4934,8 @@
     "author": "Cephas",
     "file": "maps/roseate-spoonbill.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "white-ibis",
@@ -3977,7 +4975,8 @@
     "author": "Aaron Fulkerson from San Diego, CA, US",
     "file": "maps/white-ibis.jpg"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "brown-pelican",
@@ -4017,7 +5016,8 @@
     "author": "Cephas",
     "file": "maps/brown-pelican.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "american-white-pelican",
@@ -4057,7 +5057,16 @@
     "author": "Cephas",
     "file": "maps/american-white-pelican.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/american-white-pelican-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/175257"
+   }
+  ]
  },
  {
   "id": "double-crested-cormorant",
@@ -4096,7 +5105,16 @@
     "author": "Cephas",
     "file": "maps/double-crested-cormorant.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/double-crested-cormorant-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/177731"
+   }
+  ]
  },
  {
   "id": "anhinga",
@@ -4136,7 +5154,8 @@
     "author": "Nrg800",
     "file": "maps/anhinga.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "canada-goose",
@@ -4176,7 +5195,16 @@
     "author": "Unknown",
     "file": "maps/canada-goose.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/canada-goose-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/934272"
+   }
+  ]
  },
  {
   "id": "snow-goose",
@@ -4214,7 +5242,8 @@
     "author": "Cephas",
     "file": "maps/snow-goose.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "mallard",
@@ -4248,7 +5277,16 @@
    "diet": "The mallard is omnivorous and very flexible in its choice of food. Its diet may vary based on several factors, including the stage of the breeding cycle, short-term variations in available food, nutrient availability, and interspecific and intraspecific competition.",
    "habitat": "The mallard is widely distributed across the Northern and Southern Hemispheres; in North America its range extends from southern and central Alaska to Mexico, the Hawaiian Islands, across the Palearctic, from Iceland and southern Greenland and parts of Morocco (North Africa) in the west, Scandinavia and Britain to the north, and to Siberia, Japan, and South Korea.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/mallard-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1088453"
+   }
+  ]
  },
  {
   "id": "wood-duck",
@@ -4288,7 +5326,16 @@
     "author": "Cephas",
     "file": "maps/wood-duck.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/wood-duck-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/177728"
+   }
+  ]
  },
  {
   "id": "northern-pintail",
@@ -4322,7 +5369,23 @@
    "diet": "The pintail feeds by dabbling and upending in shallow water for plant food mainly in the evening or at night, and therefore spends much of the day resting. Its long neck enables it to take food items from the bottom of water bodies up to 30 cm (12 in) deep, which are beyond the reach of other dabbling ducks like the mallard.",
    "habitat": "This dabbling duck breeds in northern areas of the Palearctic as far south as about Poland and Mongolia, and in Canada, Alaska and the Midwestern United States. It winters mainly south of its breeding range, reaching almost to the equator in Panama, northern sub-Saharan Africa and tropical South Asia.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/northern-pintail-song.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/730777"
+   },
+   {
+    "kind": "call",
+    "file": "audio/northern-pintail-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/730777"
+   }
+  ]
  },
  {
   "id": "blue-winged-teal",
@@ -4362,7 +5425,16 @@
     "author": "Cephas",
     "file": "maps/blue-winged-teal.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/blue-winged-teal-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/179673"
+   }
+  ]
  },
  {
   "id": "bufflehead",
@@ -4402,7 +5474,8 @@
     "author": "Cephas",
     "file": "maps/bufflehead.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "common-merganser",
@@ -4435,7 +5508,16 @@
    "about": "The common merganser or goosander (Mergus merganser) is a large sea duck of rivers and lakes in forested areas of Europe, Asia, and North America. The common merganser eats mainly fish. It nests in holes in trees. The name \"common merganser\" is used in North America, while \"goosander\" is used in Eurasia.",
    "diet": "As with other mergansers, these piscivorous ducks have serrated edges to their bills to help them grip their prey, so they are often known as \"sawbills\". In addition to fish, they take a wide range of other aquatic prey, such as molluscs, crustaceans, worms, insect larvae, and amphibians; more rarely, small mammals and birds may be taken.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/common-merganser-song.mp3",
+    "author": "Pascal Christe",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/513502"
+   }
+  ]
  },
  {
   "id": "hooded-merganser",
@@ -4475,7 +5557,16 @@
     "author": "Cephas",
     "file": "maps/hooded-merganser.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/hooded-merganser-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/477560"
+   }
+  ]
  },
  {
   "id": "ring-necked-duck",
@@ -4514,7 +5605,16 @@
     "author": "Izvora",
     "file": "maps/ring-necked-duck.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/ring-necked-duck-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/938581"
+   }
+  ]
  },
  {
   "id": "canvasback",
@@ -4553,7 +5653,8 @@
     "author": "Cephas",
     "file": "maps/canvasback.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "mute-swan",
@@ -4593,7 +5694,16 @@
     "author": "mapeadora",
     "file": "maps/mute-swan.jpg"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/mute-swan-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1100636"
+   }
+  ]
  },
  {
   "id": "trumpeter-swan",
@@ -4633,7 +5743,16 @@
     "author": "Deborah J. Groves",
     "file": "maps/trumpeter-swan.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/trumpeter-swan-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/413784"
+   }
+  ]
  },
  {
   "id": "common-loon",
@@ -4673,7 +5792,23 @@
     "author": "Jebbles",
     "file": "maps/common-loon.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/common-loon-song.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/139387"
+   },
+   {
+    "kind": "call",
+    "file": "audio/common-loon-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/139388"
+   }
+  ]
  },
  {
   "id": "pied-billed-grebe",
@@ -4713,7 +5848,16 @@
     "author": "Jebbles",
     "file": "maps/pied-billed-grebe.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/pied-billed-grebe-song.mp3",
+    "author": "Pedro Sanetti",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1090720"
+   }
+  ]
  },
  {
   "id": "american-coot",
@@ -4753,7 +5897,8 @@
     "author": "Cephas, Stongey",
     "file": "maps/american-coot.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "killdeer",
@@ -4793,7 +5938,16 @@
     "author": "Cephas",
     "file": "maps/killdeer.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/killdeer-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1032639"
+   }
+  ]
  },
  {
   "id": "american-avocet",
@@ -4833,7 +5987,16 @@
     "author": "Cephas",
     "file": "maps/american-avocet.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/american-avocet-call.mp3",
+    "author": "Robert Benson",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/756851"
+   }
+  ]
  },
  {
   "id": "spotted-sandpiper",
@@ -4873,7 +6036,16 @@
     "author": "Cephas",
     "file": "maps/spotted-sandpiper.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/spotted-sandpiper-call.mp3",
+    "author": "Gean Carlo Vald\u00e9s",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1032430"
+   }
+  ]
  },
  {
   "id": "ruddy-turnstone",
@@ -4913,7 +6085,16 @@
     "author": "Cephas",
     "file": "maps/ruddy-turnstone.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/ruddy-turnstone-call.mp3",
+    "author": "Tanguy Lo\u00efs",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/943483"
+   }
+  ]
  },
  {
   "id": "sanderling",
@@ -4953,7 +6134,16 @@
     "author": "Cephas",
     "file": "maps/sanderling.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/sanderling-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/938622"
+   }
+  ]
  },
  {
   "id": "willet",
@@ -4993,7 +6183,16 @@
     "author": "Cephas",
     "file": "maps/willet.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/willet-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1025075"
+   }
+  ]
  },
  {
   "id": "laughing-gull",
@@ -5031,7 +6230,8 @@
     "author": "Cephas",
     "file": "maps/laughing-gull.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "ring-billed-gull",
@@ -5071,7 +6271,16 @@
     "author": "Cephas",
     "file": "maps/ring-billed-gull.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/ring-billed-gull-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/75111"
+   }
+  ]
  },
  {
   "id": "herring-gull",
@@ -5111,7 +6320,23 @@
     "author": "Cephas",
     "file": "maps/herring-gull.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/herring-gull-song.mp3",
+    "author": "Philippe Grange",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1178162"
+   },
+   {
+    "kind": "call",
+    "file": "audio/herring-gull-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/953928"
+   }
+  ]
  },
  {
   "id": "caspian-tern",
@@ -5151,7 +6376,8 @@
     "author": "Cephas",
     "file": "maps/caspian-tern.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "black-skimmer",
@@ -5190,7 +6416,8 @@
     "author": "Cephas",
     "file": "maps/black-skimmer.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "atlantic-puffin",
@@ -5230,7 +6457,8 @@
     "author": "NordNordWest\n\nRange data: BirdLife International. 2016. Fratercula arctica. The IUCN Red List of Threatened Species 2016: e.T22694927A93477427.",
     "file": "maps/atlantic-puffin.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "common-murre",
@@ -5270,7 +6498,16 @@
     "author": "Cephas",
     "file": "maps/common-murre.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/common-murre-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1041354"
+   }
+  ]
  },
  {
   "id": "northern-gannet",
@@ -5304,7 +6541,23 @@
    "diet": "Northern gannets forage for food during the day, generally by diving at high speed into the sea. They search for food both near to their nesting sites but also further out to sea. Birds that are feeding young have been recorded searching for food up to 320 km (170 nmi) from their nest.",
    "habitat": "The northern gannet's breeding range is on both sides of the North Atlantic on coasts influenced by the Gulf Stream, There are colonies in the Gulf of Saint Lawrence and on the islands off the east coast of Canada. They normally nest in large colonies, on cliffs overlooking the ocean or on small rocky islands.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/northern-gannet-song.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1143445"
+   },
+   {
+    "kind": "call",
+    "file": "audio/northern-gannet-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1041168"
+   }
+  ]
  },
  {
   "id": "bald-eagle",
@@ -5344,7 +6597,16 @@
     "author": "Mad Max",
     "file": "maps/bald-eagle.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/bald-eagle-call.mp3",
+    "author": "Rachel Thurman",
+    "license": "CC BY 4.0",
+    "source": "https://xeno-canto.org/1163370"
+   }
+  ]
  },
  {
   "id": "golden-eagle",
@@ -5378,7 +6640,23 @@
    "diet": "Golden eagles usually hunt during daylight hours, but were recorded hunting from one hour before sunrise to one hour after sunset during the breeding season in southwestern Idaho. The hunting success rate of golden eagles was calculated in Idaho, showing that, out of 115 hunting attempts, 20% were successful in procuring prey.",
    "habitat": "There are six extant subspecies of golden eagle that differ slightly in size and plumage. Individuals of any of the subspecies are somewhat variable and the differences between the subspecies are clinal, especially in terms of body size. Other than these characteristics, there is little variation across the range of the species.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/golden-eagle-song.mp3",
+    "author": "Pascal Christe",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1156716"
+   },
+   {
+    "kind": "call",
+    "file": "audio/golden-eagle-call.mp3",
+    "author": "Pascal Christe",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1145141"
+   }
+  ]
  },
  {
   "id": "osprey",
@@ -5418,7 +6696,23 @@
     "author": "Zoologist\nchris",
     "file": "maps/osprey.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/osprey-song.mp3",
+    "author": "Pascal Christe",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/993110"
+   },
+   {
+    "kind": "call",
+    "file": "audio/osprey-call.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/671347"
+   }
+  ]
  },
  {
   "id": "red-tailed-hawk",
@@ -5452,7 +6746,16 @@
    "diet": "The red-tailed hawk preys on small mammals such as rodents and lagomorphs, but also opportunistically consumes birds, fish, reptiles, and amphibians. Prey varies with regional and seasonal availability, but usually centers on rodents, comprising up to 85% of a hawk's diet.",
    "habitat": "The red-tailed hawk is one of the most common and most widely distributed hawks in the Americas. It breeds from central Alaska, the Yukon, and the Northwest Territories east to southern Quebec and the Maritime Provinces of Canada, and south to Florida, the West Indies, and Central America. The winter range stretches from southern Canada south throughout the remainder of the breeding range.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/red-tailed-hawk-call.mp3",
+    "author": "Jonas Katona",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/625524"
+   }
+  ]
  },
  {
   "id": "red-shouldered-hawk",
@@ -5492,7 +6795,16 @@
     "author": "Cephas",
     "file": "maps/red-shouldered-hawk.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/red-shouldered-hawk-call.mp3",
+    "author": "Jonas Katona",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/625521"
+   }
+  ]
  },
  {
   "id": "cooper-s-hawk",
@@ -5531,7 +6843,8 @@
     "author": "Cephas",
     "file": "maps/cooper-s-hawk.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "sharp-shinned-hawk",
@@ -5571,7 +6884,8 @@
     "author": "Cephas",
     "file": "maps/sharp-shinned-hawk.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "northern-harrier",
@@ -5609,7 +6923,8 @@
     "author": "Cephas",
     "file": "maps/northern-harrier.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "american-kestrel",
@@ -5648,7 +6963,16 @@
     "author": "Focus",
     "file": "maps/american-kestrel.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/american-kestrel-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/254589"
+   }
+  ]
  },
  {
   "id": "peregrine-falcon",
@@ -5687,7 +7011,16 @@
     "author": "MPF (latest version)",
     "file": "maps/peregrine-falcon.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/peregrine-falcon-call.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1136250"
+   }
+  ]
  },
  {
   "id": "turkey-vulture",
@@ -5727,7 +7060,8 @@
     "author": "Charles J. Sharp",
     "file": "maps/turkey-vulture.jpg"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "black-vulture",
@@ -5767,7 +7101,8 @@
     "author": "Cephas",
     "file": "maps/black-vulture.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "california-condor",
@@ -5801,7 +7136,8 @@
    "diet": "Wild condors maintain a large home range, often traveling 250 km (160 mi) a day in search of carrion. It is thought that in the early days of its existence as a species, the California condor lived off the carcasses of the Pleistocene megafauna, which are largely extinct in North America.",
    "habitat": "At the time of human settlement of the Americas, the California condor was widespread across North America; condor bones from the late Pleistocene have been found at the Cutler Fossil Site in southern Florida. However, at the end of the last glacial period came the extinction of the megafauna that led to a subsequent reduction in range and population.",
    "status": "Critically Endangered"
-  }
+  },
+  "sounds": []
  },
  {
   "id": "great-horned-owl",
@@ -5835,7 +7171,16 @@
    "diet": "Studies comparing the diets of rural and urban great horned owls have identified that the most abundant rodent prey in their environment fulfils the majority of their diet. A study of food niche overlap between closely nested barn and great horned owls living in rural north-eastern Oregon identified voles as by far the most common prey.",
    "habitat": "The breeding habitat of the great horned owl extends high into the subarctic of North America, where they are found up to the northwestern and southern Mackenzie Mountains, Keewatin, Ontario, northern Manitoba, Fort Chimo in Ungava, Okak, Newfoundland and Labrador, Anticosti Island and Prince Edward Island.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/great-horned-owl-call.mp3",
+    "author": "Michael & Katie LaTour",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/450919"
+   }
+  ]
  },
  {
   "id": "barred-owl",
@@ -5875,7 +7220,23 @@
     "author": "Cephas",
     "file": "maps/barred-owl.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/barred-owl-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/715195"
+   },
+   {
+    "kind": "call",
+    "file": "audio/barred-owl-call.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1002439"
+   }
+  ]
  },
  {
   "id": "eastern-screech-owl",
@@ -5915,7 +7276,16 @@
     "author": "Cephas",
     "file": "maps/eastern-screech-owl.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/eastern-screech-owl-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/129257"
+   }
+  ]
  },
  {
   "id": "barn-owl",
@@ -5949,7 +7319,23 @@
    "diet": "Hunting nocturnally or crepuscularly, this bird can target its prey and dive to the ground, penetrating its talons through snow, grass or brush to seize small creatures with deadly accuracy. The diet of the western barn owl has been much studied; the items consumed can be ascertained from identifying the prey fragments in the pellets of indigestible matter that the bird regurgitates.",
    "habitat": "The western barn owl is native to most of Europe, West Asia and Africa. The densest clusters are in Western and Central Europe and in countries bordering the Mediterranean Sea. Some smaller clusters are present in East Africa and Madagascar. In Ghana and the wider West African region, it occurs in small scattered pockets.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/barn-owl-song.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/707104"
+   },
+   {
+    "kind": "call",
+    "file": "audio/barn-owl-call.mp3",
+    "author": "No\u00e9 Ferrari",
+    "license": "CC BY 4.0",
+    "source": "https://xeno-canto.org/1092741"
+   }
+  ]
  },
  {
   "id": "snowy-owl",
@@ -5989,7 +7375,8 @@
     "author": "Unknown",
     "file": "maps/snowy-owl.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "burrowing-owl",
@@ -6023,7 +7410,16 @@
    "diet": "When hunting, they wait on a perch until they spot prey. Then, they swoop down on prey or fly up to catch insects in flight. Sometimes, they chase prey on foot across the ground. The highly variable diet includes invertebrates and small vertebrates, which make up roughly one third and two thirds of the diet, respectively. Burrowing owls mainly eat large insects and small rodents.",
    "habitat": "Before European colonization, burrowing owls probably inhabited every suitable area of the New World, but in North America, they have experienced some restrictions in distribution since then. In parts of South America, they are expanding their range due to deforestation. The western burrowing owls (A. c.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/burrowing-owl-call.mp3",
+    "author": "Pichard Olivier",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/909267"
+   }
+  ]
  },
  {
   "id": "wild-turkey",
@@ -6056,7 +7452,16 @@
    "about": "The wild turkey (Meleagris gallopavo) is an upland game bird native to North America, one of two extant species of turkey and the heaviest member of the order Galliformes. It is the ancestor to the domestic turkey (M. g. domesticus), which was originally derived from a southern Mexican subspecies of wild turkey (not the related ocellated turkey).",
    "habitat": "Wild turkeys prefer hardwood and mixed conifer-hardwood forests with scattered openings such as pastures, fields, orchards and seasonal marshes. They seemingly can adapt to virtually any dense native plant community as long as coverage and openings are widely available. Open, mature forest with a variety of interspersion of tree species appear to be preferred.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/wild-turkey-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/134744"
+   }
+  ]
  },
  {
   "id": "ruffed-grouse",
@@ -6094,7 +7499,16 @@
     "author": "Cephas",
     "file": "maps/ruffed-grouse.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/ruffed-grouse-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/61517"
+   }
+  ]
  },
  {
   "id": "greater-roadrunner",
@@ -6134,7 +7548,8 @@
     "author": "Cephas",
     "file": "maps/greater-roadrunner.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "gambel-s-quail",
@@ -6172,7 +7587,8 @@
     "author": "Cephas",
     "file": "maps/gambel-s-quail.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "ring-necked-pheasant",
@@ -6211,7 +7627,23 @@
     "author": "Cephas",
     "file": "maps/ring-necked-pheasant.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/ring-necked-pheasant-song.mp3",
+    "author": "Sonoth\u00e8que ADVL",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1100644"
+   },
+   {
+    "kind": "call",
+    "file": "audio/ring-necked-pheasant-call.mp3",
+    "author": "Gobi",
+    "license": "CC0",
+    "source": "https://xeno-canto.org/1028365"
+   }
+  ]
  },
  {
   "id": "common-nighthawk",
@@ -6251,7 +7683,8 @@
     "author": "Cephas",
     "file": "maps/common-nighthawk.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "american-woodcock",
@@ -6291,7 +7724,16 @@
     "author": "Cephas",
     "file": "maps/american-woodcock.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/american-woodcock-call.mp3",
+    "author": "steve",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/871535"
+   }
+  ]
  },
  {
   "id": "cactus-wren",
@@ -6325,7 +7767,8 @@
    "diet": "The cactus wren is primarily an insectivore, although it will also take seeds, fruits, nectar, and even small reptiles. They are inquisitive foragers, and will overturn leaves and other objects on the ground to find food. Though primarily ground feeders, they will also forage in larger plants. Some individuals have learned to take insects caught in vehicle radiator grills. Feeding begins in the late morning.",
    "habitat": "The cactus wren is a bird of arid and semi-desert regions, and generally requires spiny cacti to nest in. Its range includes the Sonoran and Chihuahuan Deserts. The cactus wren is not migratory, and establishes a permanent territory which it defends vigorously. Territories are typically 1.3 ha (3.2 acres) to 1.9 ha (4.7 acres). The size and shape of territories change very little throughout the season.",
    "status": "Least Concern"
-  }
+  },
+  "sounds": []
  },
  {
   "id": "pyrrhuloxia",
@@ -6365,7 +7808,16 @@
     "author": "Cephas",
     "file": "maps/pyrrhuloxia.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/pyrrhuloxia-song.mp3",
+    "author": "Ryan Douglas",
+    "license": "CC BY-SA 4.0",
+    "source": "https://xeno-canto.org/1005252"
+   }
+  ]
  },
  {
   "id": "varied-thrush",
@@ -6405,7 +7857,8 @@
     "author": "Cephas",
     "file": "maps/varied-thrush.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "american-dipper",
@@ -6445,7 +7898,8 @@
     "author": "Nk",
     "file": "maps/american-dipper.png"
    }
-  }
+  },
+  "sounds": []
  },
  {
   "id": "brown-creeper",
@@ -6484,6 +7938,15 @@
     "author": "Cephas",
     "file": "maps/brown-creeper.png"
    }
-  }
+  },
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/brown-creeper-call.mp3",
+    "author": "Jonathon Jongsma",
+    "license": "CC BY-SA 3.0",
+    "source": "https://xeno-canto.org/121046"
+   }
+  ]
  }
 ]

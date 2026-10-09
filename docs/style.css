@@ -53,3 +53,12 @@ h1 { font-size:2rem; margin:.2em 0; } p { margin:.4em 0; }
 .missrow:last-child { border-bottom:0; } .missrow span { color:var(--muted); }
 .back { margin:0 0 12px; padding:10px; width:auto; display:inline-block; }
 .review { margin-top:6px; }
+
+.seg { display:inline-flex; background:rgba(128,128,128,.2); border-radius:12px; padding:3px; margin:8px 0; }
+.seg button { border:0; background:none; color:var(--ink); font:inherit; padding:8px 18px; border-radius:10px; cursor:pointer; }
+.seg button.on { background:var(--green); color:#fff; }
+.player { background:var(--card); border-radius:16px; padding:26px 12px; text-align:center; box-shadow:0 1px 3px #0002; }
+.player button { width:92px; height:92px; border-radius:50%; border:0; background:var(--green); color:#fff; font-size:2.4rem; cursor:pointer; }
+.player p { margin:12px 0 0; color:var(--muted); }
+.player.mini { padding:10px; margin-bottom:10px; } .player.mini button { width:48px; height:48px; font-size:1.2rem; } .player.mini p { display:none; }
+.snd audio { width:100%; margin-top:4px; } .snd { margin:8px 0; }
