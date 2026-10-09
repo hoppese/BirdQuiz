@@ -708,7 +708,22 @@
     "file": "maps/red-bellied-woodpecker.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/red-bellied-woodpecker-song.mp3",
+    "author": "Brian Hendrix",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/563618"
+   },
+   {
+    "kind": "call",
+    "file": "audio/red-bellied-woodpecker-call.mp3",
+    "author": "Rory Nefdt",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1133706"
+   }
+  ]
  },
  {
   "id": "pileated-woodpecker",
@@ -3007,7 +3022,22 @@
     "file": "maps/rufous-hummingbird.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/rufous-hummingbird-song.mp3",
+    "author": "Phoenix Birder",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/489370"
+   },
+   {
+    "kind": "call",
+    "file": "audio/rufous-hummingbird-call.mp3",
+    "author": "Eric DeFonso",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/581028"
+   }
+  ]
  },
  {
   "id": "black-chinned-hummingbird",
@@ -3048,7 +3078,22 @@
     "file": "maps/black-chinned-hummingbird.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/black-chinned-hummingbird-song.mp3",
+    "author": "Thomas G. Graves",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/494996"
+   },
+   {
+    "kind": "call",
+    "file": "audio/black-chinned-hummingbird-call.mp3",
+    "author": "Thomas G. Graves",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/494996"
+   }
+  ]
  },
  {
   "id": "barn-swallow",
@@ -3417,7 +3462,22 @@
     "file": "maps/western-kingbird.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/western-kingbird-song.mp3",
+    "author": "Ed Pandolfino",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/570382"
+   },
+   {
+    "kind": "call",
+    "file": "audio/western-kingbird-call.mp3",
+    "author": "Ed Pandolfino",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/989818"
+   }
+  ]
  },
  {
   "id": "scissor-tailed-flycatcher",
@@ -3458,7 +3518,22 @@
     "file": "maps/scissor-tailed-flycatcher.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/scissor-tailed-flycatcher-song.mp3",
+    "author": "Terry Davis",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/323786"
+   },
+   {
+    "kind": "call",
+    "file": "audio/scissor-tailed-flycatcher-call.mp3",
+    "author": "Sacha Balavoine",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/952633"
+   }
+  ]
  },
  {
   "id": "vermilion-flycatcher",
@@ -3499,7 +3574,22 @@
     "file": "maps/vermilion-flycatcher.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/vermilion-flycatcher-song.mp3",
+    "author": "Mar\u00eda Emilia P\u00e9rez",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/871819"
+   },
+   {
+    "kind": "call",
+    "file": "audio/vermilion-flycatcher-call.mp3",
+    "author": "Rosendo Manuel Fraga",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/464177"
+   }
+  ]
  },
  {
   "id": "great-crested-flycatcher",
@@ -4199,7 +4289,22 @@
     "file": "maps/painted-bunting.jpg"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/painted-bunting-song.mp3",
+    "author": "Russ Wigh",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/571012"
+   },
+   {
+    "kind": "call",
+    "file": "audio/painted-bunting-call.mp3",
+    "author": "Russ Wigh",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/564633"
+   }
+  ]
  },
  {
   "id": "evening-grosbeak",
@@ -4326,7 +4431,22 @@
     "file": "maps/red-crossbill.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/red-crossbill-song.mp3",
+    "author": "Andrew Spencer",
+    "license": "CC BY-NC-SA 3.0",
+    "source": "https://xeno-canto.org/143214"
+   },
+   {
+    "kind": "call",
+    "file": "audio/red-crossbill-call.mp3",
+    "author": "Greg Irving",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1097579"
+   }
+  ]
  },
  {
   "id": "pine-grosbeak",
@@ -4458,7 +4578,22 @@
    "habitat": "The horned lark breeds across much of North America from the high Arctic south to the Isthmus of Tehuantepec, northernmost Europe and Asia and in the mountains of southeast Europe. There is also an isolated population on a plateau in Colombia. It is mainly resident in the south of its range, but northern populations of this passerine bird are migratory, moving further south in winter. This is a bird of open ground.",
    "status": "Least Concern"
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/horned-lark-song.mp3",
+    "author": "Thomas G. Graves",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/554589"
+   },
+   {
+    "kind": "call",
+    "file": "audio/horned-lark-call.mp3",
+    "author": "Manuel Grosselet",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/654860"
+   }
+  ]
  },
  {
   "id": "belted-kingfisher",
@@ -4547,7 +4682,15 @@
     "file": "maps/great-blue-heron.jpg"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/great-blue-heron-call.mp3",
+    "author": "Jeff Stewart",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1154920"
+   }
+  ]
  },
  {
   "id": "great-egret",
@@ -4582,7 +4725,22 @@
    "habitat": "The great egret is generally a very successful species with a large and expanding range, occurring worldwide in temperate and tropical habitats. It is ubiquitous across the Sun Belt of the United States and in the Neotropics. In the Nordic countries, it was historically a rare visitor. The first breeding was observed in Sweden in 2012 and in Denmark in 2014.",
    "status": "Least Concern"
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/great-egret-song.mp3",
+    "author": "Joe Klaiber",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/247286"
+   },
+   {
+    "kind": "call",
+    "file": "audio/great-egret-call.mp3",
+    "author": "Sue Riffe",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1043529"
+   }
+  ]
  },
  {
   "id": "snowy-egret",
@@ -4623,7 +4781,22 @@
     "file": "maps/snowy-egret.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/snowy-egret-song.mp3",
+    "author": "Bernabe Lopez-Lanus",
+    "license": "CC BY-NC-SA 3.0",
+    "source": "https://xeno-canto.org/50905"
+   },
+   {
+    "kind": "call",
+    "file": "audio/snowy-egret-call.mp3",
+    "author": "Paul Driver",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1027118"
+   }
+  ]
  },
  {
   "id": "green-heron",
@@ -4854,7 +5027,15 @@
     "file": "maps/whooping-crane.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/whooping-crane-call.mp3",
+    "author": "Sue Riffe",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/533637"
+   }
+  ]
  },
  {
   "id": "wood-stork",
@@ -4895,7 +5076,22 @@
     "file": "maps/wood-stork.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/wood-stork-song.mp3",
+    "author": "Bernabe Lopez-Lanus",
+    "license": "CC BY-NC-SA 3.0",
+    "source": "https://xeno-canto.org/52057"
+   },
+   {
+    "kind": "call",
+    "file": "audio/wood-stork-call.mp3",
+    "author": "Paul Marvin",
+    "license": "CC BY-NC-SA 3.0",
+    "source": "https://xeno-canto.org/149640"
+   }
+  ]
  },
  {
   "id": "roseate-spoonbill",
@@ -4935,7 +5131,22 @@
     "file": "maps/roseate-spoonbill.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/roseate-spoonbill-song.mp3",
+    "author": "JAYRSON ARAUJO DE OLIVEIRA",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/444930"
+   },
+   {
+    "kind": "call",
+    "file": "audio/roseate-spoonbill-call.mp3",
+    "author": "Paul Marvin",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/451725"
+   }
+  ]
  },
  {
   "id": "white-ibis",
@@ -4976,7 +5187,15 @@
     "file": "maps/white-ibis.jpg"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/white-ibis-call.mp3",
+    "author": "Russ Wigh",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/561172"
+   }
+  ]
  },
  {
   "id": "brown-pelican",
@@ -5017,7 +5236,15 @@
     "file": "maps/brown-pelican.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/brown-pelican-call.mp3",
+    "author": "Isain Contreras Rodr\u00edguez",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/540651"
+   }
+  ]
  },
  {
   "id": "american-white-pelican",
@@ -5155,7 +5382,22 @@
     "file": "maps/anhinga.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/anhinga-song.mp3",
+    "author": "Raul A. Spais",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1028752"
+   },
+   {
+    "kind": "call",
+    "file": "audio/anhinga-call.mp3",
+    "author": "Paul Driver",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/705561"
+   }
+  ]
  },
  {
   "id": "canada-goose",
@@ -5243,7 +5485,15 @@
     "file": "maps/snow-goose.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/snow-goose-call.mp3",
+    "author": "Sue Riffe",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/532048"
+   }
+  ]
  },
  {
   "id": "mallard",
@@ -5475,7 +5725,15 @@
     "file": "maps/bufflehead.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/bufflehead-call.mp3",
+    "author": "Thomas Magarian",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/388267"
+   }
+  ]
  },
  {
   "id": "common-merganser",
@@ -5654,7 +5912,22 @@
     "file": "maps/canvasback.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/canvasback-song.mp3",
+    "author": "Thomas Magarian",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/371522"
+   },
+   {
+    "kind": "call",
+    "file": "audio/canvasback-call.mp3",
+    "author": "Paul Driver",
+    "license": "CC BY-NC-SA 3.0",
+    "source": "https://xeno-canto.org/169224"
+   }
+  ]
  },
  {
   "id": "mute-swan",
@@ -5898,7 +6171,22 @@
     "file": "maps/american-coot.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/american-coot-song.mp3",
+    "author": "Stanislas Wroza",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1014462"
+   },
+   {
+    "kind": "call",
+    "file": "audio/american-coot-call.mp3",
+    "author": "Max Noack",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1076779"
+   }
+  ]
  },
  {
   "id": "killdeer",
@@ -6231,7 +6519,22 @@
     "file": "maps/laughing-gull.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/laughing-gull-song.mp3",
+    "author": "Manuel Grosselet",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/572825"
+   },
+   {
+    "kind": "call",
+    "file": "audio/laughing-gull-call.mp3",
+    "author": "Rory Nefdt",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1135805"
+   }
+  ]
  },
  {
   "id": "ring-billed-gull",
@@ -6377,7 +6680,22 @@
     "file": "maps/caspian-tern.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/caspian-tern-song.mp3",
+    "author": "Cl\u00e9ment Bruneau",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1181911"
+   },
+   {
+    "kind": "call",
+    "file": "audio/caspian-tern-call.mp3",
+    "author": "Andrew Spencer",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/203782"
+   }
+  ]
  },
  {
   "id": "black-skimmer",
@@ -6417,7 +6735,22 @@
     "file": "maps/black-skimmer.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/black-skimmer-song.mp3",
+    "author": "JAYRSON ARAUJO DE OLIVEIRA",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/440960"
+   },
+   {
+    "kind": "call",
+    "file": "audio/black-skimmer-call.mp3",
+    "author": "JAYRSON ARAUJO DE OLIVEIRA",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/949473"
+   }
+  ]
  },
  {
   "id": "atlantic-puffin",
@@ -6458,7 +6791,22 @@
     "file": "maps/atlantic-puffin.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/atlantic-puffin-song.mp3",
+    "author": "Stanislas Wroza",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/487912"
+   },
+   {
+    "kind": "call",
+    "file": "audio/atlantic-puffin-call.mp3",
+    "author": "Paul Kelly",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/809776"
+   }
+  ]
  },
  {
   "id": "common-murre",
@@ -6885,7 +7233,22 @@
     "file": "maps/sharp-shinned-hawk.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/sharp-shinned-hawk-song.mp3",
+    "author": "Stanislas Wroza",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1014685"
+   },
+   {
+    "kind": "call",
+    "file": "audio/sharp-shinned-hawk-call.mp3",
+    "author": "Stanislas Wroza",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1014685"
+   }
+  ]
  },
  {
   "id": "northern-harrier",
@@ -6924,7 +7287,15 @@
     "file": "maps/northern-harrier.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/northern-harrier-call.mp3",
+    "author": "Stanislas Wroza",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1014038"
+   }
+  ]
  },
  {
   "id": "american-kestrel",
@@ -7061,7 +7432,15 @@
     "file": "maps/turkey-vulture.jpg"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "call",
+    "file": "audio/turkey-vulture-call.mp3",
+    "author": "Cristian Pinto",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/520288"
+   }
+  ]
  },
  {
   "id": "black-vulture",
@@ -7102,7 +7481,22 @@
     "file": "maps/black-vulture.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/black-vulture-song.mp3",
+    "author": "JAYRSON ARAUJO DE OLIVEIRA",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/422353"
+   },
+   {
+    "kind": "call",
+    "file": "audio/black-vulture-call.mp3",
+    "author": "JAYRSON ARAUJO DE OLIVEIRA",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/917558"
+   }
+  ]
  },
  {
   "id": "california-condor",
@@ -7376,7 +7770,22 @@
     "file": "maps/snowy-owl.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/snowy-owl-song.mp3",
+    "author": "Tero Linjama",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/343145"
+   },
+   {
+    "kind": "call",
+    "file": "audio/snowy-owl-call.mp3",
+    "author": "Patrik \u00c5berg",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/277675"
+   }
+  ]
  },
  {
   "id": "burrowing-owl",
@@ -7549,7 +7958,22 @@
     "file": "maps/greater-roadrunner.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/greater-roadrunner-song.mp3",
+    "author": "Mark McClelland",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/884929"
+   },
+   {
+    "kind": "call",
+    "file": "audio/greater-roadrunner-call.mp3",
+    "author": "Bobby Wilcox",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/511258"
+   }
+  ]
  },
  {
   "id": "gambel-s-quail",
@@ -7588,7 +8012,22 @@
     "file": "maps/gambel-s-quail.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/gambel-s-quail-song.mp3",
+    "author": "Scott Crabtree",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/792386"
+   },
+   {
+    "kind": "call",
+    "file": "audio/gambel-s-quail-call.mp3",
+    "author": "Richard E. Webster",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/636283"
+   }
+  ]
  },
  {
   "id": "ring-necked-pheasant",
@@ -7684,7 +8123,22 @@
     "file": "maps/common-nighthawk.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/common-nighthawk-song.mp3",
+    "author": "Doug Hynes",
+    "license": "CC BY-NC-SA 3.0",
+    "source": "https://xeno-canto.org/147861"
+   },
+   {
+    "kind": "call",
+    "file": "audio/common-nighthawk-call.mp3",
+    "author": "Jeff Stewart",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1136360"
+   }
+  ]
  },
  {
   "id": "american-woodcock",
@@ -7768,7 +8222,22 @@
    "habitat": "The cactus wren is a bird of arid and semi-desert regions, and generally requires spiny cacti to nest in. Its range includes the Sonoran and Chihuahuan Deserts. The cactus wren is not migratory, and establishes a permanent territory which it defends vigorously. Territories are typically 1.3 ha (3.2 acres) to 1.9 ha (4.7 acres). The size and shape of territories change very little throughout the season.",
    "status": "Least Concern"
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/cactus-wren-song.mp3",
+    "author": "Pat Goltz",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1153771"
+   },
+   {
+    "kind": "call",
+    "file": "audio/cactus-wren-call.mp3",
+    "author": "Bobby Wilcox",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/799698"
+   }
+  ]
  },
  {
   "id": "pyrrhuloxia",
@@ -7858,7 +8327,22 @@
     "file": "maps/varied-thrush.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/varied-thrush-song.mp3",
+    "author": "AUDEVARD Aur\u00e9lien",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1048897"
+   },
+   {
+    "kind": "call",
+    "file": "audio/varied-thrush-call.mp3",
+    "author": "AUDEVARD Aur\u00e9lien",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1048896"
+   }
+  ]
  },
  {
   "id": "american-dipper",
@@ -7899,7 +8383,22 @@
     "file": "maps/american-dipper.png"
    }
   },
-  "sounds": []
+  "sounds": [
+   {
+    "kind": "song",
+    "file": "audio/american-dipper-song.mp3",
+    "author": "Skyler Bol",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/877031"
+   },
+   {
+    "kind": "call",
+    "file": "audio/american-dipper-call.mp3",
+    "author": "Yoann Blanchon",
+    "license": "CC BY-NC-SA 4.0",
+    "source": "https://xeno-canto.org/1059137"
+   }
+  ]
  },
  {
   "id": "brown-creeper",

@@ -10,7 +10,7 @@ import getpass
 KEY = os.environ.get("XC_API_KEY") or getpass.getpass("Paste xeno-canto API key (hidden), then Enter: ").strip()
 if not KEY: sys.exit("No key given")
 AUDIO = os.path.join(ROOT, "docs", "audio")
-OK_LIC = re.compile(r"creativecommons\.org/(licenses/by(-sa)?/|publicdomain/zero/)")  # no NC / ND
+OK_LIC = re.compile(r"creativecommons\.org/(licenses/by(-nc)?(-sa)?/|publicdomain/zero/)")  # NC ok (free non-commercial app); no ND
 KINDS = ["song", "call"]
 
 def get(url):
