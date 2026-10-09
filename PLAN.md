@@ -1,7 +1,7 @@
 # Bird Quiz — plan & status
 
 **Done (deployed):** 1 difficulty levels · 2 info card (about/diet/habitat/status/range map/sounds) · 3 sounds (127/167 species; CC BY, BY-SA, CC0 only; the other 40 only have NC-licensed or no recordings on xeno-canto) · 4 sound quiz · 5 photo cropping fixed · 7 tappable review · 6 flag button (local only).
-**Blocked on the user:** 6 flag→GitHub needs the Worker/token change (see item 6).
+**Waiting on the user:** deploy `bug-worker/` (token + `npx wrangler deploy`), then test a flag; triage with `python3 tools/apply_flags.py`.
 **Open ideas:** photo audit contact sheet; decide whether to also allow CC BY-NC sounds (free non-commercial app) to cover the 40 missing species; shrink maps (29 MB) and audio.
 
 

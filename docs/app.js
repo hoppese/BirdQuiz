@@ -17,10 +17,20 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":
 // ---- flagged photos (stored on this device; hidden from future rounds) ----
 const FLAG_KEY = "birdquiz-flags";
 function getFlags() { try { return JSON.parse(localStorage.getItem(FLAG_KEY)) || {}; } catch { return {}; } }
-function setFlag(file, reason) {
-  const f = getFlags(); f[file] = { reason, at: new Date().toISOString() };
-  try { localStorage.setItem(FLAG_KEY, JSON.stringify(f)); } catch {}
+const REPORT_URL = "https://birds-api.sethhopper.com/report";
+function saveFlags(f) { try { localStorage.setItem(FLAG_KEY, JSON.stringify(f)); } catch {} }
+function sendFlag(file) {            // best-effort; unsent flags are retried on next launch
+  const f = getFlags(), e = f[file]; if (!e || e.sent) return;
+  fetch(REPORT_URL, { method: "POST", headers: { "Content-Type": "application/json" }, keepalive: true,
+    body: JSON.stringify({ photo: file, reason: e.reason, pageUrl: location.href, userAgent: navigator.userAgent }) })
+    .then(r => { if (r.ok) { const g = getFlags(); if (g[file]) { g[file].sent = true; saveFlags(g); } } })
+    .catch(() => {});
 }
+function setFlag(file, reason) {
+  const f = getFlags(); f[file] = { reason, at: new Date().toISOString(), sent: false };
+  saveFlags(f); sendFlag(file);
+}
+const retryFlags = () => Object.keys(getFlags()).forEach(sendFlag);
 const goodPhotos = b => { const f = getFlags(); return b.photos.filter(p => !f[p.file]); };
 
 // ---- question generation ----
@@ -189,7 +199,7 @@ function renderReview(k) {
   window.scrollTo(0, 0);
 }
 
-fetch("birds.json").then(r => r.json()).then(d => { birds = d; renderHome(); })
+fetch("birds.json").then(r => r.json()).then(d => { birds = d; renderHome(); retryFlags(); })
   .catch(() => app.innerHTML = "<p>Couldn't load bird data.</p>");
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");

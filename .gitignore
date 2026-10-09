@@ -1,3 +1,6 @@
 .DS_Store
 tools/fetch.log
 nohup.out
+node_modules/
+.wrangler/
+.dev.vars
