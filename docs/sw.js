@@ -1,5 +1,5 @@
 // Cache-first so the app works offline once visited. Bump VERSION on changes.
-const VERSION = "v7";
+const VERSION = "v8";
 const SHELL = ["./", "index.html", "style.css", "app.js", "topics.js", "birds.json", "manifest.webmanifest"];
 self.addEventListener("install", e => e.waitUntil(
   caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())));

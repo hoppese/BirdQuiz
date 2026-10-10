@@ -1,6 +1,6 @@
 # Bird Quiz
 
-Installable web app (PWA): photo-ID quiz, 10 questions/round, 4 choices.
+Installable web app (PWA): multi-topic quiz (birds, countries, US states, trees), 10 questions/round, 4 choices, Easy/Medium/Hard.
 
 - `docs/` — the whole site (static files). Deploy this folder.
 - `tools/species.txt` — species list (`Common name|Scientific name`).
@@ -15,3 +15,8 @@ Edit `tools/species.txt`, run `python3 tools/fetch_birds.py`, bump `VERSION` in 
 ## Put it on an iPhone
 1. Host `docs/` over HTTPS (e.g. Netlify Drop, GitHub Pages, Cloudflare Pages).
 2. Open the URL in Safari → Share → Add to Home Screen.
+
+## Topics
+`docs/app.js` is the engine; `docs/topics.js` registers each topic. Data builders: `tools/build_countries.py`, `build_states.py`,
+`fetch_trees.py` + `fetch_tree_info.py`, and the bird scripts. Bug/flag reports arrive in `bugs/` (see `bug-worker/`);
+triage with `python3 tools/apply_flags.py`.

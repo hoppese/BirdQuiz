@@ -1,0 +1,93 @@
+White Oak|Quercus alba|Broadleaf|1
+Northern Red Oak|Quercus rubra|Broadleaf|1
+Black Oak|Quercus velutina|Broadleaf|0
+Bur Oak|Quercus macrocarpa|Broadleaf|0
+Pin Oak|Quercus palustris|Broadleaf|0
+Live Oak|Quercus virginiana|Broadleaf|1
+Valley Oak|Quercus lobata|Broadleaf|0
+Chestnut Oak|Quercus montana|Broadleaf|0
+Scarlet Oak|Quercus coccinea|Broadleaf|0
+Willow Oak|Quercus phellos|Broadleaf|0
+Swamp White Oak|Quercus bicolor|Broadleaf|0
+Sugar Maple|Acer saccharum|Broadleaf|1
+Red Maple|Acer rubrum|Broadleaf|1
+Silver Maple|Acer saccharinum|Broadleaf|0
+Norway Maple|Acer platanoides|Broadleaf|0
+Boxelder|Acer negundo|Broadleaf|0
+Bigleaf Maple|Acer macrophyllum|Broadleaf|0
+Paper Birch|Betula papyrifera|Broadleaf|1
+River Birch|Betula nigra|Broadleaf|0
+Yellow Birch|Betula alleghaniensis|Broadleaf|0
+Shagbark Hickory|Carya ovata|Broadleaf|0
+Pecan|Carya illinoinensis|Broadleaf|0
+Black Walnut|Juglans nigra|Broadleaf|0
+Butternut|Juglans cinerea|Broadleaf|0
+American Elm|Ulmus americana|Broadleaf|1
+White Ash|Fraxinus americana|Broadleaf|0
+Green Ash|Fraxinus pennsylvanica|Broadleaf|0
+American Beech|Fagus grandifolia|Broadleaf|1
+American Sycamore|Platanus occidentalis|Broadleaf|1
+Tulip Tree|Liriodendron tulipifera|Broadleaf|1
+Sweetgum|Liquidambar styraciflua|Broadleaf|1
+Black Cherry|Prunus serotina|Broadleaf|0
+Eastern Redbud|Cercis canadensis|Broadleaf|1
+Flowering Dogwood|Cornus florida|Broadleaf|1
+Sassafras|Sassafras albidum|Broadleaf|0
+Black Locust|Robinia pseudoacacia|Broadleaf|0
+Honey Locust|Gleditsia triacanthos|Broadleaf|0
+Kentucky Coffeetree|Gymnocladus dioicus|Broadleaf|0
+Osage Orange|Maclura pomifera|Broadleaf|0
+American Basswood|Tilia americana|Broadleaf|0
+Black Tupelo|Nyssa sylvatica|Broadleaf|0
+Common Persimmon|Diospyros virginiana|Broadleaf|0
+American Hornbeam|Carpinus caroliniana|Broadleaf|0
+Eastern Hophornbeam|Ostrya virginiana|Broadleaf|0
+Eastern Cottonwood|Populus deltoides|Broadleaf|0
+Quaking Aspen|Populus tremuloides|Broadleaf|1
+Black Willow|Salix nigra|Broadleaf|0
+Weeping Willow|Salix babylonica|Broadleaf|1
+Hackberry|Celtis occidentalis|Broadleaf|0
+White Mulberry|Morus alba|Broadleaf|0
+Northern Catalpa|Catalpa speciosa|Broadleaf|0
+Southern Magnolia|Magnolia grandiflora|Broadleaf|1
+Pawpaw|Asimina triloba|Broadleaf|0
+American Holly|Ilex opaca|Broadleaf|0
+Horse Chestnut|Aesculus hippocastanum|Broadleaf|0
+Ohio Buckeye|Aesculus glabra|Broadleaf|0
+Tree of Heaven|Ailanthus altissima|Broadleaf|0
+Callery Pear|Pyrus calleryana|Broadleaf|0
+Red Alder|Alnus rubra|Broadleaf|0
+Pacific Madrone|Arbutus menziesii|Broadleaf|0
+Ginkgo|Ginkgo biloba|Broadleaf|1
+Joshua Tree|Yucca brevifolia|Broadleaf|1
+Cabbage Palmetto|Sabal palmetto|Palm|1
+Honey Mesquite|Prosopis glandulosa|Broadleaf|0
+Red Mangrove|Rhizophora mangle|Broadleaf|0
+Eastern White Pine|Pinus strobus|Conifer|1
+Red Pine|Pinus resinosa|Conifer|0
+Loblolly Pine|Pinus taeda|Conifer|0
+Longleaf Pine|Pinus palustris|Conifer|0
+Ponderosa Pine|Pinus ponderosa|Conifer|1
+Lodgepole Pine|Pinus contorta|Conifer|0
+Sugar Pine|Pinus lambertiana|Conifer|0
+Pinyon Pine|Pinus edulis|Conifer|0
+Bristlecone Pine|Pinus longaeva|Conifer|0
+Douglas-fir|Pseudotsuga menziesii|Conifer|1
+Balsam Fir|Abies balsamea|Conifer|1
+Fraser Fir|Abies fraseri|Conifer|0
+White Spruce|Picea glauca|Conifer|0
+Black Spruce|Picea mariana|Conifer|0
+Norway Spruce|Picea abies|Conifer|0
+Blue Spruce|Picea pungens|Conifer|1
+Sitka Spruce|Picea sitchensis|Conifer|0
+Eastern Hemlock|Tsuga canadensis|Conifer|0
+Western Hemlock|Tsuga heterophylla|Conifer|0
+Tamarack|Larix laricina|Conifer|0
+Western Larch|Larix occidentalis|Conifer|0
+Coast Redwood|Sequoia sempervirens|Conifer|1
+Giant Sequoia|Sequoiadendron giganteum|Conifer|1
+Western Redcedar|Thuja plicata|Conifer|0
+Northern White-cedar|Thuja occidentalis|Conifer|0
+Eastern Redcedar|Juniperus virginiana|Conifer|0
+Bald Cypress|Taxodium distichum|Conifer|1
+Monterey Cypress|Hesperocyparis macrocarpa|Conifer|0

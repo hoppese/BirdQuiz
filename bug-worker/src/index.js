@@ -6,7 +6,7 @@
  * Body:   flag: { photo: "img/northern-cardinal-2.jpg", reason }  |  bug: { text, context }  (+ pageUrl, userAgent, website)
  * Env:    GITHUB_TOKEN (secret, Contents read/write on REPO only), REPO, BRANCH, ALLOWED_ORIGINS
  */
-const PHOTO_RE = /^img\/[a-z0-9-]+-\d\.jpg$/;   // only real photo ids are accepted
+const PHOTO_RE = /^(img|topics\/[a-z-]+\/img)\/[a-z0-9-]+\.jpg$/;   // only real photo paths are accepted
 const MAX_REASON = 1000;
 
 export default {

@@ -22,14 +22,17 @@ for p, rs in by_photo.items(): print(" ", p, "—", "; ".join(r for _, r in rs))
 print(f"{len(general)} general bug reports (fix by hand, then delete the file or set status to fixed):")
 for n, r, c in general: print(f"  {n}: {r}" + (f"  [{c}]" if c else ""))
 if apply and by_photo:
-    path = os.path.join(ROOT, "docs", "birds.json"); birds = json.load(open(path))
-    for b in birds:
-        keep = [x for x in b["photos"] if x["file"] not in by_photo]
-        if len(keep) != len(b["photos"]):
-            print(f"{b['name']}: {len(b['photos'])} -> {len(keep)} photos" + ("  ** NONE LEFT, refetch! **" if not keep else ""))
-            b["photos"] = keep
-    birds = [b for b in birds if b["photos"] or True]
-    json.dump(birds, open(path, "w"), indent=1)
+    import glob as _g
+    files = [os.path.join(ROOT, "docs", "birds.json")] + sorted(_g.glob(os.path.join(ROOT, "docs", "topics", "*", "data.json")))
+    for path in files:
+        items = json.load(open(path)); changed = False
+        for b in items:
+            if "photos" not in b: continue
+            keep = [x for x in b["photos"] if x["file"] not in by_photo]
+            if len(keep) != len(b["photos"]):
+                print(f"{b['name']}: {len(b['photos'])} -> {len(keep)} photos" + ("  ** NONE LEFT, refetch! **" if not keep else ""))
+                b["photos"] = keep; changed = True
+        if changed: json.dump(items, open(path, "w"), indent=1)
     for p in by_photo:
         fp = os.path.join(ROOT, "docs", p)
         if os.path.exists(fp): os.remove(fp)

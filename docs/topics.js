@@ -144,3 +144,42 @@ registerTopic({
       <h3>Capital</h3><p>${esc(s.capital)}</p>`;
   },
 });
+
+// ================================ TREES ================================
+const PART_LABEL = { leaf: "Leaf", bark: "Bark", tree: "Whole tree", fruit: "Fruit / cones" };
+const treePhotos = (t, part) => goodPhotos(t).filter(p => !part || p.part === part);
+const treeMode = (id, label, intro, part) => mkMode({ id, label, intro,
+  usable: t => treePhotos(t, part).length > 0,
+  note: t => `<span class="sci">(${esc(t.scientific)})</span>`,
+  make(t) { const p = pick(treePhotos(t, part));
+    return { promptHTML: photoHTML(p, "Tree to identify"), creditHTML: `${PART_LABEL[p.part] || "Photo"} — ` + credit("Photo", p), flagFile: p.file }; } });
+
+registerTopic({
+  id: "trees", title: "Trees", emoji: "🌳", blurb: "Leaves, bark & whole trees of North America",
+  dataUrl: "topics/trees/data.json",
+  countLabel: items => `${items.length} North American trees`,
+  levels: { easy: "Familiar trees, very different choices", medium: "All trees, random choices",
+            hard: "Look-alikes: oaks vs oaks, pines vs pines" },
+  praise: ["Master forester! 🌳", "Good eye!", "Keep exploring 🍂"],
+  near(a, o) { return (a.genus === o.genus ? 3 : 0) + (a.type === o.type ? 1 : 0); },
+  modes: [
+    treeMode("all", "🌳 Mixed", "Name the tree from its photo.", null),
+    treeMode("leaf", "🍃 Leaves", "Name the tree from its leaves or needles.", "leaf"),
+    treeMode("bark", "🪵 Bark", "Name the tree from its bark.", "bark"),
+    treeMode("tree", "🌲 Whole tree", "Name the tree from its shape.", "tree"),
+    treeMode("fruit", "🌰 Fruit & cones", "Name the tree from its fruit, nuts or cones.", "fruit"),
+  ],
+  infoHTML(t) {
+    const i = t.info || {}, m = i.map;
+    const sec = (h, x) => x ? `<h3>${h}</h3><p>${esc(x)}</p>` : "";
+    return `<h2>${esc(t.name)}</h2><p class="sci">${esc(t.scientific)} · ${esc(t.type)}
+        ${i.status ? `<span class="chip">${esc(i.status)}</span>` : ""}</p>
+      ${sec("About", i.about)}${sec("Habitat & range", i.habitat)}${sec("Uses", i.uses)}
+      ${treePhotos(t).length ? `<h3>Photos</h3><div class="gallery">${treePhotos(t).map(p => `<figure><img loading="lazy" alt="${esc(t.name)}" src="${esc(p.file)}">
+        <figcaption>${esc(PART_LABEL[p.part] || "")} · ${esc(p.author)}, ${esc(p.license)} — ${link(p.source, "source")}</figcaption></figure>`).join("")}</div>` : ""}
+      ${m ? `<h3>Range map</h3><img class="map" alt="Range map of ${esc(t.name)}" src="${esc(m.file)}">
+        <p class="credit">Map: ${esc(m.author)}, ${esc(m.license)} — ${link(m.source, "source")}.
+        ${/little|geological survey|usgs/i.test(m.author) ? `Key: <span class="mapkey"><i style="background:#90ee90"></i>native range</span>` : "Colors vary by map; see the source for its legend."}</p>` : ""}
+      ${i.wiki ? `<p class="credit">Text from ${link(i.wiki, "Wikipedia")} (CC BY-SA 4.0).</p>` : ""}`;
+  },
+});
