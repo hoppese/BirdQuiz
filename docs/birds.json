@@ -21,6 +21,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20240327_female_northern_cardinal_casa_PD206238.jpg"
+   },
+   {
+    "file": "img/northern-cardinal-male.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Alain Gauthier 1963",
+    "source": "https://commons.wikimedia.org/wiki/File:03052022-ATP_6099.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/northern-cardinal-female.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Cosmo1976",
+    "source": "https://commons.wikimedia.org/wiki/File:2014-01-06_Cardinal_-_Female.jpg",
+    "sex": "female"
    }
   ],
   "family": "Cardinals & allies",
@@ -175,6 +189,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20231011_american_goldfinch_south_meadows_PND06713-topaz-enhance-3600w.jpg"
+   },
+   {
+    "file": "img/american-goldfinch-male.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Cephas",
+    "source": "https://commons.wikimedia.org/wiki/File:Gaillardia_%C3%97_grandiflora_Spinus_tristis_JRVdH_01.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/american-goldfinch-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Casey Helton",
+    "source": "https://commons.wikimedia.org/wiki/File:Goldfinch_-_Sitka_Sedge1.jpg",
+    "sex": "female"
    }
   ],
   "family": "Finches",
@@ -231,6 +259,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:House_finch_female.jpg"
+   },
+   {
+    "file": "img/house-finch-male.jpg",
+    "license": "Public domain",
+    "author": "ShenandoahNPS",
+    "source": "https://commons.wikimedia.org/wiki/File:House_Finch_(male)_(23934285480).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/house-finch-female.jpg",
+    "license": "Public domain",
+    "author": "Joshua Tree National Park",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_House_finch_(Haemorhous_mexicanus)_(51206084697).jpg",
+    "sex": "female"
    }
   ],
   "family": "Finches",
@@ -280,6 +322,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20241022_purple_finch_hockanum_reservoir_PD209748.jpg"
+   },
+   {
+    "file": "img/purple-finch-male.jpg",
+    "license": "CC0",
+    "author": "PookieFugglestein",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Purple_Finch.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/purple-finch-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Mathieu Landretti",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Purple_Finch.jpg",
+    "sex": "female"
    }
   ],
   "family": "Finches",
@@ -595,6 +651,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Cosmic Pomegranate",
     "source": "https://commons.wikimedia.org/wiki/File:FemaleDownyWoodpecker.jpg"
+   },
+   {
+    "file": "img/downy-woodpecker-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Richard Griffin",
+    "source": "https://commons.wikimedia.org/wiki/File:Downey_Woodpecker_(male)_a.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/downy-woodpecker-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Wildreturn",
+    "source": "https://commons.wikimedia.org/wiki/File:Hairy_(female).jpg",
+    "sex": "female"
    }
   ],
   "family": "Woodpeckers",
@@ -644,6 +714,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Giles Laurent",
     "source": "https://commons.wikimedia.org/wiki/File:072_Juvenile_Hairy_woodpecker_in_Los_Quetzales_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "img/hairy-woodpecker-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Bettina Arrigoni",
+    "source": "https://commons.wikimedia.org/wiki/File:Hairy_Woodpecker_(male)_Barfoot_Portal_AZ_2018-05-10_14-12-55_(41812706810).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/hairy-woodpecker-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Robert Taylor from Stirling, ON, Canada",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Hairy_Woodpecker_0059_(15534056191).jpg",
+    "sex": "female"
    }
   ],
   "family": "Woodpeckers",
@@ -692,6 +776,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20231017_red_bellied_woodpecker_old_south_cemetery_PND07384.jpg"
+   },
+   {
+    "file": "img/red-bellied-woodpecker-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "John Brighenti from Rockville, MD, United States",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Red-Bellied_Woodpecker_-_Flickr_-_John_Brighenti.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/red-bellied-woodpecker-female.jpg",
+    "license": "CC BY 4.0",
+    "author": "KellyC.5366",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Red-Bellied_Woodpecker_Eating_A_Pear.jpg",
+    "sex": "female"
    }
   ],
   "family": "Woodpeckers",
@@ -747,6 +845,20 @@
     "license": "Public domain",
     "author": "Shenandoah National Park from Virginia",
     "source": "https://commons.wikimedia.org/wiki/File:Pileated_Woodpecker_(9597212081).jpg"
+   },
+   {
+    "file": "img/pileated-woodpecker-male.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Hans Hillewaert",
+    "source": "https://commons.wikimedia.org/wiki/File:Dryocopus_pileatus_(young_male).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/pileated-woodpecker-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "David Brossard",
+    "source": "https://commons.wikimedia.org/wiki/File:Coming_Home_(26978929126).jpg",
+    "sex": "female"
    }
   ],
   "family": "Woodpeckers",
@@ -794,6 +906,20 @@
     "license": "CC BY-SA 3.0",
     "author": "Cephas",
     "source": "https://commons.wikimedia.org/wiki/File:Colaptes_auratus_MP2_NR.jpg"
+   },
+   {
+    "file": "img/northern-flicker-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Mike & Chris",
+    "source": "https://commons.wikimedia.org/wiki/File:Colaptes_auratus_male_1.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/northern-flicker-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "John Benson",
+    "source": "https://commons.wikimedia.org/wiki/File:Colaptes_auratus_auratus,_female_-_Owen_Conservation_Park,_Madison,_Wisconsin.jpg",
+    "sex": "female"
    }
   ],
   "family": "Woodpeckers",
@@ -843,6 +969,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Rhododendrites",
     "source": "https://commons.wikimedia.org/wiki/File:Yellow-bellied_sapsucker_in_CP_(40422).jpg"
+   },
+   {
+    "file": "img/yellow-bellied-sapsucker-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Gerry",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Yellow-bellied_Sapsucker.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/yellow-bellied-sapsucker-female.jpg",
+    "license": "Public domain",
+    "author": "Ken Thomas",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Yellow-bellied_Sapsucker-l.jpg",
+    "sex": "female"
    }
   ],
   "family": "Woodpeckers",
@@ -1255,6 +1395,20 @@
     "license": "CC BY 2.0",
     "author": "James St. John",
     "source": "https://commons.wikimedia.org/wiki/File:Eastern_bluebird_(Newark,_Ohio,_USA)_2.jpg"
+   },
+   {
+    "file": "img/eastern-bluebird-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "CheepShot",
+    "source": "https://commons.wikimedia.org/wiki/File:Eastern_Bluebird_Male_(7213645036).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/eastern-bluebird-female.jpg",
+    "license": "Public domain",
+    "author": "ShenandoahNPS",
+    "source": "https://commons.wikimedia.org/wiki/File:Eastern_Bluebird_(female)_(31763566988).jpg",
+    "sex": "female"
    }
   ],
   "family": "Thrushes",
@@ -1311,6 +1465,20 @@
     "license": "CC BY 2.0",
     "author": "Channel City Camera Club from Santa Barbara, US",
     "source": "https://commons.wikimedia.org/wiki/File:Dapper_fellow_(50931630882).jpg"
+   },
+   {
+    "file": "img/western-bluebird-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Channel City Camera Club from Santa Barbara, US",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Bluebird_(50767650606).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/western-bluebird-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Channel City Camera Club from Santa Barbara, US",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Bluebird_(50767650696).jpg",
+    "sex": "female"
    }
   ],
   "family": "Thrushes",
@@ -1360,6 +1528,20 @@
     "license": "Public domain",
     "author": "Audubon, John James; Bowen, John T.",
     "source": "https://commons.wikimedia.org/wiki/File:The_birds_of_America_(Pl._136)_(8568649787).jpg"
+   },
+   {
+    "file": "img/mountain-bluebird-male.jpg",
+    "license": "Public domain",
+    "author": "Joshua Tree National Park",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Mountain_Bluebird_(52634590917).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/mountain-bluebird-female.jpg",
+    "license": "Public domain",
+    "author": "Joshua Tree National Park",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Mountain_Bluebird_(52803293183).jpg",
+    "sex": "female"
    }
   ],
   "family": "Thrushes",
@@ -1825,6 +2007,20 @@
     "license": "CC BY-SA 3.0",
     "author": "Junco_hyemalis_5884.JPG: Walter Siegmund (talk)\nderivative work: Walter Siegmund (talk)",
     "source": "https://commons.wikimedia.org/wiki/File:Junco_hyemalis_5884_cropped.JPG"
+   },
+   {
+    "file": "img/dark-eyed-junco-male.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ryan Hodnett",
+    "source": "https://commons.wikimedia.org/wiki/File:Dark-eyed_Junco_(Junco_hyemalis),_Male_-_Guelph,_Ontario.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/dark-eyed-junco-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Wildreturn",
+    "source": "https://commons.wikimedia.org/wiki/File:Dark-eyed_(Oregon)_Junco_-_female_-_8495709117.jpg",
+    "sex": "female"
    }
   ],
   "family": "New World sparrows",
@@ -1915,6 +2111,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20241004_eastern_towhee_pleasant_valley_PD207774.jpg"
+   },
+   {
+    "file": "img/eastern-towhee-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Andy Reago & Chrissy McClarren",
+    "source": "https://commons.wikimedia.org/wiki/File:Eastern_Towhee_(male)_(23890197798).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/eastern-towhee-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Don Faulkner",
+    "source": "https://commons.wikimedia.org/wiki/File:Eastern_Towhee_(female)_(16194784237).jpg",
+    "sex": "female"
    }
   ],
   "family": "New World sparrows",
@@ -1964,6 +2174,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Rhododendrites",
     "source": "https://commons.wikimedia.org/wiki/File:Red-winged_blackbird_singing_(94019).jpg"
+   },
+   {
+    "file": "img/red-winged-blackbird-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Enoch Leung",
+    "source": "https://commons.wikimedia.org/wiki/File:%22WHAT_ARE_YOU_LOOKING_AT%3F!%3F!_HUH%3F!%3F!%22_(51959529399).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/red-winged-blackbird-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Seney Natural History Association",
+    "source": "https://commons.wikimedia.org/wiki/File:2012_Photo_Contest_-_Wildlife_Category_(7944908144).jpg",
+    "sex": "female"
    }
   ],
   "family": "Blackbirds & orioles",
@@ -2013,6 +2237,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20240412_brown_headed_cowbird_south_meadows_PD208070.jpg"
+   },
+   {
+    "file": "img/brown-headed-cowbird-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "lwolfartist",
+    "source": "https://commons.wikimedia.org/wiki/File:Brown_headed_cowbird_DSC_0844.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/brown-headed-cowbird-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Paul Danese",
+    "source": "https://commons.wikimedia.org/wiki/File:20240401_female_brown_headed_cowbird_casa_PD206912.jpg",
+    "sex": "female"
    }
   ],
   "family": "Blackbirds & orioles",
@@ -2068,6 +2306,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20240407_common_grackle_south_meadows_PD207362.jpg"
+   },
+   {
+    "file": "img/common-grackle-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Bettina Arrigoni",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Grackle_(male)_Boy_Scout_Woods_High_Island_TX_2018-04-11_13-10-50_(40901529115).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/common-grackle-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "lwolfartist",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_grackle_female.jpg",
+    "sex": "female"
    }
   ],
   "family": "Blackbirds & orioles",
@@ -2111,6 +2363,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Rhododendrites",
     "source": "https://commons.wikimedia.org/wiki/File:Baltimore_oriole_in_GWC_(21861).jpg"
+   },
+   {
+    "file": "img/baltimore-oriole-male.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Paul Danese",
+    "source": "https://commons.wikimedia.org/wiki/File:20240511_male_baltimore_oriole_south_meadows_PD204233.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/baltimore-oriole-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Paul Danese",
+    "source": "https://commons.wikimedia.org/wiki/File:20240510_female_baltimore_oriole_with_nest_south_meadows_PD204025.jpg",
+    "sex": "female"
    }
   ],
   "family": "Blackbirds & orioles",
@@ -2272,6 +2538,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20240828_bobolink_suffield_wma_PD202131.jpg"
+   },
+   {
+    "file": "img/bobolink-male.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Paul Danese",
+    "source": "https://commons.wikimedia.org/wiki/File:20250702_adult_male_bobolink_glastonbury_meadows_squre_PD206841.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/bobolink-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Mike's Birds from Riverside, CA, US",
+    "source": "https://commons.wikimedia.org/wiki/File:Bobolink_(female)_(7256591136).jpg",
+    "sex": "female"
    }
   ],
   "family": "Blackbirds & orioles",
@@ -2919,6 +3199,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Pslawinski",
     "source": "https://commons.wikimedia.org/wiki/File:Female_Ruby_Throated_Hummingbird.jpg"
+   },
+   {
+    "file": "img/ruby-throated-hummingbird-male.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Paul Danese",
+    "source": "https://commons.wikimedia.org/wiki/File:20240707_ruby_throated_hummingbird_bafflin_sanctuary_PD204642_02.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/ruby-throated-hummingbird-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "jeffreyw",
+    "source": "https://commons.wikimedia.org/wiki/File:Archilochus_colubris_Illinois_(3854277066).jpg",
+    "sex": "female"
    }
   ],
   "family": "Hummingbirds",
@@ -2968,6 +3262,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Rhododendrites",
     "source": "https://commons.wikimedia.org/wiki/File:Anna%27s_hummingbird_(41119).jpg"
+   },
+   {
+    "file": "img/anna-s-hummingbird-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Pete Gregoire",
+    "source": "https://commons.wikimedia.org/wiki/File:20101010%C2%A9_PeteGregoire-242.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/anna-s-hummingbird-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Becky Matsubara from El Sobrante, California",
+    "source": "https://commons.wikimedia.org/wiki/File:Anna%27s_Hummingbird_(39650592790).jpg",
+    "sex": "female"
    }
   ],
   "family": "Hummingbirds",
@@ -3023,6 +3331,20 @@
     "license": "Public domain",
     "author": "Unknown",
     "source": "https://commons.wikimedia.org/wiki/File:Selasphorus_rufus1.jpg"
+   },
+   {
+    "file": "img/rufous-hummingbird-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Greg Schechter from San Francisco, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:Hummingbirds_-_Flickr_-_GregTheBusker.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/rufous-hummingbird-female.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Ciar",
+    "source": "https://commons.wikimedia.org/wiki/File:FemaleRufous03.JPG",
+    "sex": "female"
    }
   ],
   "family": "Hummingbirds",
@@ -3079,6 +3401,20 @@
     "license": "CC BY 2.0",
     "author": "lwolfartist",
     "source": "https://commons.wikimedia.org/wiki/File:Black-chinned_hummingbird_Madera_Canyon_(Incl._Santa_Rita_Lodge)_4.11.22_DSC_5836.jpg"
+   },
+   {
+    "file": "img/black-chinned-hummingbird-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "jeffreyw",
+    "source": "https://commons.wikimedia.org/wiki/File:Archilochus_colubris_-flying_-male-8.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/black-chinned-hummingbird-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "gailhampshire from Cradley, Malvern, U.K",
+    "source": "https://commons.wikimedia.org/wiki/File:Black-chinned_Female_-_Flickr_-_gailhampshire.jpg",
+    "sex": "female"
    }
   ],
   "family": "Hummingbirds",
@@ -3575,6 +3911,20 @@
     "license": "CC BY 2.0",
     "author": "Henry",
     "source": "https://commons.wikimedia.org/wiki/File:Karmintyrann_(Pyrocephalus_obscurus),_M%C3%A4nnchen.jpg"
+   },
+   {
+    "file": "img/vermilion-flycatcher-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "F\u00e9lix Uribe from Rionegro, Antioquia, Colombia",
+    "source": "https://commons.wikimedia.org/wiki/File:Pyrocephalus_obscurus_Titirib%C3%AD_pechirrojo_Vermilion_Flycatcher_(male)_(8298049254).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/vermilion-flycatcher-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "F\u00e9lix Uribe from Rionegro, Antioquia, Colombia",
+    "source": "https://commons.wikimedia.org/wiki/File:Pyrocephalus_obscurus_Titirib%C3%AD_pechirrojo_Vermilion_Flycatcher_(female)_(6560622975).jpg",
+    "sex": "female"
    }
   ],
   "family": "Tyrant flycatchers",
@@ -3687,6 +4037,20 @@
     "license": "CC BY-SA 2.0",
     "author": "Mike's Birds",
     "source": "https://commons.wikimedia.org/wiki/File:Mangrove_Warbler,_Antigua,_West_Indies.jpg"
+   },
+   {
+    "file": "img/yellow-warbler-male.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Charles J. Sharp",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Galapagos_yellow_warbler.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/yellow-warbler-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "gailhampshire from Cradley, Malvern, U.K",
+    "source": "https://commons.wikimedia.org/wiki/File:Setophaga_petechia_adult_female,_Cayo_Coco,_Cuba.jpg",
+    "sex": "female"
    }
   ],
   "family": "Warblers",
@@ -3741,6 +4105,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Rhododendrites",
     "source": "https://commons.wikimedia.org/wiki/File:Yellow-rumped_warbler_(53768).jpg"
+   },
+   {
+    "file": "img/yellow-rumped-warbler-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Russ",
+    "source": "https://commons.wikimedia.org/wiki/File:Myrtle_warbler_male_old_field_(14090672329).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/yellow-rumped-warbler-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Manjith Kainickara from Dallas, Texas, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:Setophaga_coronata_female,_Breckinridge_Park,_Dallas,_TX.jpg",
+    "sex": "female"
    }
   ],
   "family": "Warblers",
@@ -3790,6 +4168,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20241002_common_yellowthroat_south_meadows_PD207512.jpg"
+   },
+   {
+    "file": "img/common-yellowthroat-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Mike's Birds from Riverside, CA, US",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Yellow_Throat_(Male)_(11160147215).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/common-yellowthroat-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Wildreturn",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Yellowthroat_(female).jpg",
+    "sex": "female"
    }
   ],
   "family": "Warblers",
@@ -3838,6 +4230,20 @@
     "license": "CC BY 2.0",
     "author": "The Lilac Breasted Roller from Sullivan's Island, United States",
     "source": "https://commons.wikimedia.org/wiki/File:Setophaga_ruticilla_(femelle).jpg"
+   },
+   {
+    "file": "img/american-redstart-male.jpg",
+    "license": "Public domain",
+    "author": "U.S. Fish and Wildlife Service Headquarters",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Redstart_(male)_(13886927989).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/american-redstart-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "gailhampshire from Cradley, Malvern, U.K",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Redstart._Setophaga_ruticilla_Female_-_Flickr_-_gailhampshire.jpg",
+    "sex": "female"
    }
   ],
   "family": "Warblers",
@@ -3894,6 +4300,20 @@
     "license": "CC BY 2.0",
     "author": "lwolfartist",
     "source": "https://commons.wikimedia.org/wiki/File:Black_and_white_warbler_patuxent_research_refuge_north_tract_6.18.23_DSC_7902.jpg"
+   },
+   {
+    "file": "img/black-and-white-warbler-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Bettina Arrigoni",
+    "source": "https://commons.wikimedia.org/wiki/File:Black-and-white_Warbler_(male)_Anahuac_NWR_-_Woodlot_TX_2018-04-25_12-32-41_(28196353048).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/black-and-white-warbler-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Charles J. Sharp",
+    "source": "https://commons.wikimedia.org/wiki/File:Black-and-white_warbler_(Mniotilta_varia)_female_Peten.jpg",
+    "sex": "female"
    }
   ],
   "family": "Warblers",
@@ -3992,6 +4412,20 @@
     "license": "CC BY 2.0",
     "author": "CheepShot",
     "source": "https://commons.wikimedia.org/wiki/File:Female_Scarlet_Tanager_(7467759938).jpg"
+   },
+   {
+    "file": "img/scarlet-tanager-male.jpg",
+    "license": "Public domain",
+    "author": "ShenandoahNPS",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Scarlett_Tanager_(51833270302).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/scarlet-tanager-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Paul Danese",
+    "source": "https://commons.wikimedia.org/wiki/File:20240629_female_scarlet_tanager_gay_city_PD203371.jpg",
+    "sex": "female"
    }
   ],
   "family": "Cardinals & allies",
@@ -4046,6 +4480,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Charles J. Sharp",
     "source": "https://commons.wikimedia.org/wiki/File:Summer_tanager_(Piranga_rubra)_male_Copan_3.jpg"
+   },
+   {
+    "file": "img/summer-tanager-male.jpg",
+    "license": "CC BY 4.0",
+    "author": "tcantrell52",
+    "source": "https://commons.wikimedia.org/wiki/File:Summer_Tanager_Male_Corpus_Christi.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/summer-tanager-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "F\u00e9lix Uribe from Rionegro, Antioquia, Colombia",
+    "source": "https://commons.wikimedia.org/wiki/File:Piranga_rubra_Piranga_abejera_Summer_Tanager_(female)_(10689062265).jpg",
+    "sex": "female"
    }
   ],
   "family": "Cardinals & allies",
@@ -4094,6 +4542,20 @@
     "license": "CC BY 2.0",
     "author": "Brooks, Allan; Dawson, William Leon; Dickey, Donald R.; Finley, William L.; Pierce, Wright M.",
     "source": "https://commons.wikimedia.org/wiki/File:The_birds_of_California_(Plate_36)_(7699564490).jpg"
+   },
+   {
+    "file": "img/western-tanager-male.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "The Modern Polymath",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Western_Tanager.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/western-tanager-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Channel City Camera Club from Santa Barbara, US",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Western_Tananger_(51142476695).jpg",
+    "sex": "female"
    }
   ],
   "family": "Cardinals & allies",
@@ -4143,6 +4605,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20240507_rose_breasted_grosbeak_south_meadows_PD203640.jpg"
+   },
+   {
+    "file": "img/rose-breasted-grosbeak-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Benimoto",
+    "source": "https://commons.wikimedia.org/wiki/File:Cardinal_a_poitrine_rose.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/rose-breasted-grosbeak-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "H. Michael Miley",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Grosbeak_(Pheucticus_ludovicianus).jpg",
+    "sex": "female"
    }
   ],
   "family": "Cardinals & allies",
@@ -4192,6 +4668,20 @@
     "license": "Public domain",
     "author": "Audubon, John James; Bowen, John T.",
     "source": "https://commons.wikimedia.org/wiki/File:The_birds_of_America_(Pl._206)_(8571306065).jpg"
+   },
+   {
+    "file": "img/black-headed-grosbeak-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "gailhampshire from Cradley, Malvern, U.K",
+    "source": "https://commons.wikimedia.org/wiki/File:Black-headed_Grosbeak._Male._Pheuticus_melanocephalus_-_Flickr_-_gailhampshire.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/black-headed-grosbeak-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Channel City Camera Club from Santa Barbara, US",
+    "source": "https://commons.wikimedia.org/wiki/File:Black-headed_Grosbeak_(female)_(49785956486).jpg",
+    "sex": "female"
    }
   ],
   "family": "Cardinals & allies",
@@ -4241,6 +4731,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Rhododendrites",
     "source": "https://commons.wikimedia.org/wiki/File:Indigo_bunting_(80226).jpg"
+   },
+   {
+    "file": "img/indigo-bunting-male.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Eric Burson",
+    "source": "https://commons.wikimedia.org/wiki/File:Indigo_Bunting_(male).JPG",
+    "sex": "male"
+   },
+   {
+    "file": "img/indigo-bunting-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Robert Taylor from Stirling, ON, Canada",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Indigo_Bunting_6473_(7290309348).jpg",
+    "sex": "female"
    }
   ],
   "family": "Cardinals & allies",
@@ -4290,6 +4794,20 @@
     "license": "CC0",
     "author": "kcthetc1",
     "source": "https://commons.wikimedia.org/wiki/File:Passerina_ciris_461735511.jpg"
+   },
+   {
+    "file": "img/painted-bunting-male.jpg",
+    "license": "CC BY 4.0",
+    "author": "Dakota L.",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Painted_Bunting_Singing.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/painted-bunting-female.jpg",
+    "license": "CC BY 4.0",
+    "author": "Shiva Shenoy",
+    "source": "https://commons.wikimedia.org/wiki/File:A_spot_of_green_-_Female_Painted_Bunting.jpg",
+    "sex": "female"
    }
   ],
   "family": "Cardinals & allies",
@@ -4346,6 +4864,20 @@
     "license": "CC BY 2.0",
     "author": "Lorie Shaull",
     "source": "https://commons.wikimedia.org/wiki/File:Evening_Grosbeak_Sax-Zim_Bog.jpg"
+   },
+   {
+    "file": "img/evening-grosbeak-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Wildreturn",
+    "source": "https://commons.wikimedia.org/wiki/File:Evening_Grosbeak_(male)_-_24879420887.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/evening-grosbeak-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Wildreturn",
+    "source": "https://commons.wikimedia.org/wiki/File:Evening_Grosbeak_(female).jpg",
+    "sex": "female"
    }
   ],
   "family": "Finches",
@@ -4434,6 +4966,20 @@
     "license": "Public domain",
     "author": "USFWS Midwest Region from Midwest Region, United States",
     "source": "https://commons.wikimedia.org/wiki/File:Red_crossbill_(53582346437).jpg"
+   },
+   {
+    "file": "img/red-crossbill-male.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Syrio",
+    "source": "https://commons.wikimedia.org/wiki/File:Loxia_curvirostra_06.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/red-crossbill-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Rhododendrites",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_red_crossbill_(40766).jpg",
+    "sex": "female"
    }
   ],
   "family": "Finches",
@@ -4488,6 +5034,20 @@
     "license": "CC BY-SA 2.0",
     "author": "Jyrki Salmi from Finland",
     "source": "https://commons.wikimedia.org/wiki/File:Pinicola_enucleator,_Kotka,_Finland_6.jpg"
+   },
+   {
+    "file": "img/pine-grosbeak-male.jpg",
+    "license": "Public domain",
+    "author": "USFWSAlaska",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_pine_grosbeak_(50825569361).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/pine-grosbeak-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Sharon Mollerus",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Pine_Grosbeak,_Cloud_Bay_(16666836215).jpg",
+    "sex": "female"
    }
   ],
   "family": "Finches",
@@ -4543,6 +5103,20 @@
     "license": "Public domain",
     "author": "Alaska Region U.S. Fish & Wildlife Service",
     "source": "https://commons.wikimedia.org/wiki/File:Snow_bunting_in_the_snow_-_52827880231.jpg"
+   },
+   {
+    "file": "img/snow-bunting-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Mike Pennington",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Snow_Bunting_(Plectrophenax_nivalis),_Funzie_Ness_-_geograph.org.uk_-_3477944.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/snow-bunting-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "James T M Towill",
+    "source": "https://commons.wikimedia.org/wiki/File:A_female_Snow_Bunting_(Plectrophenax_nivalis)_near_Beachcomber_House,_Goswick_-_geograph.org.uk_-_8285523.jpg",
+    "sex": "female"
    }
   ],
   "family": "Buntings & larks",
@@ -4647,6 +5221,20 @@
     "license": "CC BY-SA 4.0",
     "author": "JeffreyGammon",
     "source": "https://commons.wikimedia.org/wiki/File:BeltedKingfisherJG_Male.jpg"
+   },
+   {
+    "file": "img/belted-kingfisher-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "CheepShot",
+    "source": "https://commons.wikimedia.org/wiki/File:Belted_Kingfisher-Male_(8646092937).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/belted-kingfisher-female.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Alan D. Wilson",
+    "source": "https://commons.wikimedia.org/wiki/File:Belted_Kingfisher_(Female).jpg",
+    "sex": "female"
    }
   ],
   "family": "Kingfishers",
@@ -5151,6 +5739,13 @@
     "license": "CC BY-SA 3.0",
     "author": "User:Mwanner",
     "source": "https://commons.wikimedia.org/wiki/File:Roseate_Spoonbill_-_Myakka_River_State_Park.jpg"
+   },
+   {
+    "file": "img/roseate-spoonbill-male.jpg",
+    "license": "Public domain",
+    "author": "Audubon, John James, 1785-1851; Havell, Robert, 1793-1878",
+    "source": "https://commons.wikimedia.org/wiki/File:Roseate_spoonbill_Platalea_ajaja,_L._Male_adult_c.1_v.4_plate_321_-_DPLA_-_149b97a4f7c78f4058e94484fd83aca1_(page_1).jpg",
+    "sex": "male"
    }
   ],
   "family": "Ibises, storks & spoonbills",
@@ -5553,6 +6148,20 @@
     "license": "CC BY-SA 2.5",
     "author": "This picture was realized by Richard Bartz by using a Canon EF 70-300mm f/4-5.6 IS USM Lens",
     "source": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female.jpg"
+   },
+   {
+    "file": "img/mallard-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Anieteke from The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:(1-3)_What%5E%5E%5E%5E_-_Flickr_-_Anieteke.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/mallard-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Giles Laurent",
+    "source": "https://commons.wikimedia.org/wiki/File:026_Female_mallard_in_the_Camargue_Photo_by_Giles_Laurent.jpg",
+    "sex": "female"
    }
   ],
   "family": "Ducks, geese & swans",
@@ -5602,6 +6211,20 @@
     "license": "CC BY-SA 3.0",
     "author": "Francis C. Franklin",
     "source": "https://commons.wikimedia.org/wiki/File:Male_Aix_sponsa_portrait.jpg"
+   },
+   {
+    "file": "img/wood-duck-male.jpg",
+    "license": "CC0",
+    "author": "ALAN SCHMIERER",
+    "source": "https://commons.wikimedia.org/wiki/File:023_-_WOOD_DUCK_(12-18-13)_albuquerque,_nm_-03_(11694700236).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/wood-duck-female.jpg",
+    "license": "CC0",
+    "author": "ALAN SCHMIERER",
+    "source": "https://commons.wikimedia.org/wiki/File:023_-WOOD_DUCK_(10-7-09)_oceano_com_pond,_oceano,_slo_co,_ca_(2)_(8709417125).jpg",
+    "sex": "female"
    }
   ],
   "family": "Ducks, geese & swans",
@@ -5651,6 +6274,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Laitche",
     "source": "https://commons.wikimedia.org/wiki/File:Eurasian_wigeon_in_Sakai,_Osaka,_February_2016.jpg"
+   },
+   {
+    "file": "img/northern-pintail-male.jpg",
+    "license": "CC0",
+    "author": "ALAN SCHMIERER",
+    "source": "https://commons.wikimedia.org/wiki/File:036_-_NORTHERN_PINTAIL_(2-15-11)_Quidi_Vidi_Lake,_St_John%27s,_Newfoundland_(1)_(8713308655).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/northern-pintail-female.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Aomorikuma",
+    "source": "https://commons.wikimedia.org/wiki/File:Anas_A_acuta_Anas_acuta_L1758_Northern_Pintail_Female.jpg",
+    "sex": "female"
    }
   ],
   "family": "Ducks, geese & swans",
@@ -5707,6 +6344,20 @@
     "license": "CC BY-SA 2.5",
     "author": "Alan D. Wilson, www.naturespicsonline.com",
     "source": "https://commons.wikimedia.org/wiki/File:Blue-Winged_Teal.jpg"
+   },
+   {
+    "file": "img/blue-winged-teal-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Bernard DUPONT from FRANCE",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue-winged_Teal_(Spatula_discors)_male_..._(53559312121).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/blue-winged-teal-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "F\u00e9lix Uribe from Rionegro, Antioquia, Colombia",
+    "source": "https://commons.wikimedia.org/wiki/File:Anas_discors_Barraquete_aliazul_Blue-winged_Teal_(female)_(6212292733).jpg",
+    "sex": "female"
    }
   ],
   "family": "Ducks, geese & swans",
@@ -5756,6 +6407,20 @@
     "license": "CC0",
     "author": "auburn",
     "source": "https://commons.wikimedia.org/wiki/File:Bufflehead,_2023-04-24.jpg"
+   },
+   {
+    "file": "img/bufflehead-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Murray Foubister",
+    "source": "https://commons.wikimedia.org/wiki/File:At_Isobel_lake%E2%80%A6Male_Bufflehead_(8727142683).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/bufflehead-female.jpg",
+    "license": "Public domain",
+    "author": "Pacific Southwest Region USFWS from Sacramento, US",
+    "source": "https://commons.wikimedia.org/wiki/File:Bufflehead_(female)_(6881754886).jpg",
+    "sex": "female"
    }
   ],
   "family": "Ducks, geese & swans",
@@ -5805,6 +6470,20 @@
     "license": "CC BY-SA 3.0",
     "author": "Frank Schulenburg",
     "source": "https://commons.wikimedia.org/wiki/File:Female_Mergus_merganser_americanus_at_Las_Gallinas_Wildlife_Ponds.jpg"
+   },
+   {
+    "file": "img/common-merganser-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Mike Pennington",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Goosander_(Mergus_merganser)_on_the_Nith_at_Dumfries_-_geograph.org.uk_-_3928754.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/common-merganser-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Charles J. Sharp",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_merganser_(Mergus_merganser_americanus)_female_and_chick_Whistler.jpg",
+    "sex": "female"
    }
   ],
   "family": "Ducks, geese & swans",
@@ -5853,6 +6532,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20241202_hooded_merganser_hockanum_reservoir_PD205518.jpg"
+   },
+   {
+    "file": "img/hooded-merganser-male.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "PumpkinSky",
+    "source": "https://commons.wikimedia.org/wiki/File:Hooded_Merganser_-_male_1.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/hooded-merganser-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Amaury Laporte",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Hooded_Merganser_-_Looking_Smug.jpg",
+    "sex": "female"
    }
   ],
   "family": "Ducks, geese & swans",
@@ -5902,6 +6595,20 @@
     "license": "CC0",
     "author": "Donna Fernstrom",
     "source": "https://commons.wikimedia.org/wiki/File:Ring-Necked_Duck_at_Byrd_Park.jpg"
+   },
+   {
+    "file": "img/ring-necked-duck-male.jpg",
+    "license": "CC BY 4.0",
+    "author": "Marie-Lan Ta\u00ff Pamart",
+    "source": "https://commons.wikimedia.org/wiki/File:Aythya_collaris_male_Lac_des_Minimes_20190120_t142727.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/ring-necked-duck-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "F\u00e9lix Uribe from Rionegro, Antioquia, Colombia",
+    "source": "https://commons.wikimedia.org/wiki/File:Aythya_collaris_Pato_collarejo_Ring-necked_Duck_(_female)_(6894086245).jpg",
+    "sex": "female"
    }
   ],
   "family": "Ducks, geese & swans",
@@ -5950,6 +6657,20 @@
     "license": "CC BY-SA 3.0",
     "author": "Dick Daniels (https://carolinabirds.org/)",
     "source": "https://commons.wikimedia.org/wiki/File:Canvasaback_(Aythya_valisineria)_RWD3.jpg"
+   },
+   {
+    "file": "img/canvasback-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Don Faulkner",
+    "source": "https://commons.wikimedia.org/wiki/File:Canvasback_(male)_(16185925960).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/canvasback-female.jpg",
+    "license": "Public domain",
+    "author": "Pacific Southwest Region USFWS from Sacramento, US",
+    "source": "https://commons.wikimedia.org/wiki/File:Canvasback_(female)_(7027856145).jpg",
+    "sex": "female"
    }
   ],
   "family": "Ducks, geese & swans",
@@ -6965,6 +7686,13 @@
     "license": "CC BY-SA 3.0",
     "author": "Martin Falbisoner",
     "source": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_Head_sq.jpg"
+   },
+   {
+    "file": "img/bald-eagle-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Murray Foubister",
+    "source": "https://commons.wikimedia.org/wiki/File:Evening_at_Six_Mile_Lake,.back_at_the_Bald_Eagle_(Haliaeetus_leucocephalus)_nest.small_interloper,_female_Bullocks_Oriole_((Icterus_bullockii)_pokes_around_near_sleeping_eaglet._(17721169493).jpg",
+    "sex": "female"
    }
   ],
   "family": "Eagles, hawks & ospreys",
@@ -7258,6 +7986,13 @@
     "license": "Public domain",
     "author": "USFWS Mountain-Prairie",
     "source": "https://commons.wikimedia.org/wiki/File:Juvenile_Sharp_shinned_hawk_Huron_Wetland_Management_District.jpg"
+   },
+   {
+    "file": "img/sharp-shinned-hawk-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Kozarluha",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Sharp-shinned_Hawk_with_prey_(Starling).jpg",
+    "sex": "female"
    }
   ],
   "family": "Eagles, hawks & ospreys",
@@ -7314,6 +8049,20 @@
     "license": "CC BY 2.0",
     "author": "lwolfartist",
     "source": "https://commons.wikimedia.org/wiki/File:Northern_harrier_cape_may_10.23_DSC_7919-topaz-sharpen.jpg"
+   },
+   {
+    "file": "img/northern-harrier-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Becky Matsubara from El Sobrante, California",
+    "source": "https://commons.wikimedia.org/wiki/File:Circus_hudsonius,_male_perched,_Berkeley,_California.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/northern-harrier-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Frank Schulenburg",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_northern_harrier_in_flight-1142.jpg",
+    "sex": "female"
    }
   ],
   "family": "Eagles, hawks & ospreys",
@@ -7361,6 +8110,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Andrew Dimler",
     "source": "https://commons.wikimedia.org/wiki/File:American_Kestrel,_Colorado.jpg"
+   },
+   {
+    "file": "img/american-kestrel-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Andrew Weitzel from Lancaster, PA, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:%27Murrican_kestrel_(9078814041).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/american-kestrel-female.jpg",
+    "license": "Public domain",
+    "author": "NPS",
+    "source": "https://commons.wikimedia.org/wiki/File:%27Raptors-_Birds_of_Prey%27-_National_Park_Week_Program,_4262013_(fcaf3b72-155d-451f-67d1-fa91368ba035).JPG",
+    "sex": "female"
    }
   ],
   "family": "Falcons",
@@ -7795,6 +8558,20 @@
     "license": "CC BY 2.0",
     "author": "Frank Vassen",
     "source": "https://commons.wikimedia.org/wiki/File:Snowy_owl_(Bubo_scandiacus),_Vlieland,_Netherlands.jpg"
+   },
+   {
+    "file": "img/snowy-owl-male.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Michael G\u00e4bler",
+    "source": "https://commons.wikimedia.org/wiki/File:Bubo_scandiacus_(Linnaeus,_1758)_Male.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/snowy-owl-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Tony Hisgett from Birmingham, UK",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Snowy_Owl_(5696437457).jpg",
+    "sex": "female"
    }
   ],
   "family": "Owls",
@@ -7894,6 +8671,20 @@
     "license": "CC BY-SA 2.0",
     "author": "Caleb Putnam",
     "source": "https://commons.wikimedia.org/wiki/File:Wild_Turkey,_Creekside_Park,_8_May_2014_(14145843695).jpg"
+   },
+   {
+    "file": "img/wild-turkey-male.jpg",
+    "license": "CC BY 2.0",
+    "author": "Guilhem Vellut from Annecy, France",
+    "source": "https://commons.wikimedia.org/wiki/File:Lahore_Zoo_(15074348143).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/wild-turkey-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "CheepShot",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Wild_Turkey_(7780117060).jpg",
+    "sex": "female"
    }
   ],
   "family": "Game birds",
@@ -7983,6 +8774,13 @@
     "license": "CC BY 4.0",
     "author": "James M. Maley",
     "source": "https://commons.wikimedia.org/wiki/File:Geococcyx_californianus_189954458.jpg"
+   },
+   {
+    "file": "img/greater-roadrunner-female.jpg",
+    "license": "CC BY 2.0",
+    "author": "Kaaren Perry",
+    "source": "https://commons.wikimedia.org/wiki/File:Greater_Roadrunner_-_female_-_Flickr_-_Kaaren_Perry.jpg",
+    "sex": "female"
    }
   ],
   "family": "Cuckoos & nightjars",
@@ -8039,6 +8837,20 @@
     "license": "CC BY 2.0",
     "author": "Henry from Arizona, United States",
     "source": "https://commons.wikimedia.org/wiki/File:Lakeworth_-_Jan_23_-_58_of_112_(49430637456).jpg"
+   },
+   {
+    "file": "img/gambel-s-quail-male.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Don Faulkner",
+    "source": "https://commons.wikimedia.org/wiki/File:Gambel%27s_Quail_(male)_(18276711429).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/gambel-s-quail-female.jpg",
+    "license": "Public domain",
+    "author": "Joshua Tree National Park",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Gambel%27s_Quail_(51910677860).jpg",
+    "sex": "female"
    }
   ],
   "family": "Game birds",
@@ -8093,6 +8905,20 @@
     "license": "CC0",
     "author": "Estormiz",
     "source": "https://commons.wikimedia.org/wiki/File:Phasianus_colchicus_Oulu_20200524_02.jpg"
+   },
+   {
+    "file": "img/ring-necked-pheasant-male.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Charles J. Sharp",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_pheasant_(Phasianus_colchicus)_male_Heligan.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/ring-necked-pheasant-female.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Shahzaib Damn Cruze",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Pheasant_(%22Phasianus_colchicus%22)_(female)_at_Lahore_Zoo_by_Damn_Cruze_2.jpg",
+    "sex": "female"
    }
   ],
   "family": "Game birds",
@@ -8303,6 +9129,20 @@
     "license": "CC BY 2.0",
     "author": "Andy Morffew from Itchen Abbas, Hampshire, UK",
     "source": "https://commons.wikimedia.org/wiki/File:Pyrrhuloxia_(34152495333)_(cropped).jpg"
+   },
+   {
+    "file": "img/pyrrhuloxia-male.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "panza-rayada",
+    "source": "https://commons.wikimedia.org/wiki/File:Cardenal_Pardo_-_panoramio.jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/pyrrhuloxia-female.jpg",
+    "license": "CC BY 4.0",
+    "author": "Madeleine Claire",
+    "source": "https://commons.wikimedia.org/wiki/File:Cardinalis_sinuatus_389289645.jpg",
+    "sex": "female"
    }
   ],
   "family": "Cardinals & allies",
@@ -8352,6 +9192,20 @@
     "license": "CC BY-SA 4.0",
     "author": "Rhododendrites",
     "source": "https://commons.wikimedia.org/wiki/File:Varied_thrush_(73976).jpg"
+   },
+   {
+    "file": "img/varied-thrush-male.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Alan D. Wilson",
+    "source": "https://commons.wikimedia.org/wiki/File:Varied_Thrush_(Male).jpg",
+    "sex": "male"
+   },
+   {
+    "file": "img/varied-thrush-female.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Minette Layne from Seattle, Washington",
+    "source": "https://commons.wikimedia.org/wiki/File:Ixoreus_naevius_-Washington,_USA_-female-8.jpg",
+    "sex": "female"
    }
   ],
   "family": "Thrushes",

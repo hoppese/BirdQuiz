@@ -1,23 +1,24 @@
-// Bird Quiz — photo ID. Question generators live in QUIZ_TYPES so a "song"
-// type can be added later without touching the rest of the flow.
+// Bird Quiz — multi-topic quiz engine. Each topic (birds, countries, states, ...) is registered in
+// topics.js and supplies: items, modes (what a question looks like), an info card and credits.
+// This file owns everything shared: home/topic screens, rounds, review, flags, bug reports, sheets.
 const ROUND_LENGTH = 10, CHOICES = 4;
-const LEVELS = {
-  easy:   { label: "Easy",   blurb: "Familiar birds, very different choices" },
-  medium: { label: "Medium", blurb: "All species, random choices" },
-  hard:   { label: "Hard",   blurb: "Look-alike choices from the same family" },
-};
+const LEVELS = ["easy", "medium", "hard"];
+const LEVEL_LABEL = { easy: "Easy", medium: "Medium", hard: "Hard" };
 const app = document.getElementById("app");
-let birds = [], state = null, level = "medium", mode = "photo", view = "home";
+const TOPICS = {};                      // id -> topic definition (see topics.js)
+let topic = null, mode = null, level = "medium", state = null, view = "home";
 
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) {
   const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const pick = a => a[Math.random() * a.length | 0];
-const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const link = (href, text) => `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(text)}</a>`;
+function registerTopic(t) { TOPICS[t.id] = t; }
 
-// ---- flagged photos (stored on this device; hidden from future rounds) ----
+// ---- flagged photos (stored on this device; hidden from future rounds; reported to the repo) ----
 const FLAG_KEY = "birdquiz-flags";
-function getFlags() { try { return JSON.parse(localStorage.getItem(FLAG_KEY)) || {}; } catch { return {}; } }
 const REPORT_URL = "https://birds-api.sethhopper.com/report";
+function getFlags() { try { return JSON.parse(localStorage.getItem(FLAG_KEY)) || {}; } catch { return {}; } }
 function saveFlags(f) { try { localStorage.setItem(FLAG_KEY, JSON.stringify(f)); } catch {} }
 function sendFlag(file) {            // best-effort; unsent flags are retried on next launch
   const f = getFlags(), e = f[file]; if (!e || e.sent) return;
@@ -31,69 +32,87 @@ function setFlag(file, reason) {
   saveFlags(f); sendFlag(file);
 }
 const retryFlags = () => Object.keys(getFlags()).forEach(sendFlag);
-const goodPhotos = b => { const f = getFlags(); return b.photos.filter(p => !f[p.file]); };
+const goodPhotos = b => { const f = getFlags(); return (b.photos || []).filter(p => !f[p.file]); };
+
+// ---- data loading ----
+const loaded = {};
+async function loadTopic(t) {
+  if (loaded[t.id]) return t;
+  const r = await fetch(t.dataUrl); if (!r.ok) throw new Error(t.dataUrl);
+  t.items = await r.json();
+  if (t.setup) await t.setup(t.items);
+  loaded[t.id] = true; return t;
+}
 
 // ---- question generation ----
-function distractors(answer, pool) {
-  const others = shuffle(pool.filter(b => b !== answer));
-  const sameFam = others.filter(b => b.family === answer.family);
-  const diffFam = others.filter(b => b.family !== answer.family);
-  const order = level === "hard" ? [...sameFam, ...shuffle(diffFam)] : [...diffFam, ...sameFam];
-  let picked = order.slice(0, CHOICES - 1);
-  if (picked.length < CHOICES - 1)   // small pool: top up from everything
-    picked = picked.concat(shuffle(birds.filter(b => b !== answer && !picked.includes(b))))
-                   .slice(0, CHOICES - 1);
-  return picked;
+const optText = (m, it) => (m.optionText ? m.optionText(it) : it.name);
+const nearScore = (t, a, o) => t.near ? t.near(a, o) : (a.group && a.group === o.group ? 1 : 0);
+function distractors(t, m, answer, pool) {
+  const want = optText(m, answer), seen = new Set([want]);
+  let others = shuffle(pool.filter(o => o !== answer && m.usable(o)));
+  const score = new Map(others.map(o => [o, nearScore(t, answer, o)]));
+  if (level === "hard") others.sort((a, b) => score.get(b) - score.get(a));          // look-alikes first
+  else if (level === "easy") others.sort((a, b) => score.get(a) - score.get(b));     // very different first
+  const out = [];
+  for (const o of others) { const x = optText(m, o); if (!seen.has(x)) { seen.add(x); out.push(o); if (out.length === CHOICES - 1) break; } }
+  return out;
 }
-const QUIZ_TYPES = {
-  photo(answer, pool) {
-    const photo = pick(goodPhotos(answer));
-    return { type: "photo", answer, photo, options: shuffle([answer, ...distractors(answer, pool)]) };
-  },
-  song(answer, pool) {
-    const sound = pick(answer.sounds);
-    const photo = pick(goodPhotos(answer));
-    return { type: "song", answer, sound, photo, options: shuffle([answer, ...distractors(answer, pool)]) };
-  },
-};
-
 function newRound() {
-  let pool = level === "easy" ? birds.filter(b => b.easy) : birds;
-  const ok = b => goodPhotos(b).length && (mode === "photo" || (b.sounds || []).length);
-  if (mode === "song") pool = pool.filter(b => (b.sounds || []).length);
-  const playable = shuffle(pool.filter(ok));
+  const t = topic, m = t.modes.find(x => x.id === mode);
+  let pool = t.items.filter(m.usable);
+  if (level === "easy") { const easy = pool.filter(x => x.easy); if (easy.length >= CHOICES * 3) pool = easy; }
+  const picked = shuffle(pool).slice(0, ROUND_LENGTH);
   state = { i: 0, score: 0, answered: 0, missed: [],
-            questions: playable.slice(0, ROUND_LENGTH).map(b => QUIZ_TYPES[mode](b, pool)) };
+            questions: picked.map(it => ({ ...m.make(it), answer: it, mode: m,
+              options: shuffle([it, ...distractors(t, m, it, pool)]) })) };
   renderQuestion();
 }
 
 // ---- views ----
-const hasSounds = () => birds.filter(b => (b.sounds || []).length).length >= 20;
 function renderHome() {
-  view = "home";
+  view = "home"; topic = null; stopClips();
   app.innerHTML = `<div class="center"><div class="hero">🐦</div><h1>Bird Quiz</h1>
-    <p>Name the bird from its ${mode === "photo" ? "photo" : "song"}.</p>
-    <div class="seg"><button data-mode="photo" class="${mode === "photo" ? "on" : ""}">📷 Photos</button>${
-      hasSounds() ? `<button data-mode="song" class="${mode === "song" ? "on" : ""}">🔊 Sounds</button>` : ""}</div>
-    <p class="sci">${birds.length} North American species</p>
-    ${Object.entries(LEVELS).map(([k, v]) => `<button class="btn level" data-level="${k}">
-      ${v.label}<small>${v.blurb}</small></button>`).join("")}</div>`;
-  app.querySelectorAll(".seg button").forEach(b => b.onclick = () => { mode = b.dataset.mode; renderHome(); });
+    <p>Pick a quiz.</p>
+    <div class="topicgrid">${Object.values(TOPICS).map(t => `<button class="topiccard" data-t="${t.id}">
+      <span class="emo">${t.emoji}</span><b>${esc(t.title)}</b><small>${esc(t.blurb)}</small></button>`).join("")}</div></div>`;
+  app.querySelectorAll(".topiccard").forEach(b => b.onclick = () => openTopic(TOPICS[b.dataset.t]));
+}
+
+async function openTopic(t) {
+  app.innerHTML = `<div class="center"><p class="sci">Loading…</p></div>`;
+  try { await loadTopic(t); } catch { app.innerHTML = `<div class="center"><p>Couldn't load ${esc(t.title)}. Are you online?</p>
+    <button class="btn ghost" id="home">Home</button></div>`; document.getElementById("home").onclick = renderHome; return; }
+  topic = t;
+  if (!t.modes.some(m => m.id === mode && m.usableCount(t.items))) mode = t.modes.find(m => m.usableCount(t.items)).id;
+  renderTopic();
+}
+
+function renderTopic() {
+  view = "topic"; const t = topic, avail = t.modes.filter(m => m.usableCount(t.items));
+  const m = t.modes.find(x => x.id === mode);
+  app.innerHTML = `<button class="btn ghost back" id="back">‹ All quizzes</button>
+    <div class="center"><div class="hero">${t.emoji}</div><h1>${esc(t.title)}</h1>
+    <p>${esc(m.intro)}</p>
+    ${avail.length > 1 ? `<div class="seg">${avail.map(x => `<button data-mode="${x.id}" class="${x.id === mode ? "on" : ""}">${x.label}</button>`).join("")}</div>` : ""}
+    <p class="sci">${esc(t.countLabel ? t.countLabel(t.items) : t.items.length + " items")}</p>
+    ${LEVELS.map(k => `<button class="btn level" data-level="${k}">${LEVEL_LABEL[k]}<small>${esc(t.levels[k])}</small></button>`).join("")}</div>`;
+  document.getElementById("back").onclick = renderHome;
+  app.querySelectorAll(".seg button").forEach(b => b.onclick = () => { mode = b.dataset.mode; renderTopic(); });
   app.querySelectorAll(".level").forEach(b => b.onclick = () => { level = b.dataset.level; newRound(); });
 }
 
-const photoHTML = (p, extra = "") => `<div class="photowrap">
-  <img class="backdrop" alt="" src="${esc(p.file)}"><img class="photo" alt="Bird" src="${esc(p.file)}">${extra}</div>`;
+const photoHTML = (p, alt = "Photo") => `<div class="photowrap">
+  <img class="backdrop" alt="" src="${esc(p.file)}"><img class="photo" alt="${esc(alt)}" src="${esc(p.file)}"></div>`;
 
 function renderQuestion() {
   view = "question";
   const q = state.questions[state.i];
   app.innerHTML = `
-    <div class="top"><button class="quit" id="quit">✕ End quiz</button><span>${LEVELS[level].label} · ${state.i + 1} of ${ROUND_LENGTH}</span><span>Score ${state.score}</span></div>
-    <div class="bar"><i style="width:${state.i / ROUND_LENGTH * 100}%"></i></div>
-    <div id="pic">${q.type === "song" ? playerHTML(q.sound) : photoHTML(q.photo)}</div>
+    <div class="top"><button class="quit" id="quit">✕ End quiz</button><span>${LEVEL_LABEL[level]} · ${state.i + 1} of ${state.questions.length}</span><span>Score ${state.score}</span></div>
+    <div class="bar"><i style="width:${state.i / state.questions.length * 100}%"></i></div>
+    <div id="pic">${q.promptHTML}</div>
     <div class="choices">${q.options.map((o, k) =>
-      `<button class="choice" data-k="${k}">${esc(o.name)}</button>`).join("")}</div>
+      `<button class="choice" data-k="${k}">${esc(optText(q.mode, o))}</button>`).join("")}</div>
     <div id="after"></div>`;
   app.querySelectorAll(".choice").forEach(b => b.onclick = () => answer(q, +b.dataset.k));
   document.getElementById("quit").onclick = () => {
@@ -103,9 +122,9 @@ function renderQuestion() {
   wirePlayer();
 }
 
-// ---- sound player ----
-const playerHTML = s => `<div class="player"><audio id="clip" src="${esc(s.file)}" preload="auto"></audio>
-  <button id="play" aria-label="Play">▶</button><p>Listen, then pick the bird</p></div>`;
+// ---- sound player (used by sound questions) ----
+const playerHTML = (file, hint) => `<div class="player"><audio id="clip" src="${esc(file)}" preload="auto"></audio>
+  <button id="play" aria-label="Play">▶</button><p>${esc(hint)}</p></div>`;
 function wirePlayer() {
   const clip = document.getElementById("clip"), btn = document.getElementById("play");
   if (!clip) return;
@@ -114,21 +133,19 @@ function wirePlayer() {
 }
 const stopClips = () => document.querySelectorAll("audio").forEach(a => a.pause());
 
-function flagButton(q) {
-  return `<button class="flagbtn" id="flag" title="Flag this photo">🚩 Flag photo</button>`;
-}
+const flagButton = q => q.flagFile ? `<button class="flagbtn" id="flag" title="Flag this photo">🚩 Flag photo</button>` : "";
 function wireFlag(q) {
-  const btn = document.getElementById("flag"); if (!btn) return;
+  const btn = document.getElementById("flag"); if (!btn || !q.flagFile) return;
   btn.onclick = () => {
-    const reason = prompt("What's wrong with this photo? (bad crop, wrong bird, blurry, …)", "");
+    const reason = prompt("What's wrong with this photo? (bad crop, wrong subject, blurry, …)", "");
     if (reason === null) return;
-    setFlag(q.photo.file, reason.trim());
+    setFlag(q.flagFile, reason.trim());
     btn.textContent = "🚩 Flagged — won't show again"; btn.disabled = true;
   };
 }
 
 function answer(q, k) {
-  const right = q.options[k] === q.answer;
+  const right = q.options[k] === q.answer, m = q.mode, t = topic;
   state.answered++;
   if (right) state.score++; else state.missed.push({ q, chosen: q.options[k] });
   app.querySelectorAll(".choice").forEach((b, j) => {
@@ -136,57 +153,31 @@ function answer(q, k) {
     if (q.options[j] === q.answer) b.classList.add("good");
     else if (j === k) b.classList.add("bad");
   });
-  if (q.type === "song") {          // reveal the bird; keep the player for replays
-    document.querySelector(".player").classList.add("mini");
-    document.getElementById("pic").insertAdjacentHTML("beforeend", photoHTML(q.photo));
-  }
-  document.querySelector("#pic .photowrap").insertAdjacentHTML("beforeend",
-    `<button class="infobtn" id="info" aria-label="About this bird">i</button>`);
-  document.getElementById("info").onclick = () => openInfo(q.answer);
-  const last = state.i === ROUND_LENGTH - 1;
+  const pic = document.getElementById("pic");
+  if (q.revealHTML) { pic.querySelector(".player")?.classList.add("mini"); pic.insertAdjacentHTML("beforeend", q.revealHTML); }
+  const host = pic.querySelector(".photowrap") || pic;
+  host.insertAdjacentHTML("beforeend", `<button class="infobtn" id="info" aria-label="More info">i</button>`);
+  document.getElementById("info").onclick = () => openInfo(t, q.answer);
+  const last = state.i === state.questions.length - 1;
   document.getElementById("after").innerHTML = `
-    <p class="credit">${right ? "✅ Correct!" : "❌ It was the"} <b>${esc(q.answer.name)}</b>
-      <span class="sci">(${esc(q.answer.scientific)})</span><br>
-      ${q.type === "song" ? `Sound: ${esc(q.sound.author)}, ${esc(q.sound.license)} —
-      <a href="${esc(q.sound.source)}" target="_blank" rel="noopener">source</a><br>` : ""}
-      Photo: ${esc(q.photo.author)}, ${esc(q.photo.license)} —
-      <a href="${esc(q.photo.source)}" target="_blank" rel="noopener">source</a>
-      · ${flagButton(q)}</p>
+    <p class="credit">${right ? "✅ Correct!" : "❌ It was"} <b>${esc(optText(m, q.answer))}</b>
+      ${m.note ? m.note(q.answer) : ""}<br>${q.creditHTML || ""}${flagButton(q) ? " · " + flagButton(q) : ""}</p>
     <button class="btn" id="next">${last ? "See results" : "Next"}</button>`;
   wireFlag(q);
   document.getElementById("next").onclick = () => { stopClips(); state.i++; last ? renderResults() : renderQuestion(); };
 }
 
 // ---- info sheet ----
-function infoHTML(b) {
-  const i = b.info || {}, m = i.map;
-  const sec = (t, x) => x ? `<h3>${t}</h3><p>${esc(x)}</p>` : "";
-  return `<h2>${esc(b.name)}</h2><p class="sci">${esc(b.scientific)} · ${esc(b.family)}
-      ${i.status ? `<span class="chip">${esc(i.status)}</span>` : ""}</p>
-    ${sec("About", i.about)}${sec("Diet", i.diet)}${sec("Habitat & range", i.habitat)}
-    ${goodPhotos(b).length ? `<h3>Photos</h3><div class="gallery">${goodPhotos(b).map(p => `<figure><img loading="lazy" alt="${esc(b.name)}" src="${esc(p.file)}">
-      <figcaption>${esc(p.author)}, ${esc(p.license)} — <a href="${esc(p.source)}" target="_blank" rel="noopener">source</a></figcaption></figure>`).join("")}</div>` : ""}
-    ${m ? `<h3>Range map</h3><img class="map" alt="Range map of ${esc(b.name)}" src="${esc(m.file)}">
-      <p class="credit">Map: ${esc(m.author)}, ${esc(m.license)} — <a href="${esc(m.source)}" target="_blank" rel="noopener">source</a></p>
-      <p class="credit mapkey">${/cephas|jebbles/i.test(m.author)
-        ? `Key: <i style="background:#ff7f2a"></i>breeding <i style="background:#ffdd55"></i>migration <i style="background:#7137c8"></i>year-round <i style="background:#5f8dd3"></i>winter (non-breeding)`
-        : "This map uses its own colors — see the source link for its legend."}</p>` : ""}
-    ${(b.sounds || []).length ? `<h3>Sounds</h3>${b.sounds.map(x => `<div class="snd"><b>${x.kind === "song" ? "Song" : "Call"}</b>
-      <audio controls preload="none" src="${esc(x.file)}"></audio>
-      <p class="credit">${esc(x.author)}, ${esc(x.license)} — <a href="${esc(x.source)}" target="_blank" rel="noopener">xeno-canto</a></p></div>`).join("")}` : ""}
-    ${i.wiki ? `<p class="credit">Text from <a href="${esc(i.wiki)}" target="_blank" rel="noopener">Wikipedia</a>
-      (CC BY-SA 4.0).</p>` : ""}`;
-}
-function openInfo(b) {
+function openInfo(t, item) {
   const sheet = document.createElement("div");
   sheet.className = "sheet";
-  sheet.innerHTML = `<div class="sheetbody"><div class="grab"></div><button class="close" aria-label="Close">✕</button>${infoHTML(b)}</div>`;
-  sheet.onclick = e => { if (e.target === sheet || e.target.closest(".close")) sheet.remove(); };
+  sheet.innerHTML = `<div class="sheetbody"><div class="grab"></div><button class="close" aria-label="Close">✕</button>${t.infoHTML(item)}</div>`;
+  sheet.onclick = e => { if (e.target === sheet || e.target.closest(".close")) { stopClips(); sheet.remove(); } };
   document.body.appendChild(sheet);
   swipeToClose(sheet);
 }
 
-// Drag the sheet down to dismiss it (only when it's scrolled to the top).
+// Drag a sheet down to dismiss it (only when it's scrolled to the top).
 function swipeToClose(sheet) {
   const body = sheet.querySelector(".sheetbody"); let y0 = null, dy = 0;
   body.addEventListener("touchstart", e => { y0 = body.scrollTop <= 0 ? e.touches[0].clientY : null; dy = 0; body.style.transition = "none"; }, { passive: true });
@@ -205,38 +196,39 @@ function swipeToClose(sheet) {
 // ---- results & review ----
 function renderResults() {
   view = "results";
-  const miss = state.missed.length ? `<div class="miss"><b>Review — tap a bird:</b>${
-    state.missed.map((m, k) => `<button class="missrow" data-k="${k}">${esc(m.q.answer.name)} <span>›</span></button>`).join("")}</div>` : "";
+  const miss = state.missed.length ? `<div class="miss"><b>Review — tap one:</b>${
+    state.missed.map((x, k) => `<button class="missrow" data-k="${k}">${esc(x.q.mode.missLabel ? x.q.mode.missLabel(x.q.answer) : optText(x.q.mode, x.q.answer))} <span>›</span></button>`).join("")}</div>` : "";
+  const ratio = state.answered ? state.score / state.answered : 0;
   app.innerHTML = `<div class="center"><div class="score">${state.score}/${state.answered}</div>
-    <p>${state.score / state.answered >= .9 ? "Expert birder! 🦅" : state.score / state.answered >= .6 ? "Nice eye!" : "Keep practicing 🌱"}</p>
+    <p>${ratio >= .9 ? topic.praise[0] : ratio >= .6 ? topic.praise[1] : topic.praise[2]}</p>
     ${miss}<button class="btn" id="again">Play again</button>
-    <button class="btn ghost" id="home">Home</button></div>`;
+    <button class="btn ghost" id="settings">Change difficulty</button>
+    <button class="btn ghost" id="home">All quizzes</button></div>`;
   app.querySelectorAll(".missrow").forEach(b => b.onclick = () => renderReview(+b.dataset.k));
   document.getElementById("again").onclick = newRound;
+  document.getElementById("settings").onclick = renderTopic;
   document.getElementById("home").onclick = renderHome;
 }
 
 function renderReview(k) {
   view = "review";
-  const { q, chosen } = state.missed[k];
+  const { q, chosen } = state.missed[k], m = q.mode;
   app.innerHTML = `<button class="btn ghost back" id="back">‹ Back to results</button>
-    ${photoHTML(q.photo)}
-    <p class="credit">You picked <b>${esc(chosen.name)}</b> · it was the <b>${esc(q.answer.name)}</b><br>
-      Photo: ${esc(q.photo.author)}, ${esc(q.photo.license)} —
-      <a href="${esc(q.photo.source)}" target="_blank" rel="noopener">source</a> · ${flagButton(q)}</p>
-    <div class="review">${infoHTML(q.answer)}</div>`;
-  wireFlag(q);
-  document.getElementById("back").onclick = () => { renderResults(); window.scrollTo(0, 0); };
+    <div id="pic">${q.promptHTML}${q.revealHTML || ""}</div>
+    <p class="credit">You picked <b>${esc(optText(m, chosen))}</b> · answer: <b>${esc(optText(m, q.answer))}</b><br>
+      ${q.creditHTML || ""}${flagButton(q) ? " · " + flagButton(q) : ""}</p>
+    <div class="review">${topic.infoHTML(q.answer)}</div>`;
+  wireFlag(q); wirePlayer();
+  document.getElementById("back").onclick = () => { stopClips(); renderResults(); window.scrollTo(0, 0); };
   window.scrollTo(0, 0);
 }
 
 // ---- general bug report (button at the bottom of every screen) ----
 function bugContext() {
-  const q = state && state.questions && state.questions[state.i];
-  return [`screen=${view}`, `mode=${mode}`, `level=${level}`,
-          view === "question" ? `question=${state.i + 1}/${ROUND_LENGTH}` : "",
-          q && view === "question" ? `bird=${q.answer.id}` : "", q && view === "question" ? `photo=${q.photo.file}` : "", q && view === "question" && q.sound ? `sound=${q.sound.file}` : "",
-          `size=${innerWidth}x${innerHeight}`].filter(Boolean).join(" ");
+  const q = state && state.questions && state.questions[state.i], inQ = q && view === "question";
+  return [`screen=${view}`, topic ? `topic=${topic.id}` : "", mode ? `mode=${mode}` : "", `level=${level}`,
+          inQ ? `question=${state.i + 1}/${state.questions.length}` : "", inQ && q.answer ? `item=${q.answer.id}` : "",
+          inQ && q.flagFile ? `photo=${q.flagFile}` : "", `size=${innerWidth}x${innerHeight}`].filter(Boolean).join(" ");
 }
 function openBugReport() {
   const sheet = document.createElement("div");
@@ -269,7 +261,5 @@ new MutationObserver(() => {
   f.innerHTML = `<button>🐞 Report a bug</button>`; f.firstChild.onclick = openBugReport; app.appendChild(f);
 }).observe(app, { childList: true });
 
-fetch("birds.json").then(r => r.json()).then(d => { birds = d; renderHome(); retryFlags(); })
-  .catch(() => app.innerHTML = "<p>Couldn't load bird data.</p>");
-
+window.addEventListener("load", () => { renderHome(); retryFlags(); });   // topics.js has registered by now
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");

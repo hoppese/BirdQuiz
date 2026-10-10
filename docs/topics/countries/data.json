@@ -1,0 +1,4290 @@
+[
+{
+"id": "af",
+"cca3": "AFG",
+"name": "Afghanistan",
+"official": "Islamic State of Afghanistan",
+"capital": "Kabul",
+"capitals": [
+"Kabul"
+],
+"region": "Asia",
+"subregion": "Southern Asia",
+"group": "Southern Asia",
+"easy": true,
+"look": null,
+"pop": 38041754,
+"area": null,
+"flag": "topics/countries/flags/af.svg",
+"c": [
+188.0,
+-98.2
+]
+},
+{
+"id": "al",
+"cca3": "ALB",
+"name": "Albania",
+"official": "Republic of Albania",
+"capital": "Tirana",
+"capitals": [
+"Tirana"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": null,
+"pop": 2854191,
+"area": null,
+"flag": "topics/countries/flags/al.svg",
+"c": [
+56.0,
+-121.2
+]
+},
+{
+"id": "dz",
+"cca3": "DZA",
+"name": "Algeria",
+"official": "People's Democratic Republic of Algeria",
+"capital": "Algiers",
+"capitals": [
+"Algiers"
+],
+"region": "Africa",
+"subregion": "Northern Africa",
+"group": "Northern Africa",
+"easy": true,
+"look": 23,
+"pop": 43053054,
+"area": null,
+"flag": "topics/countries/flags/dz.svg",
+"c": [
+4.6,
+-80.7
+]
+},
+{
+"id": "ad",
+"cca3": "AND",
+"name": "Andorra",
+"official": "Principality of Andorra",
+"capital": "Andorra",
+"capitals": [
+"Andorra"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": 0,
+"pop": 77142,
+"area": null,
+"flag": "topics/countries/flags/ad.svg",
+"c": [
+4.4,
+-125.7
+]
+},
+{
+"id": "ao",
+"cca3": "AGO",
+"name": "Angola",
+"official": "People's Republic of Angola",
+"capital": "Luanda",
+"capitals": [
+"Luanda"
+],
+"region": "Africa",
+"subregion": "Middle Africa",
+"group": "Middle Africa",
+"easy": true,
+"look": null,
+"pop": 31825295,
+"area": null,
+"flag": "topics/countries/flags/ao.svg",
+"c": [
+49.6,
+31.5
+]
+},
+{
+"id": "ag",
+"cca3": "ATG",
+"name": "Antigua and Barbuda",
+"official": "Antigua and Barbuda",
+"capital": "Saint John's",
+"capitals": [
+"Saint John's"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": 22,
+"pop": 97118,
+"area": null,
+"flag": "topics/countries/flags/ag.svg",
+"c": [
+-171.6,
+-47.9
+]
+},
+{
+"id": "ar",
+"cca3": "ARG",
+"name": "Argentina",
+"official": "Argentine Republic",
+"capital": "Buenos Aires",
+"capitals": [
+"Buenos Aires"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": true,
+"look": 14,
+"pop": 44938712,
+"area": null,
+"flag": "topics/countries/flags/ar.svg",
+"c": [
+-176.7,
+116.1
+]
+},
+{
+"id": "am",
+"cca3": "ARM",
+"name": "Armenia",
+"official": "Republic of Armenia",
+"capital": "Yerevan",
+"capitals": [
+"Yerevan"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": null,
+"pop": 2957731,
+"area": null,
+"flag": "topics/countries/flags/am.svg",
+"c": [
+125.0,
+-117.7
+]
+},
+{
+"id": "au",
+"cca3": "AUS",
+"name": "Australia",
+"official": "Commonwealth of Australia",
+"capital": "Canberra",
+"capitals": [
+"Canberra"
+],
+"region": "Oceania",
+"subregion": "Australia and New Zealand",
+"group": "Australia and New Zealand",
+"easy": true,
+"look": 4,
+"pop": 25364307,
+"area": null,
+"flag": "topics/countries/flags/au.svg",
+"c": [
+370.2,
+79.6
+]
+},
+{
+"id": "at",
+"cca3": "AUT",
+"name": "Austria",
+"official": "Republic of Austria",
+"capital": "Vienna",
+"capitals": [
+"Vienna"
+],
+"region": "Europe",
+"subregion": "Western Europe",
+"group": "Western Europe",
+"easy": true,
+"look": 11,
+"pop": 8877067,
+"area": null,
+"flag": "topics/countries/flags/at.svg",
+"c": [
+37.0,
+-143.6
+]
+},
+{
+"id": "az",
+"cca3": "AZE",
+"name": "Azerbaijan",
+"official": "Republic of Azerbaijan",
+"capital": "Baku",
+"capitals": [
+"Baku"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": null,
+"pop": 10023318,
+"area": null,
+"flag": "topics/countries/flags/az.svg",
+"c": [
+132.2,
+-117.9
+]
+},
+{
+"id": "bs",
+"cca3": "BHS",
+"name": "Bahamas",
+"official": "Commonwealth of the Bahamas",
+"capital": "Nassau",
+"capitals": [
+"Nassau"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": null,
+"pop": 389482,
+"area": null,
+"flag": "topics/countries/flags/bs.svg",
+"c": [
+-211.1,
+-67.8
+]
+},
+{
+"id": "bh",
+"cca3": "BHR",
+"name": "Bahrain",
+"official": "Kingdom of Bahrain",
+"capital": "Manama",
+"capitals": [
+"Manama"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": 12,
+"pop": 1641172,
+"area": null,
+"flag": "topics/countries/flags/bh.svg",
+"c": [
+140.4,
+-74.0
+]
+},
+{
+"id": "bd",
+"cca3": "BGD",
+"name": "Bangladesh",
+"official": "People's Republic of Bangladesh",
+"capital": "Dhaka",
+"capitals": [
+"Dhaka"
+],
+"region": "Asia",
+"subregion": "Southern Asia",
+"group": "Southern Asia",
+"easy": true,
+"look": 13,
+"pop": 163046161,
+"area": null,
+"flag": "topics/countries/flags/bd.svg",
+"c": [
+250.9,
+-67.1
+]
+},
+{
+"id": "bb",
+"cca3": "BRB",
+"name": "Barbados",
+"official": "Barbados",
+"capital": "Bridgetown",
+"capitals": [
+"Bridgetown"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": null,
+"pop": 287025,
+"area": null,
+"flag": "topics/countries/flags/bb.svg",
+"c": [
+-165.4,
+-36.8
+]
+},
+{
+"id": "by",
+"cca3": "BLR",
+"name": "Belarus",
+"official": "Republic of Belarus",
+"capital": "Minsk",
+"capitals": [
+"Minsk"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": false,
+"look": null,
+"pop": 9466856,
+"area": null,
+"flag": "topics/countries/flags/by.svg",
+"c": [
+77.6,
+-165.6
+]
+},
+{
+"id": "be",
+"cca3": "BEL",
+"name": "Belgium",
+"official": "Kingdom of Belgium",
+"capital": "Brussels",
+"capitals": [
+"Brussels"
+],
+"region": "Europe",
+"subregion": "Western Europe",
+"group": "Western Europe",
+"easy": true,
+"look": 15,
+"pop": 11484055,
+"area": null,
+"flag": "topics/countries/flags/be.svg",
+"c": [
+12.3,
+-153.6
+]
+},
+{
+"id": "bz",
+"cca3": "BLZ",
+"name": "Belize",
+"official": "Belize",
+"capital": "Belmopan",
+"capitals": [
+"Belmopan"
+],
+"region": "North America",
+"subregion": "Central America",
+"group": "Central America",
+"easy": false,
+"look": null,
+"pop": 390353,
+"area": null,
+"flag": "topics/countries/flags/bz.svg",
+"c": [
+-246.3,
+-48.2
+]
+},
+{
+"id": "bj",
+"cca3": "BEN",
+"name": "Benin",
+"official": "Republic of Benin",
+"capital": "Porto-Novo",
+"capitals": [
+"Porto-Novo"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": null,
+"pop": 11801151,
+"area": null,
+"flag": "topics/countries/flags/bj.svg",
+"c": [
+6.4,
+-25.9
+]
+},
+{
+"id": "bt",
+"cca3": "BTN",
+"name": "Bhutan",
+"official": "Kingdom of Bhutan",
+"capital": "Thimphu",
+"capitals": [
+"Thimphu"
+],
+"region": "Asia",
+"subregion": "Southern Asia",
+"group": "Southern Asia",
+"easy": false,
+"look": 18,
+"pop": 763092,
+"area": null,
+"flag": "topics/countries/flags/bt.svg",
+"c": [
+251.1,
+-78.4
+]
+},
+{
+"id": "bo",
+"cca3": "BOL",
+"name": "Bolivia",
+"official": "Plurinational State of Bolivia",
+"capital": "Sucre",
+"capitals": [
+"Sucre"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": false,
+"look": 6,
+"pop": 11513100,
+"area": null,
+"flag": "topics/countries/flags/bo.svg",
+"c": [
+-176.6,
+45.9
+]
+},
+{
+"id": "ba",
+"cca3": "BIH",
+"name": "Bosnia and Herzegovina",
+"official": "Bosnia and Herzegovina",
+"capital": "Sarajevo",
+"capitals": [
+"Sarajevo"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": null,
+"pop": 3301000,
+"area": null,
+"flag": "topics/countries/flags/ba.svg",
+"c": [
+49.1,
+-130.5
+]
+},
+{
+"id": "bw",
+"cca3": "BWA",
+"name": "Botswana",
+"official": "Republic of Botswana",
+"capital": "Gaborone",
+"capitals": [
+"Gaborone"
+],
+"region": "Africa",
+"subregion": "Southern Africa",
+"group": "Southern Africa",
+"easy": false,
+"look": null,
+"pop": 2303697,
+"area": null,
+"flag": "topics/countries/flags/bw.svg",
+"c": [
+68.5,
+63.2
+]
+},
+{
+"id": "br",
+"cca3": "BRA",
+"name": "Brazil",
+"official": "Federative Republic of Brazil",
+"capital": "Brasília",
+"capitals": [
+"Brasília"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": true,
+"look": 20,
+"pop": 211049527,
+"area": null,
+"flag": "topics/countries/flags/br.svg",
+"c": [
+-151.1,
+41.4
+]
+},
+{
+"id": "bn",
+"cca3": "BRN",
+"name": "Brunei",
+"official": "Negara Brunei Darussalam",
+"capital": "Bandar Seri Begawan",
+"capitals": [
+"Bandar Seri Begawan"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": false,
+"look": null,
+"pop": 433285,
+"area": null,
+"flag": "topics/countries/flags/bn.svg",
+"c": [
+318.5,
+-12.6
+]
+},
+{
+"id": "bg",
+"cca3": "BGR",
+"name": "Bulgaria",
+"official": "Republic of Bulgaria",
+"capital": "Sofia",
+"capitals": [
+"Sofia"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": false,
+"look": 1,
+"pop": 6975761,
+"area": null,
+"flag": "topics/countries/flags/bg.svg",
+"c": [
+70.7,
+-126.5
+]
+},
+{
+"id": "bf",
+"cca3": "BFA",
+"name": "Burkina Faso",
+"official": "Burkina Faso",
+"capital": "Ouagadougou",
+"capitals": [
+"Ouagadougou"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": 6,
+"pop": 20321378,
+"area": null,
+"flag": "topics/countries/flags/bf.svg",
+"c": [
+-4.4,
+-34.2
+]
+},
+{
+"id": "bi",
+"cca3": "BDI",
+"name": "Burundi",
+"official": "Republic of Burundi",
+"capital": "Bujumbura",
+"capitals": [
+"Bujumbura"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 11530580,
+"area": null,
+"flag": "topics/countries/flags/bi.svg",
+"c": [
+83.1,
+9.4
+]
+},
+{
+"id": "kh",
+"cca3": "KHM",
+"name": "Cambodia",
+"official": "Kingdom of Cambodia",
+"capital": "Phnom Penh",
+"capitals": [
+"Phnom Penh"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": false,
+"look": null,
+"pop": 16486542,
+"area": null,
+"flag": "topics/countries/flags/kh.svg",
+"c": [
+291.6,
+-35.1
+]
+},
+{
+"id": "cm",
+"cca3": "CMR",
+"name": "Cameroon",
+"official": "Republic of Cameroon",
+"capital": "Yaoundé",
+"capitals": [
+"Yaoundé"
+],
+"region": "Africa",
+"subregion": "Middle Africa",
+"group": "Middle Africa",
+"easy": true,
+"look": 6,
+"pop": 25876380,
+"area": null,
+"flag": "topics/countries/flags/cm.svg",
+"c": [
+34.3,
+-20.7
+]
+},
+{
+"id": "ca",
+"cca3": "CAN",
+"name": "Canada",
+"official": "Canada",
+"capital": "Ottawa",
+"capitals": [
+"Ottawa"
+],
+"region": "North America",
+"subregion": "Northern America",
+"group": "Northern America",
+"easy": true,
+"look": 11,
+"pop": 37589262,
+"area": null,
+"flag": "topics/countries/flags/ca.svg",
+"c": [
+-269.0,
+-217.6
+]
+},
+{
+"id": "cv",
+"cca3": "CPV",
+"name": "Cape Verde",
+"official": "Republic of Cabo Verde",
+"capital": "Praia",
+"capitals": [
+"Praia"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": null,
+"pop": 549935,
+"area": null,
+"flag": "topics/countries/flags/cv.svg",
+"c": [
+-67.8,
+-45.0
+]
+},
+{
+"id": "cf",
+"cca3": "CAF",
+"name": "Central African Republic",
+"official": "Central African Republic",
+"capital": "Bangui",
+"capitals": [
+"Bangui"
+],
+"region": "Africa",
+"subregion": "Middle Africa",
+"group": "Middle Africa",
+"easy": false,
+"look": null,
+"pop": 4745185,
+"area": null,
+"flag": "topics/countries/flags/cf.svg",
+"c": [
+58.1,
+-18.5
+]
+},
+{
+"id": "td",
+"cca3": "TCD",
+"name": "Chad",
+"official": "Republic of Chad",
+"capital": "N'Djamena",
+"capitals": [
+"N'Djamena"
+],
+"region": "Africa",
+"subregion": "Middle Africa",
+"group": "Middle Africa",
+"easy": false,
+"look": 0,
+"pop": 15946876,
+"area": null,
+"flag": "topics/countries/flags/td.svg",
+"c": [
+52.0,
+-43.6
+]
+},
+{
+"id": "cl",
+"cca3": "CHL",
+"name": "Chile",
+"official": "Republic of Chile",
+"capital": "Santiago",
+"capitals": [
+"Santiago"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": true,
+"look": null,
+"pop": 18952038,
+"area": null,
+"flag": "topics/countries/flags/cl.svg",
+"c": [
+-198.2,
+111.0
+]
+},
+{
+"id": "cn",
+"cca3": "CHN",
+"name": "China",
+"official": "People's Republic of China",
+"capital": "Beijing",
+"capitals": [
+"Beijing"
+],
+"region": "Asia",
+"subregion": "Eastern Asia",
+"group": "Eastern Asia",
+"easy": true,
+"look": null,
+"pop": 1397715000,
+"area": null,
+"flag": "topics/countries/flags/cn.svg",
+"c": [
+289.4,
+-108.1
+]
+},
+{
+"id": "co",
+"cca3": "COL",
+"name": "Colombia",
+"official": "Republic of Colombia",
+"capital": "Bogota",
+"capitals": [
+"Bogota"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": true,
+"look": 7,
+"pop": 50339443,
+"area": null,
+"flag": "topics/countries/flags/co.svg",
+"c": [
+-202.6,
+-11.5
+]
+},
+{
+"id": "km",
+"cca3": "COM",
+"name": "Comoros",
+"official": "Union of the Comoros",
+"capital": "Moroni",
+"capitals": [
+"Moroni"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 850886,
+"area": null,
+"flag": "topics/countries/flags/km.svg",
+"c": [
+120.4,
+32.5
+]
+},
+{
+"id": "cr",
+"cca3": "CRI",
+"name": "Costa Rica",
+"official": "Republic of Costa Rica",
+"capital": "San José",
+"capitals": [
+"San José"
+],
+"region": "North America",
+"subregion": "Central America",
+"group": "Central America",
+"easy": false,
+"look": 19,
+"pop": 5047561,
+"area": null,
+"flag": "topics/countries/flags/cr.svg",
+"c": [
+-234.0,
+-26.8
+]
+},
+{
+"id": "hr",
+"cca3": "HRV",
+"name": "Croatia",
+"official": "Republic of Croatia",
+"capital": "Zagreb",
+"capitals": [
+"Zagreb"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": 3,
+"pop": 4067500,
+"area": null,
+"flag": "topics/countries/flags/hr.svg",
+"c": [
+45.8,
+-132.4
+]
+},
+{
+"id": "cu",
+"cca3": "CUB",
+"name": "Cuba",
+"official": "Republic of Cuba",
+"capital": "Havana",
+"capitals": [
+"Havana"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": true,
+"look": 10,
+"pop": 11333483,
+"area": null,
+"flag": "topics/countries/flags/cu.svg",
+"c": [
+-220.8,
+-60.7
+]
+},
+{
+"id": "cy",
+"cca3": "CYP",
+"name": "Cyprus",
+"official": "Republic of Cyprus",
+"capital": "Nicosia",
+"capitals": [
+"Nicosia"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": 17,
+"pop": 1198575,
+"area": null,
+"flag": "topics/countries/flags/cy.svg",
+"c": [
+92.2,
+-100.9
+]
+},
+{
+"id": "cz",
+"cca3": "CZE",
+"name": "Czechia",
+"official": "Czech Republic",
+"capital": "Prague",
+"capitals": [
+"Prague"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": false,
+"look": 16,
+"pop": 10669709,
+"area": null,
+"flag": "topics/countries/flags/cz.svg",
+"c": [
+42.9,
+-151.1
+]
+},
+{
+"id": "ci",
+"cca3": "CIV",
+"name": "Côte d'Ivoire",
+"official": "Republic of Ivory Coast",
+"capital": "Yamoussoukro",
+"capitals": [
+"Yamoussoukro"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": true,
+"look": 1,
+"pop": 25716544,
+"area": null,
+"flag": "topics/countries/flags/ci.svg",
+"c": [
+-15.4,
+-21.0
+]
+},
+{
+"id": "cd",
+"cca3": "COD",
+"name": "DR Congo",
+"official": "Democratic Republic of the Congo",
+"capital": "Kinshasa",
+"capitals": [
+"Kinshasa"
+],
+"region": "Africa",
+"subregion": "Middle Africa",
+"group": "Middle Africa",
+"easy": true,
+"look": null,
+"pop": 86790567,
+"area": null,
+"flag": "topics/countries/flags/cd.svg",
+"c": [
+60.4,
+11.4
+]
+},
+{
+"id": "dk",
+"cca3": "DNK",
+"name": "Denmark",
+"official": "Kingdom of Denmark",
+"capital": "København",
+"capitals": [
+"København"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": true,
+"look": 5,
+"pop": 5818553,
+"area": null,
+"flag": "topics/countries/flags/dk.svg",
+"c": [
+32.3,
+-175.1
+]
+},
+{
+"id": "dj",
+"cca3": "DJI",
+"name": "Djibouti",
+"official": "Republic of Djibouti",
+"capital": "Djibouti",
+"capitals": [
+"Djibouti"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 973560,
+"area": null,
+"flag": "topics/countries/flags/dj.svg",
+"c": [
+118.3,
+-33.1
+]
+},
+{
+"id": "dm",
+"cca3": "DMA",
+"name": "Dominica",
+"official": "Commonwealth of Dominica",
+"capital": "Roseau",
+"capitals": [
+"Roseau"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": 22,
+"pop": 71808,
+"area": null,
+"flag": "topics/countries/flags/dm.svg",
+"c": [
+-170.5,
+-43.2
+]
+},
+{
+"id": "do",
+"cca3": "DOM",
+"name": "Dominican Republic",
+"official": "Dominican Republic",
+"capital": "Santo Domingo",
+"capitals": [
+"Santo Domingo"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": null,
+"pop": 10738958,
+"area": null,
+"flag": "topics/countries/flags/do.svg",
+"c": [
+-194.9,
+-52.8
+]
+},
+{
+"id": "tl",
+"cca3": "TLS",
+"name": "East Timor",
+"official": "Democratic Republic of Timor-Leste",
+"capital": "Dili",
+"capitals": [
+"Dili"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": false,
+"look": null,
+"pop": 1293119,
+"area": null,
+"flag": "topics/countries/flags/tl.svg",
+"c": [
+349.1,
+24.8
+]
+},
+{
+"id": "ec",
+"cca3": "ECU",
+"name": "Ecuador",
+"official": "Republic of Ecuador",
+"capital": "Quito",
+"capitals": [
+"Quito"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": false,
+"look": 7,
+"pop": 17373662,
+"area": null,
+"flag": "topics/countries/flags/ec.svg",
+"c": [
+-231.7,
+4.9
+]
+},
+{
+"id": "eg",
+"cca3": "EGY",
+"name": "Egypt",
+"official": "Arab Republic of Egypt",
+"capital": "Cairo",
+"capitals": [
+"Cairo"
+],
+"region": "Africa",
+"subregion": "Northern Africa",
+"group": "Northern Africa",
+"easy": true,
+"look": 9,
+"pop": 100388073,
+"area": null,
+"flag": "topics/countries/flags/eg.svg",
+"c": [
+85.5,
+-76.5
+]
+},
+{
+"id": "sv",
+"cca3": "SLV",
+"name": "El Salvador",
+"official": "Republic of El Salvador",
+"capital": "San Salvador",
+"capitals": [
+"San Salvador"
+],
+"region": "North America",
+"subregion": "Central America",
+"group": "Central America",
+"easy": false,
+"look": 14,
+"pop": 6453553,
+"area": null,
+"flag": "topics/countries/flags/sv.svg",
+"c": [
+-247.0,
+-38.5
+]
+},
+{
+"id": "gq",
+"cca3": "GNQ",
+"name": "Equatorial Guinea",
+"official": "Republic of Equatorial Guinea",
+"capital": "Malabo",
+"capitals": [
+"Malabo"
+],
+"region": "Africa",
+"subregion": "Middle Africa",
+"group": "Middle Africa",
+"easy": false,
+"look": null,
+"pop": 1355986,
+"area": null,
+"flag": "topics/countries/flags/gq.svg",
+"c": [
+27.5,
+-6.6
+]
+},
+{
+"id": "er",
+"cca3": "ERI",
+"name": "Eritrea",
+"official": "State of Eritrea",
+"capital": "Asmara",
+"capitals": [
+"Asmara"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 6081196,
+"area": null,
+"flag": "topics/countries/flags/er.svg",
+"c": [
+110.5,
+-42.6
+]
+},
+{
+"id": "ee",
+"cca3": "EST",
+"name": "Estonia",
+"official": "Republic of Estonia",
+"capital": "Tallinn",
+"capitals": [
+"Tallinn"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": false,
+"look": null,
+"pop": 1326590,
+"area": null,
+"flag": "topics/countries/flags/ee.svg",
+"c": [
+69.5,
+-184.7
+]
+},
+{
+"id": "sz",
+"cca3": "SWZ",
+"name": "Eswatini",
+"official": "Kingdom of eSwatini",
+"capital": "Mbabane",
+"capitals": [
+"Mbabane"
+],
+"region": "Africa",
+"subregion": "Southern Africa",
+"group": "Southern Africa",
+"easy": false,
+"look": null,
+"pop": 1148130,
+"area": null,
+"flag": "topics/countries/flags/sz.svg",
+"c": [
+87.4,
+75.4
+]
+},
+{
+"id": "et",
+"cca3": "ETH",
+"name": "Ethiopia",
+"official": "Federal Democratic Republic of Ethiopia",
+"capital": "Addis Ababa",
+"capitals": [
+"Addis Ababa"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": true,
+"look": 6,
+"pop": 112078730,
+"area": null,
+"flag": "topics/countries/flags/et.svg",
+"c": [
+112.5,
+-25.6
+]
+},
+{
+"id": "fj",
+"cca3": "FJI",
+"name": "Fiji",
+"official": "Republic of Fiji",
+"capital": "Suva",
+"capitals": [
+"Suva"
+],
+"region": "Oceania",
+"subregion": "Melanesia",
+"group": "Melanesia",
+"easy": false,
+"look": 4,
+"pop": 889953,
+"area": null,
+"flag": "topics/countries/flags/fj.svg",
+"c": [
+496.2,
+48.3
+]
+},
+{
+"id": "fi",
+"cca3": "FIN",
+"name": "Finland",
+"official": "Republic of Finland",
+"capital": "Helsinki",
+"capitals": [
+"Helsinki"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": true,
+"look": 5,
+"pop": 5520314,
+"area": null,
+"flag": "topics/countries/flags/fi.svg",
+"c": [
+72.4,
+-212.9
+]
+},
+{
+"id": "fr",
+"cca3": "FRA",
+"name": "France",
+"official": "French Republic",
+"capital": "Paris",
+"capitals": [
+"Paris"
+],
+"region": "Europe",
+"subregion": "Western Europe",
+"group": "Western Europe",
+"easy": true,
+"look": null,
+"pop": 67059887,
+"area": null,
+"flag": "topics/countries/flags/fr.svg",
+"c": [
+-8.2,
+-47.8
+]
+},
+{
+"id": "ga",
+"cca3": "GAB",
+"name": "Gabon",
+"official": "Gabonese Republic",
+"capital": "Libreville",
+"capitals": [
+"Libreville"
+],
+"region": "Africa",
+"subregion": "Middle Africa",
+"group": "Middle Africa",
+"easy": false,
+"look": 15,
+"pop": 2172579,
+"area": null,
+"flag": "topics/countries/flags/ga.svg",
+"c": [
+32.2,
+2.2
+]
+},
+{
+"id": "gm",
+"cca3": "GMB",
+"name": "Gambia",
+"official": "Republic of the Gambia",
+"capital": "Banjul",
+"capitals": [
+"Banjul"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": null,
+"pop": 2347706,
+"area": null,
+"flag": "topics/countries/flags/gm.svg",
+"c": [
+-42.6,
+-37.5
+]
+},
+{
+"id": "ge",
+"cca3": "GEO",
+"name": "Georgia",
+"official": "Georgia",
+"capital": "Tbilisi",
+"capitals": [
+"Tbilisi"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": null,
+"pop": 3720382,
+"area": null,
+"flag": "topics/countries/flags/ge.svg",
+"c": [
+120.3,
+-125.1
+]
+},
+{
+"id": "de",
+"cca3": "DEU",
+"name": "Germany",
+"official": "Federal Republic of Germany",
+"capital": "Berlin",
+"capitals": [
+"Berlin"
+],
+"region": "Europe",
+"subregion": "Western Europe",
+"group": "Western Europe",
+"easy": true,
+"look": 15,
+"pop": 83132799,
+"area": null,
+"flag": "topics/countries/flags/de.svg",
+"c": [
+29.0,
+-156.1
+]
+},
+{
+"id": "gh",
+"cca3": "GHA",
+"name": "Ghana",
+"official": "Republic of Ghana",
+"capital": "Accra",
+"capitals": [
+"Accra"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": true,
+"look": 6,
+"pop": 30417856,
+"area": null,
+"flag": "topics/countries/flags/gh.svg",
+"c": [
+-2.8,
+-22.2
+]
+},
+{
+"id": "gr",
+"cca3": "GRC",
+"name": "Greece",
+"official": "Hellenic Republic",
+"capital": "Athens",
+"capitals": [
+"Athens"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": true,
+"look": 17,
+"pop": 10716322,
+"area": null,
+"flag": "topics/countries/flags/gr.svg",
+"c": [
+66.5,
+-112.1
+]
+},
+{
+"id": "gd",
+"cca3": "GRD",
+"name": "Grenada",
+"official": "Grenada",
+"capital": "Saint George's",
+"capitals": [
+"Saint George's"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": 22,
+"pop": 112003,
+"area": null,
+"flag": "topics/countries/flags/gd.svg",
+"c": [
+-171.4,
+-33.8
+]
+},
+{
+"id": "gt",
+"cca3": "GTM",
+"name": "Guatemala",
+"official": "Republic of Guatemala",
+"capital": "Guatemala City",
+"capitals": [
+"Guatemala City"
+],
+"region": "North America",
+"subregion": "Central America",
+"group": "Central America",
+"easy": false,
+"look": 14,
+"pop": 16604026,
+"area": null,
+"flag": "topics/countries/flags/gt.svg",
+"c": [
+-250.6,
+-44.2
+]
+},
+{
+"id": "gn",
+"cca3": "GIN",
+"name": "Guinea",
+"official": "Republic of Guinea",
+"capital": "Conakry",
+"capitals": [
+"Conakry"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": 6,
+"pop": 12771246,
+"area": null,
+"flag": "topics/countries/flags/gn.svg",
+"c": [
+-31.6,
+-27.7
+]
+},
+{
+"id": "gw",
+"cca3": "GNB",
+"name": "Guinea-Bissau",
+"official": "Republic of Guinea-Bissau",
+"capital": "Bissau",
+"capitals": [
+"Bissau"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": 20,
+"pop": 1920922,
+"area": null,
+"flag": "topics/countries/flags/gw.svg",
+"c": [
+-42.2,
+-33.0
+]
+},
+{
+"id": "gy",
+"cca3": "GUY",
+"name": "Guyana",
+"official": "Co-operative Republic of Guyana",
+"capital": "Georgetown",
+"capitals": [
+"Georgetown"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": false,
+"look": null,
+"pop": 782766,
+"area": null,
+"flag": "topics/countries/flags/gy.svg",
+"c": [
+-163.7,
+-13.6
+]
+},
+{
+"id": "ht",
+"cca3": "HTI",
+"name": "Haiti",
+"official": "Republic of Haiti",
+"capital": "Port-au-Prince",
+"capitals": [
+"Port-au-Prince"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": null,
+"pop": 11263077,
+"area": null,
+"flag": "topics/countries/flags/ht.svg",
+"c": [
+-202.9,
+-53.4
+]
+},
+{
+"id": "hn",
+"cca3": "HND",
+"name": "Honduras",
+"official": "Republic of Honduras",
+"capital": "Tegucigalpa",
+"capitals": [
+"Tegucigalpa"
+],
+"region": "North America",
+"subregion": "Central America",
+"group": "Central America",
+"easy": false,
+"look": 14,
+"pop": 9746117,
+"area": null,
+"flag": "topics/countries/flags/hn.svg",
+"c": [
+-239.6,
+-40.6
+]
+},
+{
+"id": "hu",
+"cca3": "HUN",
+"name": "Hungary",
+"official": "Republic of Hungary",
+"capital": "Budapest",
+"capitals": [
+"Budapest"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": false,
+"look": 1,
+"pop": 9769949,
+"area": null,
+"flag": "topics/countries/flags/hu.svg",
+"c": [
+54.1,
+-141.7
+]
+},
+{
+"id": "is",
+"cca3": "ISL",
+"name": "Iceland",
+"official": "Republic of Iceland",
+"capital": "Reykjavík",
+"capitals": [
+"Reykjavík"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": false,
+"look": 5,
+"pop": 361313,
+"area": null,
+"flag": "topics/countries/flags/is.svg",
+"c": [
+-52.8,
+-212.0
+]
+},
+{
+"id": "in",
+"cca3": "IND",
+"name": "India",
+"official": "Republic of India",
+"capital": "New Delhi",
+"capitals": [
+"New Delhi"
+],
+"region": "Asia",
+"subregion": "Southern Asia",
+"group": "Southern Asia",
+"easy": true,
+"look": null,
+"pop": 1366417754,
+"area": null,
+"flag": "topics/countries/flags/in.svg",
+"c": [
+229.9,
+-60.8
+]
+},
+{
+"id": "id",
+"cca3": "IDN",
+"name": "Indonesia",
+"official": "Republic of Indonesia",
+"capital": "Jakarta",
+"capitals": [
+"Jakarta"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": true,
+"look": 2,
+"pop": 270625568,
+"area": null,
+"flag": "topics/countries/flags/id.svg",
+"c": [
+328.0,
+7.4
+]
+},
+{
+"id": "ir",
+"cca3": "IRN",
+"name": "Iran",
+"official": "Islamic Republic of Iran",
+"capital": "Tehran",
+"capitals": [
+"Tehran"
+],
+"region": "Asia",
+"subregion": "Southern Asia",
+"group": "Southern Asia",
+"easy": true,
+"look": null,
+"pop": 82913906,
+"area": null,
+"flag": "topics/countries/flags/ir.svg",
+"c": [
+149.1,
+-93.9
+]
+},
+{
+"id": "iq",
+"cca3": "IRQ",
+"name": "Iraq",
+"official": "Republic of Iraq",
+"capital": "Baghdad",
+"capitals": [
+"Baghdad"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": true,
+"look": 9,
+"pop": 39309783,
+"area": null,
+"flag": "topics/countries/flags/iq.svg",
+"c": [
+121.3,
+-96.0
+]
+},
+{
+"id": "ie",
+"cca3": "IRL",
+"name": "Ireland",
+"official": "Ireland",
+"capital": "Dublin",
+"capitals": [
+"Dublin"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": true,
+"look": 1,
+"pop": 4941444,
+"area": null,
+"flag": "topics/countries/flags/ie.svg",
+"c": [
+-22.8,
+-164.5
+]
+},
+{
+"id": "il",
+"cca3": "ISR",
+"name": "Israel",
+"official": "State of Israel",
+"capital": "Jerusalem",
+"capitals": [
+"Jerusalem"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": true,
+"look": null,
+"pop": 9053300,
+"area": null,
+"flag": "topics/countries/flags/il.svg",
+"c": [
+97.4,
+-90.3
+]
+},
+{
+"id": "it",
+"cca3": "ITA",
+"name": "Italy",
+"official": "Italian Republic",
+"capital": "Rome",
+"capitals": [
+"Rome"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": true,
+"look": 1,
+"pop": 60297396,
+"area": null,
+"flag": "topics/countries/flags/it.svg",
+"c": [
+34.9,
+-124.0
+]
+},
+{
+"id": "jm",
+"cca3": "JAM",
+"name": "Jamaica",
+"official": "Jamaica",
+"capital": "Kingston",
+"capitals": [
+"Kingston"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": true,
+"look": null,
+"pop": 2948279,
+"area": null,
+"flag": "topics/countries/flags/jm.svg",
+"c": [
+-214.6,
+-50.9
+]
+},
+{
+"id": "jp",
+"cca3": "JPN",
+"name": "Japan",
+"official": "Japan",
+"capital": "Tokyo",
+"capitals": [
+"Tokyo"
+],
+"region": "Asia",
+"subregion": "Eastern Asia",
+"group": "Eastern Asia",
+"easy": true,
+"look": 13,
+"pop": 126264931,
+"area": null,
+"flag": "topics/countries/flags/jp.svg",
+"c": [
+379.8,
+-105.0
+]
+},
+{
+"id": "jo",
+"cca3": "JOR",
+"name": "Jordan",
+"official": "Hashemite Kingdom of Jordan",
+"capital": "Amman",
+"capitals": [
+"Amman"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": 8,
+"pop": 10101694,
+"area": null,
+"flag": "topics/countries/flags/jo.svg",
+"c": [
+103.1,
+-89.8
+]
+},
+{
+"id": "kz",
+"cca3": "KAZ",
+"name": "Kazakhstan",
+"official": "Republic of Kazakhstan",
+"capital": "Nur-Sultan",
+"capitals": [
+"Nur-Sultan"
+],
+"region": "Asia",
+"subregion": "Central Asia",
+"group": "Central Asia",
+"easy": false,
+"look": null,
+"pop": 18513930,
+"area": null,
+"flag": "topics/countries/flags/kz.svg",
+"c": [
+186.1,
+-145.7
+]
+},
+{
+"id": "ke",
+"cca3": "KEN",
+"name": "Kenya",
+"official": "Republic of Kenya",
+"capital": "Nairobi",
+"capitals": [
+"Nairobi"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": true,
+"look": 21,
+"pop": 52573973,
+"area": null,
+"flag": "topics/countries/flags/ke.svg",
+"c": [
+105.3,
+-1.1
+]
+},
+{
+"id": "ki",
+"cca3": "KIR",
+"name": "Kiribati",
+"official": "Republic of Kiribati",
+"capital": "Tarawa",
+"capitals": [
+"Tarawa"
+],
+"region": "Oceania",
+"subregion": "Micronesia",
+"group": "Micronesia",
+"easy": false,
+"look": null,
+"pop": 117606,
+"area": null,
+"flag": "topics/countries/flags/ki.svg",
+"c": [
+-476.9,
+7.8
+]
+},
+{
+"id": "kw",
+"cca3": "KWT",
+"name": "Kuwait",
+"official": "State of Kuwait",
+"capital": "Kuwait City",
+"capitals": [
+"Kuwait City"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": 8,
+"pop": 4207083,
+"area": null,
+"flag": "topics/countries/flags/kw.svg",
+"c": [
+131.9,
+-83.8
+]
+},
+{
+"id": "kg",
+"cca3": "KGZ",
+"name": "Kyrgyzstan",
+"official": "Kyrgyz Republic",
+"capital": "Bishkek",
+"capitals": [
+"Bishkek"
+],
+"region": "Asia",
+"subregion": "Central Asia",
+"group": "Central Asia",
+"easy": false,
+"look": null,
+"pop": 6456900,
+"area": null,
+"flag": "topics/countries/flags/kg.svg",
+"c": [
+207.7,
+-121.5
+]
+},
+{
+"id": "la",
+"cca3": "LAO",
+"name": "Laos",
+"official": "Lao People's Democratic Republic",
+"capital": "Vientiane",
+"capitals": [
+"Vientiane"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": false,
+"look": null,
+"pop": 7169455,
+"area": null,
+"flag": "topics/countries/flags/la.svg",
+"c": [
+288.6,
+-51.2
+]
+},
+{
+"id": "lv",
+"cca3": "LVA",
+"name": "Latvia",
+"official": "Republic of Latvia",
+"capital": "Riga",
+"capitals": [
+"Riga"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": false,
+"look": 11,
+"pop": 1912789,
+"area": null,
+"flag": "topics/countries/flags/lv.svg",
+"c": [
+68.3,
+-177.8
+]
+},
+{
+"id": "lb",
+"cca3": "LBN",
+"name": "Lebanon",
+"official": "Lebanese Republic",
+"capital": "Beirut",
+"capitals": [
+"Beirut"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": null,
+"pop": 6855713,
+"area": null,
+"flag": "topics/countries/flags/lb.svg",
+"c": [
+99.6,
+-97.8
+]
+},
+{
+"id": "ls",
+"cca3": "LSO",
+"name": "Lesotho",
+"official": "Kingdom of Lesotho",
+"capital": "Maseru",
+"capitals": [
+"Maseru"
+],
+"region": "Africa",
+"subregion": "Southern Africa",
+"group": "Southern Africa",
+"easy": false,
+"look": null,
+"pop": 2125268,
+"area": null,
+"flag": "topics/countries/flags/ls.svg",
+"c": [
+78.4,
+84.7
+]
+},
+{
+"id": "lr",
+"cca3": "LBR",
+"name": "Liberia",
+"official": "Republic of Liberia",
+"capital": "Monrovia",
+"capitals": [
+"Monrovia"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": 10,
+"pop": 4937374,
+"area": null,
+"flag": "topics/countries/flags/lr.svg",
+"c": [
+-26.3,
+-17.9
+]
+},
+{
+"id": "ly",
+"cca3": "LBY",
+"name": "Libya",
+"official": "Libya",
+"capital": "Tripoli",
+"capitals": [
+"Tripoli"
+],
+"region": "Africa",
+"subregion": "Northern Africa",
+"group": "Northern Africa",
+"easy": false,
+"look": 9,
+"pop": 6777452,
+"area": null,
+"flag": "topics/countries/flags/ly.svg",
+"c": [
+47.9,
+-75.2
+]
+},
+{
+"id": "li",
+"cca3": "LIE",
+"name": "Liechtenstein",
+"official": "Principality of Liechtenstein",
+"capital": "Vaduz",
+"capitals": [
+"Vaduz"
+],
+"region": "Europe",
+"subregion": "Western Europe",
+"group": "Western Europe",
+"easy": false,
+"look": null,
+"pop": 38019,
+"area": null,
+"flag": "topics/countries/flags/li.svg",
+"c": [
+26.5,
+-141.7
+]
+},
+{
+"id": "lt",
+"cca3": "LTU",
+"name": "Lithuania",
+"official": "Republic of Lithuania",
+"capital": "Vilnius",
+"capitals": [
+"Vilnius"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": false,
+"look": 15,
+"pop": 2786844,
+"area": null,
+"flag": "topics/countries/flags/lt.svg",
+"c": [
+66.4,
+-171.2
+]
+},
+{
+"id": "lu",
+"cca3": "LUX",
+"name": "Luxembourg",
+"official": "Grand Duchy of Luxembourg",
+"capital": "Luxembourg",
+"capitals": [
+"Luxembourg"
+],
+"region": "Europe",
+"subregion": "Western Europe",
+"group": "Western Europe",
+"easy": false,
+"look": 3,
+"pop": 619896,
+"area": null,
+"flag": "topics/countries/flags/lu.svg",
+"c": [
+17.0,
+-151.1
+]
+},
+{
+"id": "mg",
+"cca3": "MDG",
+"name": "Madagascar",
+"official": "Republic of Madagascar",
+"capital": "Antananarivo",
+"capitals": [
+"Antananarivo"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": true,
+"look": null,
+"pop": 26969307,
+"area": null,
+"flag": "topics/countries/flags/mg.svg",
+"c": [
+130.1,
+53.2
+]
+},
+{
+"id": "mw",
+"cca3": "MWI",
+"name": "Malawi",
+"official": "Republic of Malawi",
+"capital": "Lilongwe",
+"capitals": [
+"Lilongwe"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": 21,
+"pop": 18628747,
+"area": null,
+"flag": "topics/countries/flags/mw.svg",
+"c": [
+95.2,
+37.1
+]
+},
+{
+"id": "my",
+"cca3": "MYS",
+"name": "Malaysia",
+"official": "Malaysia",
+"capital": "Kuala Lumpur",
+"capitals": [
+"Kuala Lumpur"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": true,
+"look": 10,
+"pop": 31949777,
+"area": null,
+"flag": "topics/countries/flags/my.svg",
+"c": [
+304.7,
+-10.9
+]
+},
+{
+"id": "mv",
+"cca3": "MDV",
+"name": "Maldives",
+"official": "Republic of Maldives",
+"capital": "Malé",
+"capitals": [
+"Malé"
+],
+"region": "Asia",
+"subregion": "Southern Asia",
+"group": "Southern Asia",
+"easy": false,
+"look": null,
+"pop": 530953,
+"area": null,
+"flag": "topics/countries/flags/mv.svg",
+"c": [
+204.2,
+-11.7
+]
+},
+{
+"id": "ml",
+"cca3": "MLI",
+"name": "Mali",
+"official": "Republic of Mali",
+"capital": "Bamako",
+"capitals": [
+"Bamako"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": 6,
+"pop": 19658031,
+"area": null,
+"flag": "topics/countries/flags/ml.svg",
+"c": [
+-11.2,
+-49.6
+]
+},
+{
+"id": "mt",
+"cca3": "MLT",
+"name": "Malta",
+"official": "Republic of Malta",
+"capital": "Valletta",
+"capitals": [
+"Valletta"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": 17,
+"pop": 502653,
+"area": null,
+"flag": "topics/countries/flags/mt.svg",
+"c": [
+40.2,
+-104.2
+]
+},
+{
+"id": "mh",
+"cca3": "MHL",
+"name": "Marshall Islands",
+"official": "Republic of the Marshall Islands",
+"capital": "Majuro",
+"capitals": [
+"Majuro"
+],
+"region": "Oceania",
+"subregion": "Micronesia",
+"group": "Micronesia",
+"easy": false,
+"look": null,
+"pop": 58791,
+"area": null,
+"flag": "topics/countries/flags/mh.svg",
+"c": [
+475.6,
+-19.8
+]
+},
+{
+"id": "mr",
+"cca3": "MRT",
+"name": "Mauritania",
+"official": "Islamic Republic of Mauritania",
+"capital": "Nouakchott",
+"capitals": [
+"Nouakchott"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": 23,
+"pop": 4525696,
+"area": null,
+"flag": "topics/countries/flags/mr.svg",
+"c": [
+-30.4,
+-59.5
+]
+},
+{
+"id": "mu",
+"cca3": "MUS",
+"name": "Mauritius",
+"official": "Republic of Mauritius",
+"capital": "Port Louis",
+"capitals": [
+"Port Louis"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 1265711,
+"area": null,
+"flag": "topics/countries/flags/mu.svg",
+"c": [
+159.9,
+57.0
+]
+},
+{
+"id": "mx",
+"cca3": "MEX",
+"name": "Mexico",
+"official": "United Mexican States",
+"capital": "Mexico City",
+"capitals": [
+"Mexico City"
+],
+"region": "North America",
+"subregion": "Central America",
+"group": "Central America",
+"easy": true,
+"look": 1,
+"pop": 127575529,
+"area": null,
+"flag": "topics/countries/flags/mx.svg",
+"c": [
+-283.2,
+-67.4
+]
+},
+{
+"id": "fm",
+"cca3": "FSM",
+"name": "Micronesia",
+"official": "Federated States of Micronesia",
+"capital": "Palikir",
+"capitals": [
+"Palikir"
+],
+"region": "Oceania",
+"subregion": "Micronesia",
+"group": "Micronesia",
+"easy": false,
+"look": null,
+"pop": 113815,
+"area": null,
+"flag": "topics/countries/flags/fm.svg",
+"c": [
+421.1,
+-20.5
+]
+},
+{
+"id": "md",
+"cca3": "MDA",
+"name": "Moldova",
+"official": "Republic of Moldova",
+"capital": "Chișinău",
+"capitals": [
+"Chișinău"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": false,
+"look": 0,
+"pop": 2657637,
+"area": null,
+"flag": "topics/countries/flags/md.svg",
+"c": [
+78.8,
+-141.0
+]
+},
+{
+"id": "mc",
+"cca3": "MCO",
+"name": "Monaco",
+"official": "Principality of Monaco",
+"capital": "Monaco",
+"capitals": [
+"Monaco"
+],
+"region": "Europe",
+"subregion": "Western Europe",
+"group": "Western Europe",
+"easy": false,
+"look": 2,
+"pop": 38964,
+"area": null,
+"flag": "topics/countries/flags/mc.svg",
+"c": [
+20.6,
+-129.9
+]
+},
+{
+"id": "mn",
+"cca3": "MNG",
+"name": "Mongolia",
+"official": "Mongolia",
+"capital": "Ulaanbaatar",
+"capitals": [
+"Ulaanbaatar"
+],
+"region": "Asia",
+"subregion": "Eastern Asia",
+"group": "Eastern Asia",
+"easy": false,
+"look": null,
+"pop": 3225167,
+"area": null,
+"flag": "topics/countries/flags/mn.svg",
+"c": [
+288.4,
+-141.1
+]
+},
+{
+"id": "me",
+"cca3": "MNE",
+"name": "Montenegro",
+"official": "Montenegro",
+"capital": "Podgorica",
+"capitals": [
+"Podgorica"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": null,
+"pop": 622137,
+"area": null,
+"flag": "topics/countries/flags/me.svg",
+"c": [
+53.9,
+-126.4
+]
+},
+{
+"id": "ma",
+"cca3": "MAR",
+"name": "Morocco",
+"official": "Kingdom of Morocco",
+"capital": "Rabat",
+"capitals": [
+"Rabat"
+],
+"region": "Africa",
+"subregion": "Northern Africa",
+"group": "Northern Africa",
+"easy": true,
+"look": null,
+"pop": 36471769,
+"area": null,
+"flag": "topics/countries/flags/ma.svg",
+"c": [
+-25.1,
+-82.3
+]
+},
+{
+"id": "mz",
+"cca3": "MOZ",
+"name": "Mozambique",
+"official": "Republic of Mozambique",
+"capital": "Maputo",
+"capitals": [
+"Maputo"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": true,
+"look": 20,
+"pop": 30366036,
+"area": null,
+"flag": "topics/countries/flags/mz.svg",
+"c": [
+98.7,
+52.8
+]
+},
+{
+"id": "mm",
+"cca3": "MMR",
+"name": "Myanmar",
+"official": "Republic of the Union of Myanmar",
+"capital": "Naypyidaw",
+"capitals": [
+"Naypyidaw"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": true,
+"look": null,
+"pop": 54045420,
+"area": null,
+"flag": "topics/countries/flags/mm.svg",
+"c": [
+268.5,
+-54.7
+]
+},
+{
+"id": "na",
+"cca3": "NAM",
+"name": "Namibia",
+"official": "Republic of Namibia",
+"capital": "Windhoek",
+"capitals": [
+"Windhoek"
+],
+"region": "Africa",
+"subregion": "Southern Africa",
+"group": "Southern Africa",
+"easy": false,
+"look": null,
+"pop": 2494530,
+"area": null,
+"flag": "topics/countries/flags/na.svg",
+"c": [
+51.4,
+65.1
+]
+},
+{
+"id": "nr",
+"cca3": "NRU",
+"name": "Nauru",
+"official": "Republic of Nauru",
+"capital": "Yaren",
+"capitals": [
+"Yaren"
+],
+"region": "Oceania",
+"subregion": "Micronesia",
+"group": "Micronesia",
+"easy": false,
+"look": null,
+"pop": 12581,
+"area": null,
+"flag": "topics/countries/flags/nr.svg",
+"c": [
+463.7,
+1.4
+]
+},
+{
+"id": "np",
+"cca3": "NPL",
+"name": "Nepal",
+"official": "Nepal",
+"capital": "Kathmandu",
+"capitals": [
+"Kathmandu"
+],
+"region": "Asia",
+"subregion": "Southern Asia",
+"group": "Southern Asia",
+"easy": true,
+"look": 18,
+"pop": 28608710,
+"area": null,
+"flag": "topics/countries/flags/np.svg",
+"c": [
+233.6,
+-81.0
+]
+},
+{
+"id": "nl",
+"cca3": "NLD",
+"name": "Netherlands",
+"official": "Kingdom of the Netherlands",
+"capital": "Amsterdam",
+"capitals": [
+"Amsterdam"
+],
+"region": "Europe",
+"subregion": "Western Europe",
+"group": "Western Europe",
+"easy": true,
+"look": 3,
+"pop": 17332850,
+"area": null,
+"flag": "topics/countries/flags/nl.svg",
+"c": [
+14.6,
+-159.5
+]
+},
+{
+"id": "nz",
+"cca3": "NZL",
+"name": "New Zealand",
+"official": "New Zealand",
+"capital": "Wellington",
+"capitals": [
+"Wellington"
+],
+"region": "Oceania",
+"subregion": "Australia and New Zealand",
+"group": "Australia and New Zealand",
+"easy": true,
+"look": 4,
+"pop": 4917000,
+"area": null,
+"flag": "topics/countries/flags/nz.svg",
+"c": [
+2.3,
+127.2
+]
+},
+{
+"id": "ni",
+"cca3": "NIC",
+"name": "Nicaragua",
+"official": "Republic of Nicaragua",
+"capital": "Managua",
+"capitals": [
+"Managua"
+],
+"region": "North America",
+"subregion": "Central America",
+"group": "Central America",
+"easy": false,
+"look": 14,
+"pop": 6545502,
+"area": null,
+"flag": "topics/countries/flags/ni.svg",
+"c": [
+-237.3,
+-36.0
+]
+},
+{
+"id": "ne",
+"cca3": "NER",
+"name": "Niger",
+"official": "Republic of Niger",
+"capital": "Niamey",
+"capitals": [
+"Niamey"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": null,
+"pop": 23310715,
+"area": null,
+"flag": "topics/countries/flags/ne.svg",
+"c": [
+22.4,
+-49.6
+]
+},
+{
+"id": "ng",
+"cca3": "NGA",
+"name": "Nigeria",
+"official": "Federal Republic of Nigeria",
+"capital": "Abuja",
+"capitals": [
+"Abuja"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": true,
+"look": null,
+"pop": 200963599,
+"area": null,
+"flag": "topics/countries/flags/ng.svg",
+"c": [
+24.1,
+-25.3
+]
+},
+{
+"id": "kp",
+"cca3": "PRK",
+"name": "North Korea",
+"official": "Democratic People's Republic of Korea",
+"capital": "Pyongyang",
+"capitals": [
+"Pyongyang"
+],
+"region": "Asia",
+"subregion": "Eastern Asia",
+"group": "Eastern Asia",
+"easy": true,
+"look": null,
+"pop": 25666161,
+"area": null,
+"flag": "topics/countries/flags/kp.svg",
+"c": [
+354.2,
+-118.6
+]
+},
+{
+"id": "mk",
+"cca3": "MKD",
+"name": "North Macedonia",
+"official": "Republic of North Macedonia",
+"capital": "Skopje",
+"capitals": [
+"Skopje"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": null,
+"pop": 2083459,
+"area": null,
+"flag": "topics/countries/flags/mk.svg",
+"c": [
+60.4,
+-122.7
+]
+},
+{
+"id": "no",
+"cca3": "NOR",
+"name": "Norway",
+"official": "Kingdom of Norway",
+"capital": "Oslo",
+"capitals": [
+"Oslo"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": true,
+"look": 5,
+"pop": 5347896,
+"area": null,
+"flag": "topics/countries/flags/no.svg",
+"c": [
+34.1,
+-238.5
+]
+},
+{
+"id": "om",
+"cca3": "OMN",
+"name": "Oman",
+"official": "Sultanate of Oman",
+"capital": "Muscat",
+"capitals": [
+"Muscat"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": null,
+"pop": 4974986,
+"area": null,
+"flag": "topics/countries/flags/om.svg",
+"c": [
+155.3,
+-60.8
+]
+},
+{
+"id": "pk",
+"cca3": "PAK",
+"name": "Pakistan",
+"official": "Islamic Republic of Pakistan",
+"capital": "Islamabad",
+"capitals": [
+"Islamabad"
+],
+"region": "Asia",
+"subregion": "Southern Asia",
+"group": "Southern Asia",
+"easy": true,
+"look": 23,
+"pop": 216565318,
+"area": null,
+"flag": "topics/countries/flags/pk.svg",
+"c": [
+191.5,
+-87.5
+]
+},
+{
+"id": "pw",
+"cca3": "PLW",
+"name": "Palau",
+"official": "Republic of Palau",
+"capital": "Melekeok",
+"capitals": [
+"Melekeok"
+],
+"region": "Oceania",
+"subregion": "Micronesia",
+"group": "Micronesia",
+"easy": false,
+"look": 13,
+"pop": 18008,
+"area": null,
+"flag": "topics/countries/flags/pw.svg",
+"c": [
+373.8,
+-21.0
+]
+},
+{
+"id": "ps",
+"cca3": "PSE",
+"name": "Palestine",
+"official": "West Bank and Gaza",
+"capital": "",
+"capitals": [],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": 8,
+"pop": 4685306,
+"area": null,
+"flag": "topics/countries/flags/ps.svg",
+"c": [
+97.9,
+-91.8
+]
+},
+{
+"id": "pa",
+"cca3": "PAN",
+"name": "Panama",
+"official": "Republic of Panama",
+"capital": "Panama City",
+"capitals": [
+"Panama City"
+],
+"region": "North America",
+"subregion": "Central America",
+"group": "Central America",
+"easy": false,
+"look": null,
+"pop": 4246439,
+"area": null,
+"flag": "topics/countries/flags/pa.svg",
+"c": [
+-222.5,
+-23.4
+]
+},
+{
+"id": "pg",
+"cca3": "PNG",
+"name": "Papua New Guinea",
+"official": "Independent State of Papua New Guinea",
+"capital": "Port Moresby",
+"capitals": [
+"Port Moresby"
+],
+"region": "Oceania",
+"subregion": "Melanesia",
+"group": "Melanesia",
+"easy": false,
+"look": null,
+"pop": 8776109,
+"area": null,
+"flag": "topics/countries/flags/pg.svg",
+"c": [
+412.2,
+18.9
+]
+},
+{
+"id": "py",
+"cca3": "PRY",
+"name": "Paraguay",
+"official": "Republic of Paraguay",
+"capital": "Asunción",
+"capitals": [
+"Asunción"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": false,
+"look": null,
+"pop": 7044636,
+"area": null,
+"flag": "topics/countries/flags/py.svg",
+"c": [
+-162.4,
+66.4
+]
+},
+{
+"id": "pe",
+"cca3": "PER",
+"name": "Peru",
+"official": "Republic of Peru",
+"capital": "Lima",
+"capitals": [
+"Lima"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": true,
+"look": 11,
+"pop": 32510453,
+"area": null,
+"flag": "topics/countries/flags/pe.svg",
+"c": [
+-208.4,
+25.8
+]
+},
+{
+"id": "ph",
+"cca3": "PHL",
+"name": "Philippines",
+"official": "Republic of the Philippines",
+"capital": "Manila",
+"capitals": [
+"Manila"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": true,
+"look": 16,
+"pop": 108116615,
+"area": null,
+"flag": "topics/countries/flags/ph.svg",
+"c": [
+338.7,
+-33.9
+]
+},
+{
+"id": "pl",
+"cca3": "POL",
+"name": "Poland",
+"official": "Republic of Poland",
+"capital": "Warsaw",
+"capitals": [
+"Warsaw"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": true,
+"look": 2,
+"pop": 37970874,
+"area": null,
+"flag": "topics/countries/flags/pl.svg",
+"c": [
+53.1,
+-159.0
+]
+},
+{
+"id": "pt",
+"cca3": "PRT",
+"name": "Portugal",
+"official": "Portuguese Republic",
+"capital": "Lisbon",
+"capitals": [
+"Lisbon"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": true,
+"look": 20,
+"pop": 10269417,
+"area": null,
+"flag": "topics/countries/flags/pt.svg",
+"c": [
+-44.5,
+-109.3
+]
+},
+{
+"id": "qa",
+"cca3": "QAT",
+"name": "Qatar",
+"official": "State of Qatar",
+"capital": "Doha",
+"capitals": [
+"Doha"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": 12,
+"pop": 2832067,
+"area": null,
+"flag": "topics/countries/flags/qa.svg",
+"c": [
+142.2,
+-72.0
+]
+},
+{
+"id": "cg",
+"cca3": "COG",
+"name": "Republic of the Congo",
+"official": "Republic of the Congo",
+"capital": "Brazzaville",
+"capitals": [
+"Brazzaville"
+],
+"region": "Africa",
+"subregion": "Middle Africa",
+"group": "Middle Africa",
+"easy": false,
+"look": null,
+"pop": 5380508,
+"area": null,
+"flag": "topics/countries/flags/cg.svg",
+"c": [
+41.3,
+1.8
+]
+},
+{
+"id": "ro",
+"cca3": "ROU",
+"name": "Romania",
+"official": "Romania",
+"capital": "Bucharest",
+"capitals": [
+"Bucharest"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": false,
+"look": 0,
+"pop": 19356544,
+"area": null,
+"flag": "topics/countries/flags/ro.svg",
+"c": [
+69.4,
+-137.6
+]
+},
+{
+"id": "ru",
+"cca3": "RUS",
+"name": "Russia",
+"official": "Russian Federation",
+"capital": "Moscow",
+"capitals": [
+"Moscow"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": true,
+"look": 3,
+"pop": 144373535,
+"area": null,
+"flag": "topics/countries/flags/ru.svg",
+"c": [
+0.0,
+-212.5
+]
+},
+{
+"id": "rw",
+"cca3": "RWA",
+"name": "Rwanda",
+"official": "Republic of Rwanda",
+"capital": "Kigali",
+"capitals": [
+"Kigali"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 12626950,
+"area": null,
+"flag": "topics/countries/flags/rw.svg",
+"c": [
+82.9,
+5.4
+]
+},
+{
+"id": "kn",
+"cca3": "KNA",
+"name": "Saint Kitts and Nevis",
+"official": "Federation of Saint Kitts and Nevis",
+"capital": "Basseterre",
+"capitals": [
+"Basseterre"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": 22,
+"pop": 52834,
+"area": null,
+"flag": "topics/countries/flags/kn.svg",
+"c": [
+-174.3,
+-48.6
+]
+},
+{
+"id": "lc",
+"cca3": "LCA",
+"name": "Saint Lucia",
+"official": "Saint Lucia",
+"capital": "Castries",
+"capitals": [
+"Castries"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": 22,
+"pop": 182790,
+"area": null,
+"flag": "topics/countries/flags/lc.svg",
+"c": [
+-169.4,
+-38.9
+]
+},
+{
+"id": "vc",
+"cca3": "VCT",
+"name": "Saint Vincent and the Grenadines",
+"official": "Saint Vincent and the Grenadines",
+"capital": "Kingstown",
+"capitals": [
+"Kingstown"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": 22,
+"pop": 110589,
+"area": null,
+"flag": "topics/countries/flags/vc.svg",
+"c": [
+-170.1,
+-36.4
+]
+},
+{
+"id": "ws",
+"cca3": "WSM",
+"name": "Samoa",
+"official": "Independent State of Samoa",
+"capital": "Apia",
+"capitals": [
+"Apia"
+],
+"region": "Oceania",
+"subregion": "Polynesia",
+"group": "Polynesia",
+"easy": false,
+"look": null,
+"pop": 197097,
+"area": null,
+"flag": "topics/countries/flags/ws.svg",
+"c": [
+-478.1,
+38.4
+]
+},
+{
+"id": "sm",
+"cca3": "SMR",
+"name": "San Marino",
+"official": "Republic of San Marino",
+"capital": "San Marino",
+"capitals": [
+"San Marino"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": null,
+"pop": 33860,
+"area": null,
+"flag": "topics/countries/flags/sm.svg",
+"c": [
+34.6,
+-130.5
+]
+},
+{
+"id": "sa",
+"cca3": "SAU",
+"name": "Saudi Arabia",
+"official": "Kingdom of Saudi Arabia",
+"capital": "Riyadh",
+"capitals": [
+"Riyadh"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": true,
+"look": 23,
+"pop": 34268528,
+"area": null,
+"flag": "topics/countries/flags/sa.svg",
+"c": [
+125.4,
+-69.1
+]
+},
+{
+"id": "sn",
+"cca3": "SEN",
+"name": "Senegal",
+"official": "Republic of Senegal",
+"capital": "Dakar",
+"capitals": [
+"Dakar"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": 6,
+"pop": 16296364,
+"area": null,
+"flag": "topics/countries/flags/sn.svg",
+"c": [
+-40.2,
+-40.6
+]
+},
+{
+"id": "rs",
+"cca3": "SRB",
+"name": "Serbia",
+"official": "Republic of Serbia",
+"capital": "Belgrade",
+"capitals": [
+"Belgrade"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": 3,
+"pop": 6944975,
+"area": null,
+"flag": "topics/countries/flags/rs.svg",
+"c": [
+58.2,
+-131.5
+]
+},
+{
+"id": "sc",
+"cca3": "SYC",
+"name": "Seychelles",
+"official": "Republic of Seychelles",
+"capital": "Victoria",
+"capitals": [
+"Victoria"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 97625,
+"area": null,
+"flag": "topics/countries/flags/sc.svg",
+"c": [
+154.1,
+13.0
+]
+},
+{
+"id": "sl",
+"cca3": "SLE",
+"name": "Sierra Leone",
+"official": "Republic of Sierra Leone",
+"capital": "Freetown",
+"capitals": [
+"Freetown"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": null,
+"pop": 7813215,
+"area": null,
+"flag": "topics/countries/flags/sl.svg",
+"c": [
+-32.7,
+-23.5
+]
+},
+{
+"id": "sg",
+"cca3": "SGP",
+"name": "Singapore",
+"official": "Republic of Singapore",
+"capital": "Singapore",
+"capitals": [
+"Singapore"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": true,
+"look": 2,
+"pop": 5703569,
+"area": null,
+"flag": "topics/countries/flags/sg.svg",
+"c": [
+288.4,
+-3.8
+]
+},
+{
+"id": "sk",
+"cca3": "SVK",
+"name": "Slovakia",
+"official": "Slovak Republic",
+"capital": "Bratislava",
+"capitals": [
+"Bratislava"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": false,
+"look": 3,
+"pop": 5454073,
+"area": null,
+"flag": "topics/countries/flags/sk.svg",
+"c": [
+54.7,
+-147.1
+]
+},
+{
+"id": "si",
+"cca3": "SVN",
+"name": "Slovenia",
+"official": "Republic of Slovenia",
+"capital": "Ljubljana",
+"capitals": [
+"Ljubljana"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": 3,
+"pop": 2087946,
+"area": null,
+"flag": "topics/countries/flags/si.svg",
+"c": [
+41.5,
+-138.1
+]
+},
+{
+"id": "sb",
+"cca3": "SLB",
+"name": "Solomon Islands",
+"official": "Solomon Islands",
+"capital": "Honiara",
+"capitals": [
+"Honiara"
+],
+"region": "Oceania",
+"subregion": "Melanesia",
+"group": "Melanesia",
+"easy": false,
+"look": null,
+"pop": 669823,
+"area": null,
+"flag": "topics/countries/flags/sb.svg",
+"c": [
+442.8,
+25.7
+]
+},
+{
+"id": "so",
+"cca3": "SOM",
+"name": "Somalia",
+"official": "Federal Republic of Somalia",
+"capital": "Mogadishu",
+"capitals": [
+"Mogadishu"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 10192317,
+"area": null,
+"flag": "topics/countries/flags/so.svg",
+"c": [
+128.3,
+-14.4
+]
+},
+{
+"id": "za",
+"cca3": "ZAF",
+"name": "South Africa",
+"official": "Republic of South Africa",
+"capital": "Pretoria",
+"capitals": [
+"Pretoria"
+],
+"region": "Africa",
+"subregion": "Southern Africa",
+"group": "Southern Africa",
+"easy": true,
+"look": null,
+"pop": 58558270,
+"area": null,
+"flag": "topics/countries/flags/za.svg",
+"c": [
+68.5,
+81.7
+]
+},
+{
+"id": "kr",
+"cca3": "KOR",
+"name": "South Korea",
+"official": "Republic of Korea",
+"capital": "Seoul",
+"capitals": [
+"Seoul"
+],
+"region": "Asia",
+"subregion": "Eastern Asia",
+"group": "Eastern Asia",
+"easy": true,
+"look": null,
+"pop": 51709098,
+"area": null,
+"flag": "topics/countries/flags/kr.svg",
+"c": [
+355.2,
+-104.3
+]
+},
+{
+"id": "ss",
+"cca3": "SSD",
+"name": "South Sudan",
+"official": "Republic of South Sudan",
+"capital": "Juba",
+"capitals": [
+"Juba"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 11062113,
+"area": null,
+"flag": "topics/countries/flags/ss.svg",
+"c": [
+82.5,
+-21.9
+]
+},
+{
+"id": "es",
+"cca3": "ESP",
+"name": "Spain",
+"official": "Kingdom of Spain",
+"capital": "Madrid",
+"capitals": [
+"Madrid"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": true,
+"look": null,
+"pop": 47076781,
+"area": null,
+"flag": "topics/countries/flags/es.svg",
+"c": [
+-19.0,
+-104.6
+]
+},
+{
+"id": "lk",
+"cca3": "LKA",
+"name": "Sri Lanka",
+"official": "Democratic Socialist Republic of Sri Lanka",
+"capital": "Sri Jayawardenepura Kotte",
+"capitals": [
+"Sri Jayawardenepura Kotte"
+],
+"region": "Asia",
+"subregion": "Southern Asia",
+"group": "Southern Asia",
+"easy": false,
+"look": 18,
+"pop": 21803000,
+"area": null,
+"flag": "topics/countries/flags/lk.svg",
+"c": [
+224.4,
+-22.0
+]
+},
+{
+"id": "sd",
+"cca3": "SDN",
+"name": "Sudan",
+"official": "Republic of the Sudan",
+"capital": "Khartoum",
+"capitals": [
+"Khartoum"
+],
+"region": "Africa",
+"subregion": "Northern Africa",
+"group": "Northern Africa",
+"easy": true,
+"look": 8,
+"pop": 42813238,
+"area": null,
+"flag": "topics/countries/flags/sd.svg",
+"c": [
+83.9,
+-43.4
+]
+},
+{
+"id": "sr",
+"cca3": "SUR",
+"name": "Suriname",
+"official": "Republic of Suriname",
+"capital": "Paramaribo",
+"capitals": [
+"Paramaribo"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": false,
+"look": null,
+"pop": 581363,
+"area": null,
+"flag": "topics/countries/flags/sr.svg",
+"c": [
+-155.6,
+-10.9
+]
+},
+{
+"id": "se",
+"cca3": "SWE",
+"name": "Sweden",
+"official": "Kingdom of Sweden",
+"capital": "Stockholm",
+"capitals": [
+"Stockholm"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": true,
+"look": 5,
+"pop": 10285453,
+"area": null,
+"flag": "topics/countries/flags/se.svg",
+"c": [
+49.0,
+-201.5
+]
+},
+{
+"id": "ch",
+"cca3": "CHE",
+"name": "Switzerland",
+"official": "Swiss Confederation",
+"capital": "Bern",
+"capitals": [
+"Bern"
+],
+"region": "Europe",
+"subregion": "Western Europe",
+"group": "Western Europe",
+"easy": true,
+"look": null,
+"pop": 8574832,
+"area": null,
+"flag": "topics/countries/flags/ch.svg",
+"c": [
+22.8,
+-140.4
+]
+},
+{
+"id": "sy",
+"cca3": "SYR",
+"name": "Syria",
+"official": "Syrian Arab Republic",
+"capital": "Damascus",
+"capitals": [
+"Damascus"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": 9,
+"pop": 17070135,
+"area": null,
+"flag": "topics/countries/flags/sy.svg",
+"c": [
+108.5,
+-100.8
+]
+},
+{
+"id": "st",
+"cca3": "STP",
+"name": "São Tomé and Principe",
+"official": "Democratic Republic of São Tomé and Principe",
+"capital": "São Tomé",
+"capitals": [
+"São Tomé"
+],
+"region": "Africa",
+"subregion": "Middle Africa",
+"group": "Middle Africa",
+"easy": false,
+"look": null,
+"pop": 215056,
+"area": null,
+"flag": "topics/countries/flags/st.svg",
+"c": [
+18.3,
+-0.7
+]
+},
+{
+"id": "tj",
+"cca3": "TJK",
+"name": "Tajikistan",
+"official": "Republic of Tajikistan",
+"capital": "Dushanbe",
+"capitals": [
+"Dushanbe"
+],
+"region": "Asia",
+"subregion": "Central Asia",
+"group": "Central Asia",
+"easy": false,
+"look": null,
+"pop": 9321018,
+"area": null,
+"flag": "topics/countries/flags/tj.svg",
+"c": [
+197.9,
+-113.8
+]
+},
+{
+"id": "tz",
+"cca3": "TZA",
+"name": "Tanzania",
+"official": "United Republic of Tanzania",
+"capital": "Dodoma",
+"capitals": [
+"Dodoma"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": true,
+"look": 21,
+"pop": 58005463,
+"area": null,
+"flag": "topics/countries/flags/tz.svg",
+"c": [
+96.9,
+17.7
+]
+},
+{
+"id": "th",
+"cca3": "THA",
+"name": "Thailand",
+"official": "Kingdom of Thailand",
+"capital": "Bangkok",
+"capitals": [
+"Bangkok"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": true,
+"look": 19,
+"pop": 69625582,
+"area": null,
+"flag": "topics/countries/flags/th.svg",
+"c": [
+282.0,
+-36.6
+]
+},
+{
+"id": "tg",
+"cca3": "TGO",
+"name": "Togo",
+"official": "Togolese Republic",
+"capital": "Lomé",
+"capitals": [
+"Lomé"
+],
+"region": "Africa",
+"subregion": "Western Africa",
+"group": "Western Africa",
+"easy": false,
+"look": null,
+"pop": 8082366,
+"area": null,
+"flag": "topics/countries/flags/tg.svg",
+"c": [
+2.3,
+-24.0
+]
+},
+{
+"id": "to",
+"cca3": "TON",
+"name": "Tonga",
+"official": "Kingdom of Tonga",
+"capital": "Nuku'alofa",
+"capitals": [
+"Nuku'alofa"
+],
+"region": "Oceania",
+"subregion": "Polynesia",
+"group": "Polynesia",
+"easy": false,
+"look": null,
+"pop": 104494,
+"area": null,
+"flag": "topics/countries/flags/to.svg",
+"c": [
+-486.7,
+59.7
+]
+},
+{
+"id": "tt",
+"cca3": "TTO",
+"name": "Trinidad and Tobago",
+"official": "Republic of Trinidad and Tobago",
+"capital": "Port-of-Spain",
+"capitals": [
+"Port-of-Spain"
+],
+"region": "North America",
+"subregion": "Caribbean",
+"group": "Caribbean",
+"easy": false,
+"look": 22,
+"pop": 1394973,
+"area": null,
+"flag": "topics/countries/flags/tt.svg",
+"c": [
+-170.6,
+-29.1
+]
+},
+{
+"id": "tn",
+"cca3": "TUN",
+"name": "Tunisia",
+"official": "Republic of Tunisia",
+"capital": "Tunis",
+"capitals": [
+"Tunis"
+],
+"region": "Africa",
+"subregion": "Northern Africa",
+"group": "Northern Africa",
+"easy": false,
+"look": 11,
+"pop": 11694719,
+"area": null,
+"flag": "topics/countries/flags/tn.svg",
+"c": [
+26.4,
+-97.7
+]
+},
+{
+"id": "tr",
+"cca3": "TUR",
+"name": "Turkey",
+"official": "Republic of Turkey",
+"capital": "Ankara",
+"capitals": [
+"Ankara"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": true,
+"look": 11,
+"pop": 83429615,
+"area": null,
+"flag": "topics/countries/flags/tr.svg",
+"c": [
+98.4,
+-114.1
+]
+},
+{
+"id": "tm",
+"cca3": "TKM",
+"name": "Turkmenistan",
+"official": "Turkmenistan",
+"capital": "Ashgabat",
+"capitals": [
+"Ashgabat"
+],
+"region": "Asia",
+"subregion": "Central Asia",
+"group": "Central Asia",
+"easy": false,
+"look": null,
+"pop": 5942089,
+"area": null,
+"flag": "topics/countries/flags/tm.svg",
+"c": [
+165.4,
+-114.2
+]
+},
+{
+"id": "tv",
+"cca3": "TUV",
+"name": "Tuvalu",
+"official": "Tuvalu",
+"capital": "Funafuti",
+"capitals": [
+"Funafuti"
+],
+"region": "Oceania",
+"subregion": "Polynesia",
+"group": "Polynesia",
+"easy": false,
+"look": 4,
+"pop": 11646,
+"area": null,
+"flag": "topics/countries/flags/tv.svg",
+"c": [
+497.8,
+23.7
+]
+},
+{
+"id": "ug",
+"cca3": "UGA",
+"name": "Uganda",
+"official": "Republic of Uganda",
+"capital": "Kampala",
+"capitals": [
+"Kampala"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": true,
+"look": null,
+"pop": 44269594,
+"area": null,
+"flag": "topics/countries/flags/ug.svg",
+"c": [
+89.7,
+-3.8
+]
+},
+{
+"id": "ua",
+"cca3": "UKR",
+"name": "Ukraine",
+"official": "Ukraine",
+"capital": "Kyiv",
+"capitals": [
+"Kyiv"
+],
+"region": "Europe",
+"subregion": "Eastern Europe",
+"group": "Eastern Europe",
+"easy": true,
+"look": null,
+"pop": 44385155,
+"area": null,
+"flag": "topics/countries/flags/ua.svg",
+"c": [
+86.4,
+-147.7
+]
+},
+{
+"id": "ae",
+"cca3": "ARE",
+"name": "United Arab Emirates",
+"official": "United Arab Emirates",
+"capital": "Abu Dhabi",
+"capitals": [
+"Abu Dhabi"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": true,
+"look": 8,
+"pop": 9770529,
+"area": null,
+"flag": "topics/countries/flags/ae.svg",
+"c": [
+149.9,
+-69.0
+]
+},
+{
+"id": "gb",
+"cca3": "GBR",
+"name": "United Kingdom",
+"official": "United Kingdom of Great Britain and Northern Ireland",
+"capital": "London",
+"capitals": [
+"London"
+],
+"region": "Europe",
+"subregion": "Northern Europe",
+"group": "Northern Europe",
+"easy": true,
+"look": null,
+"pop": 66834405,
+"area": null,
+"flag": "topics/countries/flags/gb.svg",
+"c": [
+-8.9,
+-172.5
+]
+},
+{
+"id": "us",
+"cca3": "USA",
+"name": "United States",
+"official": "United States of America",
+"capital": "Washington,  D.C.",
+"capitals": [
+"Washington,  D.C."
+],
+"region": "North America",
+"subregion": "Northern America",
+"group": "Northern America",
+"easy": true,
+"look": 10,
+"pop": 328239523,
+"area": null,
+"flag": "topics/countries/flags/us.svg",
+"c": [
+1.8,
+-148.1
+]
+},
+{
+"id": "uy",
+"cca3": "URY",
+"name": "Uruguay",
+"official": "Oriental Republic of Uruguay",
+"capital": "Montevideo",
+"capitals": [
+"Montevideo"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": false,
+"look": 14,
+"pop": 3461734,
+"area": null,
+"flag": "topics/countries/flags/uy.svg",
+"c": [
+-154.9,
+93.7
+]
+},
+{
+"id": "uz",
+"cca3": "UZB",
+"name": "Uzbekistan",
+"official": "Republic of Uzbekistan",
+"capital": "Tashkent",
+"capitals": [
+"Tashkent"
+],
+"region": "Asia",
+"subregion": "Central Asia",
+"group": "Central Asia",
+"easy": true,
+"look": null,
+"pop": 33580650,
+"area": null,
+"flag": "topics/countries/flags/uz.svg",
+"c": [
+179.3,
+-122.1
+]
+},
+{
+"id": "vu",
+"cca3": "VUT",
+"name": "Vanuatu",
+"official": "Republic of Vanuatu",
+"capital": "Port Vila",
+"capitals": [
+"Port Vila"
+],
+"region": "Oceania",
+"subregion": "Melanesia",
+"group": "Melanesia",
+"easy": false,
+"look": null,
+"pop": 299882,
+"area": null,
+"flag": "topics/countries/flags/vu.svg",
+"c": [
+466.5,
+47.1
+]
+},
+{
+"id": "va",
+"cca3": "VAT",
+"name": "Vatican City",
+"official": "State of the Vatican City",
+"capital": "Vatican City",
+"capitals": [
+"Vatican City"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": null,
+"pop": 825,
+"area": null,
+"flag": "topics/countries/flags/va.svg",
+"c": [
+34.5,
+-123.7
+]
+},
+{
+"id": "ve",
+"cca3": "VEN",
+"name": "Venezuela",
+"official": "Bolivarian Republic of Venezuela",
+"capital": "Caracas",
+"capitals": [
+"Caracas"
+],
+"region": "South America",
+"subregion": "South America",
+"group": "South America",
+"easy": true,
+"look": 7,
+"pop": 28515829,
+"area": null,
+"flag": "topics/countries/flags/ve.svg",
+"c": [
+-185.0,
+-18.0
+]
+},
+{
+"id": "vn",
+"cca3": "VNM",
+"name": "Vietnam",
+"official": "Socialist Republic of Vietnam",
+"capital": "Hanoi",
+"capitals": [
+"Hanoi"
+],
+"region": "Asia",
+"subregion": "South-Eastern Asia",
+"group": "South-Eastern Asia",
+"easy": true,
+"look": null,
+"pop": 96462106,
+"area": null,
+"flag": "topics/countries/flags/vn.svg",
+"c": [
+293.9,
+-45.0
+]
+},
+{
+"id": "ye",
+"cca3": "YEM",
+"name": "Yemen",
+"official": "Republic of Yemen",
+"capital": "Sanaa",
+"capitals": [
+"Sanaa"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": true,
+"look": 9,
+"pop": 29161922,
+"area": null,
+"flag": "topics/countries/flags/ye.svg",
+"c": [
+135.0,
+-43.9
+]
+},
+{
+"id": "zm",
+"cca3": "ZMB",
+"name": "Zambia",
+"official": "Republic of Zambia",
+"capital": "Lusaka",
+"capitals": [
+"Lusaka"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": 21,
+"pop": 17861030,
+"area": null,
+"flag": "topics/countries/flags/zm.svg",
+"c": [
+77.3,
+36.7
+]
+},
+{
+"id": "zw",
+"cca3": "ZWE",
+"name": "Zimbabwe",
+"official": "Republic of Zimbabwe",
+"capital": "Harare",
+"capitals": [
+"Harare"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": 21,
+"pop": 14645468,
+"area": null,
+"flag": "topics/countries/flags/zw.svg",
+"c": [
+80.9,
+53.5
+]
+}
+]

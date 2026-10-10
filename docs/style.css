@@ -1,7 +1,7 @@
-:root { --green:#2f6f4f; --green-d:#22533b; --bg:#f5f3ec; --card:#fff; --ink:#1e2a23;
+:root { --sea:#cfe3ee; --land:#e3decf; --hl:#e0533d; --green:#2f6f4f; --green-d:#22533b; --bg:#f5f3ec; --card:#fff; --ink:#1e2a23;
         --good:#2e9e5b; --bad:#d04a3a; --muted:#6b756f; }
 @media (prefers-color-scheme: dark) {
-  :root { --bg:#141a16; --card:#1f2823; --ink:#eef2ee; --muted:#9aa59e; --green:#4a9a72; --green-d:#3b8160; }
+  :root { --bg:#141a16; --card:#1f2823; --sea:#1b2f3a; --land:#42514a; --ink:#eef2ee; --muted:#9aa59e; --green:#4a9a72; --green-d:#3b8160; }
 }
 * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
 html,body { margin:0; background:var(--bg); color:var(--ink);
@@ -74,3 +74,21 @@ textarea { width:100%; border-radius:12px; border:2px solid rgba(128,128,128,.35
 .gallery img { width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:12px; display:block; background:#0002; }
 .gallery figcaption { font-size:.7rem; color:var(--muted); margin-top:4px; } .gallery figcaption a { color:inherit; }
 .mapkey i { display:inline-block; width:.8em; height:.8em; border-radius:2px; margin:0 3px 0 6px; vertical-align:-1px; }
+
+#pic { position:relative; }
+.topicgrid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:14px; }
+.topiccard { display:flex; flex-direction:column; align-items:center; gap:4px; padding:18px 10px; border:0; border-radius:16px;
+  background:var(--card); color:var(--ink); font:inherit; cursor:pointer; box-shadow:0 1px 3px #0002; text-align:center; }
+.topiccard .emo { font-size:2.4rem; } .topiccard small { color:var(--muted); font-size:.75rem; line-height:1.25; }
+.topiccard:active { background:var(--green); color:#fff; } .topiccard:active small { color:#fffc; }
+.flagbox { width:100%; aspect-ratio:4/3; border-radius:16px; background:var(--card); display:flex; align-items:center; justify-content:center; padding:14px; box-shadow:0 1px 3px #0002; }
+.flagbox img { max-width:100%; max-height:100%; box-shadow:0 0 0 1px #0003; }
+.mapbox { width:100%; aspect-ratio:4/3; border-radius:16px; overflow:hidden; background:var(--sea); }
+.mapbox svg { width:100%; height:100%; display:block; }
+.mapbox .land path { fill:var(--land); stroke:#fff8; stroke-width:.6px; vector-effect:non-scaling-stroke; }
+.mapbox .hl { fill:var(--hl); stroke:#6b1d10; stroke-width:1.2px; vector-effect:non-scaling-stroke; }
+.mapbox .ring { fill:none; stroke:var(--hl); stroke-width:2.5px; vector-effect:non-scaling-stroke; }
+.qtext { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; min-height:150px; text-align:center;
+  background:var(--card); border-radius:16px; padding:22px 16px; box-shadow:0 1px 3px #0002; font-size:1.35rem; }
+.qtext p { margin:0; } .miniflag { height:46px; box-shadow:0 0 0 1px #0003; }
+.sheetbody .flagbox { margin:8px 0; } .sheetbody .mapbox { margin:6px 0; }

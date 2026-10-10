@@ -1,0 +1,802 @@
+[
+{
+"id": "al",
+"name": "Alabama",
+"abbr": "AL",
+"capital": "Montgomery",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/al.png",
+"flagCredit": {
+"author": "Steve Hall",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Alabama.svg"
+}
+},
+{
+"id": "ak",
+"name": "Alaska",
+"abbr": "AK",
+"capital": "Juneau",
+"region": "West",
+"group": "West",
+"easy": true,
+"look": null,
+"flag": "topics/states/flags/ak.png",
+"flagCredit": {
+"author": "Benny Benson",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Alaska.svg"
+}
+},
+{
+"id": "az",
+"name": "Arizona",
+"abbr": "AZ",
+"capital": "Phoenix",
+"region": "West",
+"group": "West",
+"easy": true,
+"look": null,
+"flag": "topics/states/flags/az.png",
+"flagCredit": {
+"author": "Original: Unknown author Vector:  Madden",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Arizona.svg"
+}
+},
+{
+"id": "ar",
+"name": "Arkansas",
+"abbr": "AR",
+"capital": "Little Rock",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/ar.png",
+"flagCredit": {
+"author": "Unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Arkansas.svg"
+}
+},
+{
+"id": "ca",
+"name": "California",
+"abbr": "CA",
+"capital": "Sacramento",
+"region": "West",
+"group": "West",
+"easy": true,
+"look": null,
+"flag": "topics/states/flags/ca.png",
+"flagCredit": {
+"author": "Original:  Donald Graeme Kelley\nVectorization:  Devin Cook",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_California.svg"
+}
+},
+{
+"id": "co",
+"name": "Colorado",
+"abbr": "CO",
+"capital": "Denver",
+"region": "West",
+"group": "West",
+"easy": true,
+"look": null,
+"flag": "topics/states/flags/co.png",
+"flagCredit": {
+"author": "Original: Andrew Carlyle Carson Vector:  Fleminra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Colorado.svg"
+}
+},
+{
+"id": "ct",
+"name": "Connecticut",
+"abbr": "CT",
+"capital": "Hartford",
+"region": "Northeast",
+"group": "Northeast",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/ct.png",
+"flagCredit": {
+"author": "Jean-Pierre Demailly, xrmap authors, Commons users (SVG)",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Connecticut.svg"
+}
+},
+{
+"id": "de",
+"name": "Delaware",
+"abbr": "DE",
+"capital": "Dover",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/de.png",
+"flagCredit": {
+"author": "xrmap flag collection",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Delaware.svg"
+}
+},
+{
+"id": "fl",
+"name": "Florida",
+"abbr": "FL",
+"capital": "Tallahassee",
+"region": "South",
+"group": "South",
+"easy": true,
+"look": null,
+"flag": "topics/states/flags/fl.png",
+"flagCredit": {
+"author": "Template:Brendon Tiana",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Florida.svg"
+}
+},
+{
+"id": "ga",
+"name": "Georgia",
+"abbr": "GA",
+"capital": "Atlanta",
+"region": "South",
+"group": "South",
+"easy": true,
+"look": null,
+"flag": "topics/states/flags/ga.png",
+"flagCredit": {
+"author": "Last update by MapGrid\n\nSKopp",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Georgia.svg"
+}
+},
+{
+"id": "hi",
+"name": "Hawaii",
+"abbr": "HI",
+"capital": "Honolulu",
+"region": "West",
+"group": "West",
+"easy": true,
+"look": null,
+"flag": "topics/states/flags/hi.png",
+"flagCredit": {
+"author": "Dbenbenn",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Hawaii.svg"
+}
+},
+{
+"id": "id",
+"name": "Idaho",
+"abbr": "ID",
+"capital": "Boise",
+"region": "West",
+"group": "West",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/id.png",
+"flagCredit": {
+"author": "Paul B. Evans, based on a work by the Adjutant General of Idaho and Emma Edwards Green",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Idaho.svg"
+}
+},
+{
+"id": "il",
+"name": "Illinois",
+"abbr": "IL",
+"capital": "Springfield",
+"region": "Midwest",
+"group": "Midwest",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/il.png",
+"flagCredit": {
+"author": "Denelson83",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Illinois.svg"
+}
+},
+{
+"id": "in",
+"name": "Indiana",
+"abbr": "IN",
+"capital": "Indianapolis",
+"region": "Midwest",
+"group": "Midwest",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/in.png",
+"flagCredit": {
+"author": "The Indiana state flag was designed by Paul Hadley in 1917. This SVG file was made by Zscout370 with some modifications by HoosierMan1816.",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Indiana.svg"
+}
+},
+{
+"id": "ia",
+"name": "Iowa",
+"abbr": "IA",
+"capital": "Des Moines",
+"region": "Midwest",
+"group": "Midwest",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/ia.png",
+"flagCredit": {
+"author": "Unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Iowa.svg"
+}
+},
+{
+"id": "ks",
+"name": "Kansas",
+"abbr": "KS",
+"capital": "Topeka",
+"region": "Midwest",
+"group": "Midwest",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/ks.png",
+"flagCredit": {
+"author": "Xrmap",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kansas.svg"
+}
+},
+{
+"id": "ky",
+"name": "Kentucky",
+"abbr": "KY",
+"capital": "Frankfort",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/ky.png",
+"flagCredit": {
+"author": "Commonwealth of Kentucky",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kentucky.svg"
+}
+},
+{
+"id": "la",
+"name": "Louisiana",
+"abbr": "LA",
+"capital": "Baton Rouge",
+"region": "South",
+"group": "South",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/la.png",
+"flagCredit": {
+"author": "Curtis Vann, Jr.",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Louisiana.svg"
+}
+},
+{
+"id": "me",
+"name": "Maine",
+"abbr": "ME",
+"capital": "Augusta",
+"region": "Northeast",
+"group": "Northeast",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/me.png",
+"flagCredit": {
+"author": "Unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Maine.svg"
+}
+},
+{
+"id": "md",
+"name": "Maryland",
+"abbr": "MD",
+"capital": "Annapolis",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/md.png",
+"flagCredit": {
+"author": "Michael Wheeler",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Maryland.svg"
+}
+},
+{
+"id": "ma",
+"name": "Massachusetts",
+"abbr": "MA",
+"capital": "Boston",
+"region": "Northeast",
+"group": "Northeast",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/ma.png",
+"flagCredit": {
+"author": "State of Massachusetts",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg"
+}
+},
+{
+"id": "mi",
+"name": "Michigan",
+"abbr": "MI",
+"capital": "Lansing",
+"region": "Midwest",
+"group": "Midwest",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/mi.png",
+"flagCredit": {
+"author": "Unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Michigan.svg"
+}
+},
+{
+"id": "mn",
+"name": "Minnesota",
+"abbr": "MN",
+"capital": "Saint Paul",
+"region": "Midwest",
+"group": "Midwest",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/mn.png",
+"flagCredit": {
+"author": "Original: Minnesota State Emblems Redesign Commission Vector:  Jamie Eilat, Undertiago",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg"
+}
+},
+{
+"id": "ms",
+"name": "Mississippi",
+"abbr": "MS",
+"capital": "Jackson",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/ms.png",
+"flagCredit": {
+"author": "Rocky Vaughn, Sue Anna Joe, Dominique Pugh, Clay Moss, Kara Giles, Micah Whitson and the Mississippi Department of Archives and History",
+"license": "Copyrighted free use",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Mississippi.svg"
+}
+},
+{
+"id": "mo",
+"name": "Missouri",
+"abbr": "MO",
+"capital": "Jefferson City",
+"region": "Midwest",
+"group": "Midwest",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/mo.png",
+"flagCredit": {
+"author": "Marie Watkins Oliver",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Missouri.svg"
+}
+},
+{
+"id": "mt",
+"name": "Montana",
+"abbr": "MT",
+"capital": "Helena",
+"region": "West",
+"group": "West",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/mt.png",
+"flagCredit": {
+"author": "N.a",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Montana.svg"
+}
+},
+{
+"id": "ne",
+"name": "Nebraska",
+"abbr": "NE",
+"capital": "Lincoln",
+"region": "Midwest",
+"group": "Midwest",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/ne.png",
+"flagCredit": {
+"author": "Liamgabby79",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Nebraska.svg"
+}
+},
+{
+"id": "nv",
+"name": "Nevada",
+"abbr": "NV",
+"capital": "Carson City",
+"region": "West",
+"group": "West",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/nv.png",
+"flagCredit": {
+"author": "Caleb Moore",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Nevada.svg"
+}
+},
+{
+"id": "nh",
+"name": "New Hampshire",
+"abbr": "NH",
+"capital": "Concord",
+"region": "Northeast",
+"group": "Northeast",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/nh.png",
+"flagCredit": {
+"author": "Xrmap flag collection",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Hampshire.svg"
+}
+},
+{
+"id": "nj",
+"name": "New Jersey",
+"abbr": "NJ",
+"capital": "Trenton",
+"region": "Northeast",
+"group": "Northeast",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/nj.png",
+"flagCredit": {
+"author": "author of xrmap, with modifications by Denelson83 and ChrisRuvolo",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Jersey.svg"
+}
+},
+{
+"id": "nm",
+"name": "New Mexico",
+"abbr": "NM",
+"capital": "Santa Fe",
+"region": "West",
+"group": "West",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/nm.png",
+"flagCredit": {
+"author": "Unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Mexico.svg"
+}
+},
+{
+"id": "ny",
+"name": "New York",
+"abbr": "NY",
+"capital": "Albany",
+"region": "Northeast",
+"group": "Northeast",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/ny.png",
+"flagCredit": {
+"author": "State of New York",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_New_York.svg"
+}
+},
+{
+"id": "nc",
+"name": "North Carolina",
+"abbr": "NC",
+"capital": "Raleigh",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/nc.png",
+"flagCredit": {
+"author": "Unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_North_Carolina.svg"
+}
+},
+{
+"id": "nd",
+"name": "North Dakota",
+"abbr": "ND",
+"capital": "Bismarck",
+"region": "Midwest",
+"group": "Midwest",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/nd.png",
+"flagCredit": {
+"author": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_North_Dakota.svg"
+}
+},
+{
+"id": "oh",
+"name": "Ohio",
+"abbr": "OH",
+"capital": "Columbus",
+"region": "Midwest",
+"group": "Midwest",
+"easy": true,
+"look": null,
+"flag": "topics/states/flags/oh.png",
+"flagCredit": {
+"author": "John Eisenmann",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Ohio.svg"
+}
+},
+{
+"id": "ok",
+"name": "Oklahoma",
+"abbr": "OK",
+"capital": "Oklahoma City",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/ok.png",
+"flagCredit": {
+"author": "xrmap",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Oklahoma.svg"
+}
+},
+{
+"id": "or",
+"name": "Oregon",
+"abbr": "OR",
+"capital": "Salem",
+"region": "West",
+"group": "West",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/or.png",
+"flagCredit": {
+"author": "User:Denelson83",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Oregon.svg"
+}
+},
+{
+"id": "pa",
+"name": "Pennsylvania",
+"abbr": "PA",
+"capital": "Harrisburg",
+"region": "Northeast",
+"group": "Northeast",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/pa.png",
+"flagCredit": {
+"author": "Simtropolitan, Jean-Pierre Demailly (old version)\npermission=\n\n\n\nInsignia\n\nThis image shows a flag, a coat of arms, a seal or some other official insignia. The use of such symbols is restricted in many countries. These restrictions are independent of the copyright status.",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Pennsylvania.svg"
+}
+},
+{
+"id": "ri",
+"name": "Rhode Island",
+"abbr": "RI",
+"capital": "Providence",
+"region": "Northeast",
+"group": "Northeast",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/ri.png",
+"flagCredit": {
+"author": "Xrmap flag collection 2.7",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island.svg"
+}
+},
+{
+"id": "sc",
+"name": "South Carolina",
+"abbr": "SC",
+"capital": "Columbia",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/sc.png",
+"flagCredit": {
+"author": "Design by South Carolina General Assembly, SVG by Steve Hall",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Carolina.svg"
+}
+},
+{
+"id": "sd",
+"name": "South Dakota",
+"abbr": "SD",
+"capital": "Pierre",
+"region": "Midwest",
+"group": "Midwest",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/sd.png",
+"flagCredit": {
+"author": "xrmap",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Dakota.svg"
+}
+},
+{
+"id": "tn",
+"name": "Tennessee",
+"abbr": "TN",
+"capital": "Nashville",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/tn.png",
+"flagCredit": {
+"author": "-xfi-",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Tennessee.svg"
+}
+},
+{
+"id": "tx",
+"name": "Texas",
+"abbr": "TX",
+"capital": "Austin",
+"region": "South",
+"group": "South",
+"easy": true,
+"look": null,
+"flag": "topics/states/flags/tx.png",
+"flagCredit": {
+"author": "Paul B. Joiner",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Texas.svg"
+}
+},
+{
+"id": "ut",
+"name": "Utah",
+"abbr": "UT",
+"capital": "Salt Lake City",
+"region": "West",
+"group": "West",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/ut.png",
+"flagCredit": {
+"author": "The State of Utah",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Utah.svg"
+}
+},
+{
+"id": "vt",
+"name": "Vermont",
+"abbr": "VT",
+"capital": "Montpelier",
+"region": "Northeast",
+"group": "Northeast",
+"easy": false,
+"look": null,
+"flag": "topics/states/flags/vt.png",
+"flagCredit": {
+"author": "User:SimtropolitanOriginal by User:Denelson83",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Vermont.svg"
+}
+},
+{
+"id": "va",
+"name": "Virginia",
+"abbr": "VA",
+"capital": "Richmond",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/va.png",
+"flagCredit": {
+"author": "LadyofHats with additional editing by 痛 and Patrickneil / Charles Keck",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Virginia.svg"
+}
+},
+{
+"id": "wa",
+"name": "Washington",
+"abbr": "WA",
+"capital": "Olympia",
+"region": "West",
+"group": "West",
+"easy": true,
+"look": 0,
+"flag": "topics/states/flags/wa.png",
+"flagCredit": {
+"author": "WA Secretary of State",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Washington.svg"
+}
+},
+{
+"id": "wv",
+"name": "West Virginia",
+"abbr": "WV",
+"capital": "Charleston",
+"region": "South",
+"group": "South",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/wv.png",
+"flagCredit": {
+"author": "Militaryace, Denelson83",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_West_Virginia.svg"
+}
+},
+{
+"id": "wi",
+"name": "Wisconsin",
+"abbr": "WI",
+"capital": "Madison",
+"region": "Midwest",
+"group": "Midwest",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/wi.png",
+"flagCredit": {
+"author": "Unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Wisconsin.svg"
+}
+},
+{
+"id": "wy",
+"name": "Wyoming",
+"abbr": "WY",
+"capital": "Cheyenne",
+"region": "West",
+"group": "West",
+"easy": false,
+"look": 0,
+"flag": "topics/states/flags/wy.png",
+"flagCredit": {
+"author": "User:Dbenbenn",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Flag_of_Wyoming.svg"
+}
+}
+]
