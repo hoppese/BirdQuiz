@@ -7,7 +7,7 @@ const LEVELS = {
   hard:   { label: "Hard",   blurb: "Look-alike choices from the same family" },
 };
 const app = document.getElementById("app");
-let birds = [], state = null, level = "medium", mode = "photo";
+let birds = [], state = null, level = "medium", mode = "photo", view = "home";
 
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) {
   const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -62,7 +62,7 @@ function newRound() {
   const ok = b => goodPhotos(b).length && (mode === "photo" || (b.sounds || []).length);
   if (mode === "song") pool = pool.filter(b => (b.sounds || []).length);
   const playable = shuffle(pool.filter(ok));
-  state = { i: 0, score: 0, missed: [],
+  state = { i: 0, score: 0, answered: 0, missed: [],
             questions: playable.slice(0, ROUND_LENGTH).map(b => QUIZ_TYPES[mode](b, pool)) };
   renderQuestion();
 }
@@ -70,6 +70,7 @@ function newRound() {
 // ---- views ----
 const hasSounds = () => birds.filter(b => (b.sounds || []).length).length >= 20;
 function renderHome() {
+  view = "home";
   app.innerHTML = `<div class="center"><div class="hero">🐦</div><h1>Bird Quiz</h1>
     <p>Name the bird from its ${mode === "photo" ? "photo" : "song"}.</p>
     <div class="seg"><button data-mode="photo" class="${mode === "photo" ? "on" : ""}">📷 Photos</button>${
@@ -85,15 +86,20 @@ const photoHTML = (p, extra = "") => `<div class="photowrap">
   <img class="backdrop" alt="" src="${esc(p.file)}"><img class="photo" alt="Bird" src="${esc(p.file)}">${extra}</div>`;
 
 function renderQuestion() {
+  view = "question";
   const q = state.questions[state.i];
   app.innerHTML = `
-    <div class="top"><span>${LEVELS[level].label} · ${state.i + 1} of ${ROUND_LENGTH}</span><span>Score ${state.score}</span></div>
+    <div class="top"><button class="quit" id="quit">✕ End quiz</button><span>${LEVELS[level].label} · ${state.i + 1} of ${ROUND_LENGTH}</span><span>Score ${state.score}</span></div>
     <div class="bar"><i style="width:${state.i / ROUND_LENGTH * 100}%"></i></div>
     <div id="pic">${q.type === "song" ? playerHTML(q.sound) : photoHTML(q.photo)}</div>
     <div class="choices">${q.options.map((o, k) =>
       `<button class="choice" data-k="${k}">${esc(o.name)}</button>`).join("")}</div>
     <div id="after"></div>`;
   app.querySelectorAll(".choice").forEach(b => b.onclick = () => answer(q, +b.dataset.k));
+  document.getElementById("quit").onclick = () => {
+    if (!confirm(state.answered ? "End this quiz and see your results so far?" : "End this quiz?")) return;
+    stopClips(); state.answered ? renderResults() : renderHome();
+  };
   wirePlayer();
 }
 
@@ -123,6 +129,7 @@ function wireFlag(q) {
 
 function answer(q, k) {
   const right = q.options[k] === q.answer;
+  state.answered++;
   if (right) state.score++; else state.missed.push({ q, chosen: q.options[k] });
   app.querySelectorAll(".choice").forEach((b, j) => {
     b.disabled = true;
@@ -157,8 +164,13 @@ function infoHTML(b) {
   return `<h2>${esc(b.name)}</h2><p class="sci">${esc(b.scientific)} · ${esc(b.family)}
       ${i.status ? `<span class="chip">${esc(i.status)}</span>` : ""}</p>
     ${sec("About", i.about)}${sec("Diet", i.diet)}${sec("Habitat & range", i.habitat)}
+    ${goodPhotos(b).length ? `<h3>Photos</h3><div class="gallery">${goodPhotos(b).map(p => `<figure><img loading="lazy" alt="${esc(b.name)}" src="${esc(p.file)}">
+      <figcaption>${esc(p.author)}, ${esc(p.license)} — <a href="${esc(p.source)}" target="_blank" rel="noopener">source</a></figcaption></figure>`).join("")}</div>` : ""}
     ${m ? `<h3>Range map</h3><img class="map" alt="Range map of ${esc(b.name)}" src="${esc(m.file)}">
-      <p class="credit">Map: ${esc(m.author)}, ${esc(m.license)} — <a href="${esc(m.source)}" target="_blank" rel="noopener">source</a></p>` : ""}
+      <p class="credit">Map: ${esc(m.author)}, ${esc(m.license)} — <a href="${esc(m.source)}" target="_blank" rel="noopener">source</a></p>
+      <p class="credit mapkey">${/cephas|jebbles/i.test(m.author)
+        ? `Key: <i style="background:#ff7f2a"></i>breeding <i style="background:#ffdd55"></i>migration <i style="background:#7137c8"></i>year-round <i style="background:#5f8dd3"></i>winter (non-breeding)`
+        : "This map uses its own colors — see the source link for its legend."}</p>` : ""}
     ${(b.sounds || []).length ? `<h3>Sounds</h3>${b.sounds.map(x => `<div class="snd"><b>${x.kind === "song" ? "Song" : "Call"}</b>
       <audio controls preload="none" src="${esc(x.file)}"></audio>
       <p class="credit">${esc(x.author)}, ${esc(x.license)} — <a href="${esc(x.source)}" target="_blank" rel="noopener">xeno-canto</a></p></div>`).join("")}` : ""}
@@ -168,17 +180,35 @@ function infoHTML(b) {
 function openInfo(b) {
   const sheet = document.createElement("div");
   sheet.className = "sheet";
-  sheet.innerHTML = `<div class="sheetbody"><button class="close" aria-label="Close">✕</button>${infoHTML(b)}</div>`;
+  sheet.innerHTML = `<div class="sheetbody"><div class="grab"></div><button class="close" aria-label="Close">✕</button>${infoHTML(b)}</div>`;
   sheet.onclick = e => { if (e.target === sheet || e.target.closest(".close")) sheet.remove(); };
   document.body.appendChild(sheet);
+  swipeToClose(sheet);
+}
+
+// Drag the sheet down to dismiss it (only when it's scrolled to the top).
+function swipeToClose(sheet) {
+  const body = sheet.querySelector(".sheetbody"); let y0 = null, dy = 0;
+  body.addEventListener("touchstart", e => { y0 = body.scrollTop <= 0 ? e.touches[0].clientY : null; dy = 0; body.style.transition = "none"; }, { passive: true });
+  body.addEventListener("touchmove", e => {
+    if (y0 === null) return; dy = e.touches[0].clientY - y0;
+    if (dy > 0) body.style.transform = `translateY(${dy}px)`; else { dy = 0; body.style.transform = ""; }
+  }, { passive: true });
+  body.addEventListener("touchend", () => {
+    body.style.transition = "transform .2s";
+    if (dy > 100) { body.style.transform = "translateY(100%)"; setTimeout(() => sheet.remove(), 180); }
+    else body.style.transform = "";
+    y0 = null;
+  });
 }
 
 // ---- results & review ----
 function renderResults() {
+  view = "results";
   const miss = state.missed.length ? `<div class="miss"><b>Review — tap a bird:</b>${
     state.missed.map((m, k) => `<button class="missrow" data-k="${k}">${esc(m.q.answer.name)} <span>›</span></button>`).join("")}</div>` : "";
-  app.innerHTML = `<div class="center"><div class="score">${state.score}/${ROUND_LENGTH}</div>
-    <p>${state.score >= 9 ? "Expert birder! 🦅" : state.score >= 6 ? "Nice eye!" : "Keep practicing 🌱"}</p>
+  app.innerHTML = `<div class="center"><div class="score">${state.score}/${state.answered}</div>
+    <p>${state.score / state.answered >= .9 ? "Expert birder! 🦅" : state.score / state.answered >= .6 ? "Nice eye!" : "Keep practicing 🌱"}</p>
     ${miss}<button class="btn" id="again">Play again</button>
     <button class="btn ghost" id="home">Home</button></div>`;
   app.querySelectorAll(".missrow").forEach(b => b.onclick = () => renderReview(+b.dataset.k));
@@ -187,6 +217,7 @@ function renderResults() {
 }
 
 function renderReview(k) {
+  view = "review";
   const { q, chosen } = state.missed[k];
   app.innerHTML = `<button class="btn ghost back" id="back">‹ Back to results</button>
     ${photoHTML(q.photo)}
@@ -202,19 +233,20 @@ function renderReview(k) {
 // ---- general bug report (button at the bottom of every screen) ----
 function bugContext() {
   const q = state && state.questions && state.questions[state.i];
-  return [`mode=${mode}`, `level=${level}`, state ? `question=${state.i + 1}/${ROUND_LENGTH}` : "home",
-          q ? `bird=${q.answer.id}` : "", q ? `photo=${q.photo.file}` : "", q && q.sound ? `sound=${q.sound.file}` : "",
-          `screen=${innerWidth}x${innerHeight}`].filter(Boolean).join(" ");
+  return [`screen=${view}`, `mode=${mode}`, `level=${level}`,
+          view === "question" ? `question=${state.i + 1}/${ROUND_LENGTH}` : "",
+          q && view === "question" ? `bird=${q.answer.id}` : "", q && view === "question" ? `photo=${q.photo.file}` : "", q && view === "question" && q.sound ? `sound=${q.sound.file}` : "",
+          `size=${innerWidth}x${innerHeight}`].filter(Boolean).join(" ");
 }
 function openBugReport() {
   const sheet = document.createElement("div");
   sheet.className = "sheet";
-  sheet.innerHTML = `<div class="sheetbody"><button class="close" aria-label="Close">✕</button>
+  sheet.innerHTML = `<div class="sheetbody"><div class="grab"></div><button class="close" aria-label="Close">✕</button>
     <h2>Report a bug</h2><p class="credit">What went wrong? We'll note which screen you were on automatically.</p>
     <textarea id="bugtext" rows="5" placeholder="What happened, and what did you expect?"></textarea>
     <p id="bugmsg" class="credit"></p><button class="btn" id="bugsend">Send report</button></div>`;
   sheet.onclick = e => { if (e.target === sheet || e.target.closest(".close")) sheet.remove(); };
-  document.body.appendChild(sheet);
+  document.body.appendChild(sheet); swipeToClose(sheet);
   const text = sheet.querySelector("#bugtext"), msg = sheet.querySelector("#bugmsg"), send = sheet.querySelector("#bugsend");
   text.focus();
   send.onclick = async () => {

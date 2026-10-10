@@ -1161,10 +1161,10 @@
    "habitat": "Native to most of temperate North America east of the Rocky Mountains, gray catbirds migrate to the southeastern United States, Mexico, Central America, and the Caribbean in winter; except for the occasional vagrant they always stay east of the American Cordillera. They are extremely rare vagrants to western Europe.",
    "status": "Least Concern",
    "map": {
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Grey_catbird_(Dumetella_carolinensis)_Orange_Walk.jpg",
-    "author": "Charles J. Sharp",
-    "file": "maps/gray-catbird.jpg"
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dumetella_carolinensis_(gray_catbird)_map.svg",
+    "author": "Jebbles",
+    "file": "maps/gray-catbird.png"
    }
   },
   "sounds": [
@@ -1634,7 +1634,13 @@
    "about": "The house sparrow (Passer domesticus) is a bird of the sparrow family Passeridae, found in most parts of the world. It is a small bird that has a typical length of 16 cm (6.3 in) and a mass of 24\u201339.5 g (0.85\u20131.39 oz). Females and young birds are coloured pale brown and grey, and males have brighter black, white, and brown markings. One of 28 species in the genus Passer, the house sparrow is native to most of Europe, the Mediterranean Basin, and a large part of Asia. Its intentional or accidental introductions to many regions, including parts of Australasia, Africa, and the Americas, make it the most widely distributed wild bird.",
    "diet": "As an adult, the house sparrow mostly feeds on the seeds of cereals and weeds, but it is opportunistic and adaptable, and eats whatever foods are available. In towns and cities, it often scavenges for food in garbage containers and congregates in the outdoors of restaurants and other eating establishments to feed on leftover food and crumbs.",
    "habitat": "The house sparrow originated in the Middle East and spread, along with agriculture, to most of Eurasia and parts of North Africa. Since the mid-19th century, it has reached most of the world, chiefly due to deliberate introductions, but also through natural and shipborne dispersal.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:PasserDomesticusIUCNver2019-3.png",
+    "author": "SanoAK: Alexander K\u00fcrthy",
+    "file": "maps/house-sparrow.png"
+   }
   },
   "sounds": [
    {
@@ -1909,12 +1915,6 @@
     "license": "CC BY-SA 4.0",
     "author": "Paul Danese",
     "source": "https://commons.wikimedia.org/wiki/File:20241004_eastern_towhee_pleasant_valley_PD207774.jpg"
-   },
-   {
-    "file": "img/eastern-towhee-3.jpg",
-    "license": "CC BY-SA 4.0",
-    "author": "Paul Danese",
-    "source": "https://commons.wikimedia.org/wiki/File:20241004_eastern_towhee_pleasant_valley_PD207785.jpg"
    }
   ],
   "family": "New World sparrows",
@@ -1973,7 +1973,13 @@
    "about": "The red-winged blackbird (Agelaius phoeniceus) is a passerine bird of the family Icteridae found in most of North America and much of Central America. It breeds from Alaska and Newfoundland south to Florida, the Gulf of Mexico, Mexico, and Guatemala, with isolated populations in western El Salvador, northwestern Honduras, and northwestern Costa Rica. It may winter as far north as Pennsylvania and British Columbia, but northern populations are generally migratory, moving south to Mexico and the Southern United States.",
    "diet": "The red-winged blackbird is omnivorous. It feeds primarily on plant materials, including seeds from weeds and waste grain such as corn and rice, but about a quarter of its diet consists of insects and other small animals, and considerably more so during breeding season.",
    "habitat": "The red-winged blackbird is widely spread throughout North America, except in the arid desert, high mountain ranges, and arctic or dense afforestation regions. It breeds from central-eastern Alaska and Yukon in the northwest, and Newfoundland in the northeast, to northern Costa Rica in the south, and from the Atlantic to the Pacific.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Agelaius_phoeniceus.svg",
+    "author": "Cephas",
+    "file": "maps/red-winged-blackbird.png"
+   }
   },
   "sounds": [
    {
@@ -2165,10 +2171,10 @@
    "habitat": "Their breeding habitat is grasslands and prairie, also pastures and hay fields. This species is a permanent resident throughout much of its range, though most northern birds migrate southwards in winter. In 1993 this species was first recorded in El Salvador, and the discovery of a breeding pair in 2004 confirmed that the species is a resident there.",
    "status": "Near Threatened",
    "map": {
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Eastern_meadowlark_(Sturnella_magna_mexicana)_Orange_Walk.jpg",
-    "author": "Charles J. Sharp",
-    "file": "maps/eastern-meadowlark.jpg"
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sturnella_magna_map_after_split.svg",
+    "author": "Cephas and Aa77zz",
+    "file": "maps/eastern-meadowlark.png"
    }
   },
   "sounds": [
@@ -2275,7 +2281,13 @@
    "about": "The bobolink (Dolichonyx oryzivorus) is a small New World blackbird and the only member of the genus Dolichonyx. An old name for this species is the \"rice bird\", from its tendency to feed on cultivated grains during winter and migration. The bobolink breeds in the summer in the United States and Canada, with most of the summer range in the northern U.S. Bobolinks winter in southern South America, primarily Paraguay, Argentina, and Bolivia. Bobolink numbers are rapidly declining due to factors such as agricultural intensification and habitat loss; they are considered threatened in Canada, and are at risk throughout their range.",
    "diet": "Bobolinks forage on or near the ground and mainly eat seeds and insects. They are nicknamed the \"armyworm bird\" because of their predation on large numbers of armyworms, including the true armyworm (Mythimna unipuncta) and the fall armyworm (Spodoptera frugiperda), acting as a natural pest control.",
    "habitat": "The bobolink breeds in the summer in North America across much of southern Canada and the northern United States; from 1966 to 2015 the species experienced a greater than 1.5% annual population decrease throughout most of its breeding range, extending from the Midwestern United States to the Canadian Maritimes. The bobolink migrates long distances, wintering in southern South America.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dolichonyx_oryzivorus.svg",
+    "author": "Cephas",
+    "file": "maps/bobolink.png"
+   }
   },
   "sounds": [
    {
@@ -2367,7 +2379,13 @@
    "about": "The common raven or northern raven (Corvus corax) is a large all-black passerine bird. It is the most widely distributed of all corvids, found across the Northern Hemisphere. There are 11 accepted subspecies with little variation in appearance, although recent research has demonstrated significant genetic differences among populations from various regions. It is one of the two largest corvids, alongside the thick-billed raven, and is the heaviest passerine bird; at maturity, the common raven averages 63 centimetres (25 inches) in length and 1.47 kilograms (3.2 pounds) in weight, up to 2 kg (4.4 lb) in the heaviest individuals.",
    "diet": "Common ravens are omnivorous and highly opportunistic: their diet may vary widely with location, season and serendipity. For example, those foraging on tundra on the Arctic North Slope of Alaska obtained about half their energy needs from predation, mainly of microtine rodents, and half by scavenging, mainly of caribou and ptarmigan carcasses.",
    "habitat": "The common raven can thrive in varied climates; it has the largest range of any member of the genus, and one of the largest of any passerine. They range throughout the Holarctic from Arctic and temperate habitats in North America and Eurasia to the deserts of North Africa, and to islands in the Pacific Ocean.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CorvusCoraxIUCN.svg",
+    "author": "SanoAK: Alexander K\u00fcrthy",
+    "file": "maps/common-raven.png"
+   }
   },
   "sounds": [
    {
@@ -2960,10 +2978,10 @@
    "habitat": "Anna's hummingbird is found along the western coast of North America, from southern Canada to northern Baja California, and inland to southern and central Arizona, extreme southern Nevada and southeastern Utah, and western Texas. They tend to be permanent residents within their range.",
    "status": "Least Concern",
    "map": {
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Anna%27s_Hummingbird,_Orange_County,_CA,_USA_imported_from_iNaturalist_photo_447453303.jpg",
-    "author": "(c) William Walker, some rights reserved (CC BY)",
-    "file": "maps/anna-s-hummingbird.jpg"
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calypte_anna_map.svg",
+    "author": "Cephas",
+    "file": "maps/anna-s-hummingbird.png"
    }
   },
   "sounds": [
@@ -4478,7 +4496,13 @@
    "wiki": "https://en.wikipedia.org/wiki/Pine_grosbeak",
    "about": "The pine grosbeak (Pinicola enucleator) is a large member of the true finch family, Fringillidae. It is the only species in the genus Pinicola. It is found in coniferous woods across Alaska, the western mountains of the United States, Canada, and in subarctic Fennoscandia and across the Palearctic to Siberia. The species is a frugivore, especially in winter, favoring small fruits, such as rowans (mountain-ashes in the New World). With fruit-crop abundance varying from year to year, pine grosbeak is one of many subarctic-resident bird species that exhibit irruptive behavior.",
    "habitat": "Pine grosbeaks breed in the boreal forests of northern Eurasia and North America, and typically either remain resident near their breeding grounds or migrate relatively short distances to the southern extent of boreal forests. During irruptive years, more travel to southern boreal forests and some move further south.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:PinicolaEnucleatorIUCN.svg",
+    "author": "SanoAK: Alexander K\u00fcrthy",
+    "file": "maps/pine-grosbeak.png"
+   }
   },
   "sounds": [
    {
@@ -4576,7 +4600,13 @@
    "wiki": "https://en.wikipedia.org/wiki/Horned_lark",
    "about": "The horned lark or shore lark (Eremophila alpestris) is a species of lark in the family Alaudidae found across the northern hemisphere. It is known as \"horned lark\" in North America for distinctive feathers on the heads of the male birds in summer, and as \"shore lark\" in Europe because it can be found on shorelines in the winter.",
    "habitat": "The horned lark breeds across much of North America from the high Arctic south to the Isthmus of Tehuantepec, northernmost Europe and Asia and in the mountains of southeast Europe. There is also an isolated population on a plateau in Colombia. It is mainly resident in the south of its range, but northern populations of this passerine bird are migratory, moving further south in winter. This is a bird of open ground.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:EremophilaAlpestrisIUCN.svg",
+    "author": "SanoAK: Alexander K\u00fcrthy",
+    "file": "maps/horned-lark.png"
+   }
   },
   "sounds": [
    {
@@ -4723,7 +4753,13 @@
    "about": "The great egret (Ardea alba), also known as the common egret, large egret, great white egret, or great white heron, is a large, widely distributed egret. The four subspecies are found in Asia, Africa, the Americas, and southern Europe. Recently, it has also been spreading to more northern areas of Europe. Distributed across most of the tropical and warmer temperate regions of the world, it builds tree nests in colonies close to water.",
    "diet": "The great egret forages in shallow water or in drier habitats, feeding mainly on fish, frogs, other amphibians, mice, snakes, crayfish, aquatic insects, grasshoppers, and other insects",
    "habitat": "The great egret is generally a very successful species with a large and expanding range, occurring worldwide in temperate and tropical habitats. It is ubiquitous across the Sun Belt of the United States and in the Neotropics. In the Nordic countries, it was historically a rare visitor. The first breeding was observed in Sweden in 2012 and in Denmark in 2014.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ArdeaAlbaIUCNver2019_1.png",
+    "author": "SanoAK: Alexander K\u00fcrthy",
+    "file": "maps/great-egret.png"
+   }
   },
   "sounds": [
    {
@@ -4826,7 +4862,13 @@
   "easy": false,
   "info": {
    "wiki": "https://en.wikipedia.org/wiki/Green_heron",
-   "about": "The green heron (Butorides virescens) is a small heron of North and Central America. Butorides is from Middle English butor \"bittern\" and Ancient Greek -oides, \"resembling\", and virescens is Latin for \"greenish\". It was long considered conspecific with its sister species the striated heron (Butorides striata); when treated together, they were called \"green-backed heron\"."
+   "about": "The green heron (Butorides virescens) is a small heron of North and Central America. Butorides is from Middle English butor \"bittern\" and Ancient Greek -oides, \"resembling\", and virescens is Latin for \"greenish\". It was long considered conspecific with its sister species the striated heron (Butorides striata); when treated together, they were called \"green-backed heron\".",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Butorides_virescens.svg",
+    "author": "Cephas",
+    "file": "maps/green-heron.png"
+   }
   },
   "sounds": [
    {
@@ -4999,12 +5041,6 @@
     "license": "CC BY-SA 3.0",
     "author": "Sasata",
     "source": "https://commons.wikimedia.org/wiki/File:Grus_americana_Sasata.jpg"
-   },
-   {
-    "file": "img/whooping-crane-2.jpg",
-    "license": "CC BY-SA 2.0",
-    "author": "Gary Leavens",
-    "source": "https://commons.wikimedia.org/wiki/File:Whooping_Crane_Gary_Leavens.jpg"
    },
    {
     "file": "img/whooping-crane-3.jpg",
@@ -5181,10 +5217,10 @@
    "habitat": "The American white ibis is most common in Florida, where over 30,000 have been counted in a single breeding colony. It also occurs throughout the Caribbean, on both coasts of Mexico (from Baja California southwards) and Central America, and as far south as Colombia and Venezuela. The non-breeding range extends further inland, reaching north to Virginia, and west to eastern Texas.",
    "status": "Least Concern",
    "map": {
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Eudocimus_albus_-Port_Orange,_Florida,_Florida,_USA-8.jpg",
-    "author": "Aaron Fulkerson from San Diego, CA, US",
-    "file": "maps/white-ibis.jpg"
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eudocimus_albus_map_2.svg",
+    "author": "Cephas",
+    "file": "maps/white-ibis.png"
    }
   },
   "sounds": [
@@ -5526,7 +5562,13 @@
    "about": "The mallard () or wild duck (Anas platyrhynchos) is a dabbling duck that breeds throughout temperate and subtropical North America, Eurasia, and North Africa. It has been introduced to New Zealand, Australia, Peru, Brazil, Uruguay, Argentina, Chile, Colombia, the Falkland Islands, and South Africa. Belonging to the subfamily Anatinae of the waterfowl family Anatidae, mallards live in wetlands, eat water plants and small animals, and are social animals preferring to congregate in groups or flocks of varying sizes. Males (drakes) have green heads, while the females (ducks) have mainly brown-speckled plumage.",
    "diet": "The mallard is omnivorous and very flexible in its choice of food. Its diet may vary based on several factors, including the stage of the breeding cycle, short-term variations in available food, nutrient availability, and interspecific and intraspecific competition.",
    "habitat": "The mallard is widely distributed across the Northern and Southern Hemispheres; in North America its range extends from southern and central Alaska to Mexico, the Hawaiian Islands, across the Palearctic, from Iceland and southern Greenland and parts of Morocco (North Africa) in the west, Scandinavia and Britain to the north, and to Siberia, Japan, and South Korea.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AnasPlatyrhynchosIUCN2019_2.png",
+    "author": "SanoAK: Alexander K\u00fcrthy",
+    "file": "maps/mallard.png"
+   }
   },
   "sounds": [
    {
@@ -5618,7 +5660,13 @@
    "about": "The pintail or northern pintail (Anas acuta) is a duck species with wide geographic distribution that breeds in the northern areas of Europe and across the Palearctic and North America. It is migratory and winters south of its breeding range as far as the equator. Unusually for a bird with such a large range, it has no geographical subspecies, although the possibly conspecific duck Eaton's pintail is considered to be a separate species. The Northern Pintail is a large duck, and the long central tail feathers of the male give the species its English and scientific names. Both sexes have blue-grey bills and grey legs and feet.",
    "diet": "The pintail feeds by dabbling and upending in shallow water for plant food mainly in the evening or at night, and therefore spends much of the day resting. Its long neck enables it to take food items from the bottom of water bodies up to 30 cm (12 in) deep, which are beyond the reach of other dabbling ducks like the mallard.",
    "habitat": "This dabbling duck breeds in northern areas of the Palearctic as far south as about Poland and Mongolia, and in Canada, Alaska and the Midwestern United States. It winters mainly south of its breeding range, reaching almost to the equator in Panama, northern sub-Saharan Africa and tropical South Asia.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AnasAcutaIUCN2019_2.png",
+    "author": "SanoAK: Alexander K\u00fcrthy",
+    "file": "maps/northern-pintail.png"
+   }
   },
   "sounds": [
    {
@@ -5765,7 +5813,13 @@
    "wiki": "https://en.wikipedia.org/wiki/Common_merganser",
    "about": "The common merganser or goosander (Mergus merganser) is a large sea duck of rivers and lakes in forested areas of Europe, Asia, and North America. The common merganser eats mainly fish. It nests in holes in trees. The name \"common merganser\" is used in North America, while \"goosander\" is used in Eurasia.",
    "diet": "As with other mergansers, these piscivorous ducks have serrated edges to their bills to help them grip their prey, so they are often known as \"sawbills\". In addition to fish, they take a wide range of other aquatic prey, such as molluscs, crustaceans, worms, insect larvae, and amphibians; more rarely, small mammals and birds may be taken.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MergusMerganserIUCNver2019-2.png",
+    "author": "SanoAK: Alexander K\u00fcrthy",
+    "file": "maps/common-merganser.png"
+   }
   },
   "sounds": [
    {
@@ -5962,10 +6016,10 @@
    "habitat": "The mute swan is found naturally mainly in temperate areas of Europe and across the Palearctic, as far east as Primorsky Krai, near Sidemi.",
    "status": "Least Concern",
    "map": {
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Mapillary_(274772331437496,_T35YGXysl2vaOnLjBgNVIH)_(mapeadora)_2022-05-02_10H20M41S000.jpg",
-    "author": "mapeadora",
-    "file": "maps/mute-swan.jpg"
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CygnusOlorIUCN2019_2.png",
+    "author": "SanoAK: Alexander K\u00fcrthy",
+    "file": "maps/mute-swan.png"
    }
   },
   "sounds": [
@@ -6043,12 +6097,6 @@
     "license": "CC BY-SA 3.0",
     "author": "Jarek Tuszy\u0144ski",
     "source": "https://commons.wikimedia.org/wiki/File:Adirondacks_-_Great_Northern_Loon_-_04.jpg"
-   },
-   {
-    "file": "img/common-loon-3.jpg",
-    "license": "CC BY-SA 4.0",
-    "author": "Roger Culos",
-    "source": "https://commons.wikimedia.org/wiki/File:Gavia_immer_MHNT.ZOO.2010.11.36.4.jpg"
    }
   ],
   "family": "Loons & grebes",
@@ -6198,12 +6246,6 @@
     "license": "CC BY-SA 3.0",
     "author": "Alan D. Wilson",
     "source": "https://commons.wikimedia.org/wiki/File:Killdeer.jpg"
-   },
-   {
-    "file": "img/killdeer-2.jpg",
-    "license": "CC0",
-    "author": "Mutante",
-    "source": "https://commons.wikimedia.org/wiki/File:Juvenile_killdeer.jpg"
    },
    {
     "file": "img/killdeer-3.jpg",
@@ -6653,12 +6695,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sterna-caspia-010.jpg"
    },
    {
-    "file": "img/caspian-tern-2.jpg",
-    "license": "CC BY 2.0",
-    "author": "lwolfartist",
-    "source": "https://commons.wikimedia.org/wiki/File:Caspian,_common,_forster%27s_terns_hart-miller_island_7.11.23_DSC_3159.jpg"
-   },
-   {
     "file": "img/caspian-tern-3.jpg",
     "license": "CC BY 2.0",
     "author": "lwolfartist",
@@ -6987,7 +7023,13 @@
    "about": "The golden eagle (Aquila chrysaetos) is a bird of prey living in the Northern Hemisphere. It is the most widely distributed species of eagle. Like all eagles, it belongs to the family Accipitridae. They are one of the best-known birds of prey in the Northern Hemisphere. These birds are dark brown, with lighter golden-brown plumage on their napes. Immature eagles of this species typically have white on the tail and often have white markings on the wings. Golden eagles use their agility and speed combined with powerful feet and large, sharp talons to hunt a variety of prey, mainly hares, rabbits, marmots, and other ground squirrels.",
    "diet": "Golden eagles usually hunt during daylight hours, but were recorded hunting from one hour before sunrise to one hour after sunset during the breeding season in southwestern Idaho. The hunting success rate of golden eagles was calculated in Idaho, showing that, out of 115 hunting attempts, 20% were successful in procuring prey.",
    "habitat": "There are six extant subspecies of golden eagle that differ slightly in size and plumage. Individuals of any of the subspecies are somewhat variable and the differences between the subspecies are clinal, especially in terms of body size. Other than these characteristics, there is little variation across the range of the species.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AquilaChrysaetosIUCNver2018_2.png",
+    "author": "SanoAK: Alexander K\u00fcrthy modification of BirdLife International 2016. Aquila chrysaetos. The IUCN Red List of Threatened Species 2016 Aquila chrysaetos. The IUCN Red List of Threatened Species https://www.iucnredlist.org/",
+    "file": "maps/golden-eagle.png"
+   }
   },
   "sounds": [
    {
@@ -7357,12 +7399,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:American_Peregrine_Falcon_(Falco_peregrinus)_(10700651733).jpg"
    },
    {
-    "file": "img/peregrine-falcon-2.jpg",
-    "license": "CC BY-SA 4.0",
-    "author": "Creepanta",
-    "source": "https://commons.wikimedia.org/wiki/File:Peregrine_Falcon_Nepal.jpg"
-   },
-   {
     "file": "img/peregrine-falcon-3.jpg",
     "license": "CC BY 4.0",
     "author": "Timothy Whitehead",
@@ -7427,9 +7463,9 @@
    "status": "Least Concern",
    "map": {
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Turkey_vulture_(Cathartes_aura)_Orange_Walk.jpg",
-    "author": "Charles J. Sharp",
-    "file": "maps/turkey-vulture.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Cathartes_aura_map.svg",
+    "author": "Cephas",
+    "file": "maps/turkey-vulture.png"
    }
   },
   "sounds": [
@@ -7529,7 +7565,13 @@
    "about": "The California condor (Gymnogyps californianus) is a New World vulture and the largest North American land bird. It became extinct in the wild in 1987 when all remaining wild individuals were captured, but has since been reintroduced to northern Arizona and southern Utah (including the Grand Canyon area and Zion National Park), the coastal mountains of California, and northern Baja California in Mexico. It is the only surviving member of the genus Gymnogyps, although four extinct members of the genus are also known. The species is listed by IUCN as critically endangered, and similarly considered Critically Imperiled by NatureServe.",
    "diet": "Wild condors maintain a large home range, often traveling 250 km (160 mi) a day in search of carrion. It is thought that in the early days of its existence as a species, the California condor lived off the carcasses of the Pleistocene megafauna, which are largely extinct in North America.",
    "habitat": "At the time of human settlement of the Americas, the California condor was widespread across North America; condor bones from the late Pleistocene have been found at the Cutler Fossil Site in southern Florida. However, at the end of the last glacial period came the extinction of the megafauna that led to a subsequent reduction in range and population.",
-   "status": "Critically Endangered"
+   "status": "Critically Endangered",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gymnogyps_californianus.svg",
+    "author": "M.Bitton",
+    "file": "maps/california-condor.png"
+   }
   },
   "sounds": []
  },
@@ -8205,12 +8247,6 @@
     "license": "CC BY 4.0",
     "author": "Sylvia Scharf",
     "source": "https://commons.wikimedia.org/wiki/File:Campylorhynchus_brunneicapillus_-_2020.jpg"
-   },
-   {
-    "file": "img/cactus-wren-3.jpg",
-    "license": "CC BY-SA 4.0",
-    "author": "Juan Carlos Fonseca Mata",
-    "source": "https://commons.wikimedia.org/wiki/File:Nido_de_Campylorhynchus_brunneicapillus,_GTOMX.jpg"
    }
   ],
   "family": "Wrens",
@@ -8220,7 +8256,13 @@
    "about": "The cactus wren (Campylorhynchus brunneicapillus) is a species of wren that is endemic to the deserts of the southwestern United States and northern and central Mexico. It is the state bird of Arizona, and the largest wren in the United States. Its plumage is brown, with black and white spots as markings. It has a distinctive white eyebrow that sweeps to the nape of the neck. The chest is white, whereas the underparts are cinnamon-buff colored. Both sexes appear similar. The tail, as well as flight feathers, are barred in black and white.",
    "diet": "The cactus wren is primarily an insectivore, although it will also take seeds, fruits, nectar, and even small reptiles. They are inquisitive foragers, and will overturn leaves and other objects on the ground to find food. Though primarily ground feeders, they will also forage in larger plants. Some individuals have learned to take insects caught in vehicle radiator grills. Feeding begins in the late morning.",
    "habitat": "The cactus wren is a bird of arid and semi-desert regions, and generally requires spiny cacti to nest in. Its range includes the Sonoran and Chihuahuan Deserts. The cactus wren is not migratory, and establishes a permanent territory which it defends vigorously. Territories are typically 1.3 ha (3.2 acres) to 1.9 ha (4.7 acres). The size and shape of territories change very little throughout the season.",
-   "status": "Least Concern"
+   "status": "Least Concern",
+   "map": {
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Campylorhynchus_brunneicapillus.svg",
+    "author": "Cephas",
+    "file": "maps/cactus-wren.png"
+   }
   },
   "sounds": [
    {

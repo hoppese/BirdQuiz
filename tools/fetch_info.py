@@ -35,10 +35,17 @@ def find_section(secs, *keys):
 def range_map(title):
     d = api(W, action="query", titles=title, redirects=1, prop="images", imlimit=100)
     files = [i["title"] for p in d["query"]["pages"].values() for i in p.get("images", [])]
-    cand = [f for f in files if re.search(r"range|distribution|map", f, re.I)
-            and not re.search(r"icon|logo|status|iucn|symbol|flag", f, re.I)]
-    cand.sort(key=lambda f: (0 if re.search(r"range", f, re.I) else 1))
-    for f in cand[:4]:
+    junk = r"icon|logo|status|symbol|flag|wikispecies|oojs|commons-|edit-|question|ambox|portal|stub|speaker|audio"
+    sci = title.lower().replace(" ", "").replace("_", "")
+    def looks_like_map(f):
+        n = f.lower()
+        if re.search(r"mapillary|imported_?from|inaturalist|(?<![a-z])orange(?![a-z])", n): return False  # photos, not maps
+        rng = re.search(r"(?<![a-z])range|distribution|map|iucn", n)
+        if n.endswith((".jpg", ".jpeg")): return bool(re.search(r"(?<![a-z])range|distribution", n))
+        return bool(rng) or (n.endswith(".svg") and sci[:5] in n.replace(" ", "").replace("_", ""))
+    cand = [f for f in files if looks_like_map(f) and not re.search(junk, f, re.I)]
+    cand.sort(key=lambda f: (0 if re.search(r"range", f, re.I) else 1 if re.search(r"map|iucn", f, re.I) else 2))
+    for f in cand[:5]:
         d = api("https://commons.wikimedia.org/w/api.php", action="query", titles=f, prop="imageinfo",
                 iiprop="url|extmetadata", iiurlwidth=600)
         for p in d.get("query", {}).get("pages", {}).values():
