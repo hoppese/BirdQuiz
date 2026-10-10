@@ -80,14 +80,14 @@ const flagBox = src => `<div class="flagbox"><img alt="Flag" src="${esc(src)}"><
 const qText = (html, flag) => `<div class="qtext">${flag ? `<img class="miniflag" alt="" src="${esc(flag)}">` : ""}<p>${html}</p></div>`;
 
 registerTopic({
-  id: "countries", title: "Countries", emoji: "🌍", blurb: "Flags, maps & capitals of 195 countries",
+  id: "countries", title: "Countries", emoji: "🌍", blurb: "Flags, maps & capitals of 200 countries & disputed areas",
   dataUrl: "topics/countries/data.json",
   async setup(items) {
     WORLD = await (await fetch("topics/countries/world.json")).json();
     WORLD_PATHS = items.filter(c => WORLD[c.id]).map(c => `<path d="${WORLD[c.id].d}"/>`).join("");
   },
   countLabel: items => `${items.length} countries`,
-  levels: { easy: "Well-known countries, very different choices", medium: "All 195 countries, random choices",
+  levels: { easy: "Well-known countries, very different choices", medium: "All countries and disputed areas, random choices",
             hard: "Look-alikes and neighbours; maps show the whole world" },
   praise: ["Globetrotter! 🌍", "Well traveled!", "Keep exploring 🧭"],
   near(a, o) { return (mode === "flag" && a.look != null && a.look === o.look ? 2 : 0) + (a.group === o.group ? 1 : 0); },
@@ -110,8 +110,9 @@ registerTopic({
   infoHTML(c) {
     return `<h2>${esc(c.name)}</h2><p class="sci">${esc(c.official)}</p>
       ${flagBox(c.flag)}
-      <h3>Facts</h3><p>${c.capital ? `Capital: <b>${esc(c.capital)}</b><br>` : ""}Region: ${esc(c.subregion || c.region)}<br>
+      <h3>Facts</h3><p>${c.capital ? `Capital: <b>${esc(c.capital)}</b>${c.capitalNote ? ` <span class="sci">(${esc(c.capitalNote)})</span>` : ""}<br>` : ""}Region: ${esc(c.subregion || c.region)}<br>
       Population: ${fmtNum(c.pop)}</p>
+      ${c.disputed ? `<p class="credit">Status: disputed or not universally recognised as a sovereign state. It is included here as a distinct area; no position is implied.</p>` : ""}
       ${WORLD[c.id] ? `<h3>Where is it?</h3>${mapHTML(c, false)}` : ""}
       <p class="credit">Flags: ${link("https://github.com/lipis/flag-icons", "flag-icons")} (MIT). Map &amp; capitals:
       ${link("https://www.naturalearthdata.com/", "Natural Earth")} (public domain).</p>`;
@@ -119,9 +120,20 @@ registerTopic({
 });
 
 // ============================== US STATES ==============================
+let STATE_MAP = {}, STATE_PATHS = "";
+function stateMapHTML(s) {
+  const m = STATE_MAP[s.id], b = m.bbox, cx = (b[0] + b[2]) / 2, cy = (b[1] + b[3]) / 2, tiny = Math.max(b[2] - b[0], b[3] - b[1]) < 28;
+  return `<div class="mapbox us"><svg viewBox="0 0 960 600" role="img" aria-label="US map with one state highlighted">
+    <g class="land">${STATE_PATHS}</g><path class="hl" d="${m.d}"/>
+    ${tiny ? `<circle class="ring" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="17"/>` : ""}</svg></div>`;
+}
 registerTopic({
-  id: "states", title: "US States", emoji: "🇺🇸", blurb: "State flags & capitals",
+  id: "states", title: "US States", emoji: "🇺🇸", blurb: "State flags, maps & capitals",
   dataUrl: "topics/states/data.json",
+  async setup() {
+    STATE_MAP = (await (await fetch("topics/states/map.json")).json()).states;
+    STATE_PATHS = Object.values(STATE_MAP).map(v => `<path d="${v.d}"/>`).join("");   // includes DC
+  },
   countLabel: items => `${items.length} states`,
   levels: { easy: "Well-known states, very different choices", medium: "All 50 states, random choices",
             hard: "Similar-looking flags and neighbouring states" },
@@ -131,6 +143,9 @@ registerTopic({
     mkMode({ id: "flag", label: "🚩 Flags", intro: "Which state's flag is this?", usable: () => true,
       note: s => `· capital: ${esc(s.capital)}`,
       make: s => ({ promptHTML: flagBox(s.flag), creditHTML: credit("Flag", s.flagCredit) }) }),
+    mkMode({ id: "map", label: "🗺️ Map", intro: "Name the highlighted state.", usable: s => !!STATE_MAP[s.id],
+      note: s => `· capital: ${esc(s.capital)}`,
+      make: s => ({ promptHTML: stateMapHTML(s), creditHTML: `Map: ${link("https://www.naturalearthdata.com/", "Natural Earth")} (public domain)` }) }),
     mkMode({ id: "capital", label: "🏛️ Capitals", intro: "Name the state capital.", usable: () => true,
       optionText: s => s.capital, missLabel: s => `${s.name} → ${s.capital}`, note: s => `is the capital of ${esc(s.name)}`,
       make: s => ({ promptHTML: qText(`What is the capital of <b>${esc(s.name)}</b>?`, s.flag), creditHTML: "" }) }),
@@ -141,7 +156,8 @@ registerTopic({
   infoHTML(s) {
     return `<h2>${esc(s.name)}</h2><p class="sci">${esc(s.abbr)} · ${esc(s.region)}</p>
       ${flagBox(s.flag)}<p class="credit">${credit("Flag", s.flagCredit)}</p>
-      <h3>Capital</h3><p>${esc(s.capital)}</p>`;
+      <h3>Capital</h3><p>${esc(s.capital)}</p>
+      ${STATE_MAP[s.id] ? `<h3>Where is it?</h3>${stateMapHTML(s)}<p class="credit">Map: ${link("https://www.naturalearthdata.com/", "Natural Earth")} (public domain)</p>` : ""}`;
   },
 });
 

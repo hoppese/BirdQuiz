@@ -92,3 +92,5 @@ textarea { width:100%; border-radius:12px; border:2px solid rgba(128,128,128,.35
   background:var(--card); border-radius:16px; padding:22px 16px; box-shadow:0 1px 3px #0002; font-size:1.35rem; }
 .qtext p { margin:0; } .miniflag { height:46px; box-shadow:0 0 0 1px #0003; }
 .sheetbody .flagbox { margin:8px 0; } .sheetbody .mapbox { margin:6px 0; }
+
+.mapbox.us { aspect-ratio:8/5; }

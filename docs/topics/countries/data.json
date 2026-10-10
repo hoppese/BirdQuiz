@@ -1,5 +1,7 @@
 [
 {
+"disputed": false,
+"capitalNote": "",
 "id": "af",
 "cca3": "AFG",
 "name": "Afghanistan",
@@ -22,6 +24,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "al",
 "cca3": "ALB",
 "name": "Albania",
@@ -44,6 +48,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "dz",
 "cca3": "DZA",
 "name": "Algeria",
@@ -66,6 +72,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ad",
 "cca3": "AND",
 "name": "Andorra",
@@ -88,6 +96,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ao",
 "cca3": "AGO",
 "name": "Angola",
@@ -110,6 +120,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ag",
 "cca3": "ATG",
 "name": "Antigua and Barbuda",
@@ -132,6 +144,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ar",
 "cca3": "ARG",
 "name": "Argentina",
@@ -154,6 +168,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "am",
 "cca3": "ARM",
 "name": "Armenia",
@@ -176,6 +192,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "au",
 "cca3": "AUS",
 "name": "Australia",
@@ -198,6 +216,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "at",
 "cca3": "AUT",
 "name": "Austria",
@@ -220,6 +240,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "az",
 "cca3": "AZE",
 "name": "Azerbaijan",
@@ -242,6 +264,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bs",
 "cca3": "BHS",
 "name": "Bahamas",
@@ -264,6 +288,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bh",
 "cca3": "BHR",
 "name": "Bahrain",
@@ -286,6 +312,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bd",
 "cca3": "BGD",
 "name": "Bangladesh",
@@ -308,6 +336,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bb",
 "cca3": "BRB",
 "name": "Barbados",
@@ -330,6 +360,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "by",
 "cca3": "BLR",
 "name": "Belarus",
@@ -352,6 +384,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "be",
 "cca3": "BEL",
 "name": "Belgium",
@@ -374,6 +408,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bz",
 "cca3": "BLZ",
 "name": "Belize",
@@ -396,6 +432,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bj",
 "cca3": "BEN",
 "name": "Benin",
@@ -418,6 +456,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bt",
 "cca3": "BTN",
 "name": "Bhutan",
@@ -440,6 +480,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bo",
 "cca3": "BOL",
 "name": "Bolivia",
@@ -462,6 +504,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ba",
 "cca3": "BIH",
 "name": "Bosnia and Herzegovina",
@@ -484,6 +528,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bw",
 "cca3": "BWA",
 "name": "Botswana",
@@ -506,6 +552,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "br",
 "cca3": "BRA",
 "name": "Brazil",
@@ -528,6 +576,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bn",
 "cca3": "BRN",
 "name": "Brunei",
@@ -550,6 +600,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bg",
 "cca3": "BGR",
 "name": "Bulgaria",
@@ -572,6 +624,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bf",
 "cca3": "BFA",
 "name": "Burkina Faso",
@@ -594,6 +648,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "bi",
 "cca3": "BDI",
 "name": "Burundi",
@@ -616,6 +672,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "kh",
 "cca3": "KHM",
 "name": "Cambodia",
@@ -638,6 +696,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cm",
 "cca3": "CMR",
 "name": "Cameroon",
@@ -660,6 +720,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ca",
 "cca3": "CAN",
 "name": "Canada",
@@ -682,6 +744,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cv",
 "cca3": "CPV",
 "name": "Cape Verde",
@@ -704,6 +768,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cf",
 "cca3": "CAF",
 "name": "Central African Republic",
@@ -726,6 +792,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "td",
 "cca3": "TCD",
 "name": "Chad",
@@ -748,6 +816,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cl",
 "cca3": "CHL",
 "name": "Chile",
@@ -770,6 +840,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cn",
 "cca3": "CHN",
 "name": "China",
@@ -792,6 +864,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "co",
 "cca3": "COL",
 "name": "Colombia",
@@ -814,6 +888,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "km",
 "cca3": "COM",
 "name": "Comoros",
@@ -836,6 +912,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cr",
 "cca3": "CRI",
 "name": "Costa Rica",
@@ -858,6 +936,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "hr",
 "cca3": "HRV",
 "name": "Croatia",
@@ -880,6 +960,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cu",
 "cca3": "CUB",
 "name": "Cuba",
@@ -902,6 +984,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cy",
 "cca3": "CYP",
 "name": "Cyprus",
@@ -924,6 +1008,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cz",
 "cca3": "CZE",
 "name": "Czechia",
@@ -946,6 +1032,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ci",
 "cca3": "CIV",
 "name": "Côte d'Ivoire",
@@ -968,6 +1056,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cd",
 "cca3": "COD",
 "name": "DR Congo",
@@ -990,6 +1080,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "dk",
 "cca3": "DNK",
 "name": "Denmark",
@@ -1012,6 +1104,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "dj",
 "cca3": "DJI",
 "name": "Djibouti",
@@ -1034,6 +1128,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "dm",
 "cca3": "DMA",
 "name": "Dominica",
@@ -1056,6 +1152,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "do",
 "cca3": "DOM",
 "name": "Dominican Republic",
@@ -1078,6 +1176,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "tl",
 "cca3": "TLS",
 "name": "East Timor",
@@ -1100,6 +1200,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ec",
 "cca3": "ECU",
 "name": "Ecuador",
@@ -1122,6 +1224,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "eg",
 "cca3": "EGY",
 "name": "Egypt",
@@ -1144,6 +1248,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sv",
 "cca3": "SLV",
 "name": "El Salvador",
@@ -1166,6 +1272,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gq",
 "cca3": "GNQ",
 "name": "Equatorial Guinea",
@@ -1188,6 +1296,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "er",
 "cca3": "ERI",
 "name": "Eritrea",
@@ -1210,6 +1320,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ee",
 "cca3": "EST",
 "name": "Estonia",
@@ -1232,6 +1344,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sz",
 "cca3": "SWZ",
 "name": "Eswatini",
@@ -1254,6 +1368,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "et",
 "cca3": "ETH",
 "name": "Ethiopia",
@@ -1276,6 +1392,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "fj",
 "cca3": "FJI",
 "name": "Fiji",
@@ -1298,6 +1416,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "fi",
 "cca3": "FIN",
 "name": "Finland",
@@ -1320,6 +1440,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "fr",
 "cca3": "FRA",
 "name": "France",
@@ -1342,6 +1464,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ga",
 "cca3": "GAB",
 "name": "Gabon",
@@ -1364,6 +1488,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gm",
 "cca3": "GMB",
 "name": "Gambia",
@@ -1386,6 +1512,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ge",
 "cca3": "GEO",
 "name": "Georgia",
@@ -1408,6 +1536,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "de",
 "cca3": "DEU",
 "name": "Germany",
@@ -1430,6 +1560,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gh",
 "cca3": "GHA",
 "name": "Ghana",
@@ -1452,6 +1584,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gr",
 "cca3": "GRC",
 "name": "Greece",
@@ -1474,6 +1608,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gd",
 "cca3": "GRD",
 "name": "Grenada",
@@ -1496,6 +1632,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gt",
 "cca3": "GTM",
 "name": "Guatemala",
@@ -1518,6 +1656,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gn",
 "cca3": "GIN",
 "name": "Guinea",
@@ -1540,6 +1680,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gw",
 "cca3": "GNB",
 "name": "Guinea-Bissau",
@@ -1562,6 +1704,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gy",
 "cca3": "GUY",
 "name": "Guyana",
@@ -1584,6 +1728,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ht",
 "cca3": "HTI",
 "name": "Haiti",
@@ -1606,6 +1752,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "hn",
 "cca3": "HND",
 "name": "Honduras",
@@ -1628,6 +1776,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "hu",
 "cca3": "HUN",
 "name": "Hungary",
@@ -1650,6 +1800,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "is",
 "cca3": "ISL",
 "name": "Iceland",
@@ -1672,6 +1824,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "in",
 "cca3": "IND",
 "name": "India",
@@ -1694,6 +1848,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "id",
 "cca3": "IDN",
 "name": "Indonesia",
@@ -1716,6 +1872,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ir",
 "cca3": "IRN",
 "name": "Iran",
@@ -1738,6 +1896,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "iq",
 "cca3": "IRQ",
 "name": "Iraq",
@@ -1760,6 +1920,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ie",
 "cca3": "IRL",
 "name": "Ireland",
@@ -1782,6 +1944,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "Jerusalem is claimed by both Israel and Palestine",
 "id": "il",
 "cca3": "ISR",
 "name": "Israel",
@@ -1804,6 +1968,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "it",
 "cca3": "ITA",
 "name": "Italy",
@@ -1826,6 +1992,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "jm",
 "cca3": "JAM",
 "name": "Jamaica",
@@ -1848,6 +2016,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "jp",
 "cca3": "JPN",
 "name": "Japan",
@@ -1870,6 +2040,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "jo",
 "cca3": "JOR",
 "name": "Jordan",
@@ -1892,6 +2064,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "kz",
 "cca3": "KAZ",
 "name": "Kazakhstan",
@@ -1914,6 +2088,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ke",
 "cca3": "KEN",
 "name": "Kenya",
@@ -1936,6 +2112,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ki",
 "cca3": "KIR",
 "name": "Kiribati",
@@ -1958,6 +2136,32 @@
 ]
 },
 {
+"disputed": true,
+"capitalNote": "",
+"id": "xk",
+"cca3": "KOS",
+"name": "Kosovo",
+"official": "Republic of Kosovo",
+"capital": "Pristina",
+"capitals": [
+"Pristina"
+],
+"region": "Europe",
+"subregion": "Southern Europe",
+"group": "Southern Europe",
+"easy": false,
+"look": null,
+"pop": 1794248,
+"area": null,
+"flag": "topics/countries/flags/xk.svg",
+"c": [
+58.1,
+-125.9
+]
+},
+{
+"disputed": false,
+"capitalNote": "",
 "id": "kw",
 "cca3": "KWT",
 "name": "Kuwait",
@@ -1980,6 +2184,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "kg",
 "cca3": "KGZ",
 "name": "Kyrgyzstan",
@@ -2002,6 +2208,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "la",
 "cca3": "LAO",
 "name": "Laos",
@@ -2024,6 +2232,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "lv",
 "cca3": "LVA",
 "name": "Latvia",
@@ -2046,6 +2256,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "lb",
 "cca3": "LBN",
 "name": "Lebanon",
@@ -2068,6 +2280,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ls",
 "cca3": "LSO",
 "name": "Lesotho",
@@ -2090,6 +2304,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "lr",
 "cca3": "LBR",
 "name": "Liberia",
@@ -2112,6 +2328,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ly",
 "cca3": "LBY",
 "name": "Libya",
@@ -2134,6 +2352,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "li",
 "cca3": "LIE",
 "name": "Liechtenstein",
@@ -2156,6 +2376,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "lt",
 "cca3": "LTU",
 "name": "Lithuania",
@@ -2178,6 +2400,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "lu",
 "cca3": "LUX",
 "name": "Luxembourg",
@@ -2200,6 +2424,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mg",
 "cca3": "MDG",
 "name": "Madagascar",
@@ -2222,6 +2448,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mw",
 "cca3": "MWI",
 "name": "Malawi",
@@ -2244,6 +2472,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "my",
 "cca3": "MYS",
 "name": "Malaysia",
@@ -2266,6 +2496,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mv",
 "cca3": "MDV",
 "name": "Maldives",
@@ -2288,6 +2520,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ml",
 "cca3": "MLI",
 "name": "Mali",
@@ -2310,6 +2544,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mt",
 "cca3": "MLT",
 "name": "Malta",
@@ -2332,6 +2568,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mh",
 "cca3": "MHL",
 "name": "Marshall Islands",
@@ -2354,6 +2592,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mr",
 "cca3": "MRT",
 "name": "Mauritania",
@@ -2376,6 +2616,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mu",
 "cca3": "MUS",
 "name": "Mauritius",
@@ -2398,6 +2640,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mx",
 "cca3": "MEX",
 "name": "Mexico",
@@ -2420,6 +2664,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "fm",
 "cca3": "FSM",
 "name": "Micronesia",
@@ -2442,6 +2688,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "md",
 "cca3": "MDA",
 "name": "Moldova",
@@ -2464,6 +2712,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mc",
 "cca3": "MCO",
 "name": "Monaco",
@@ -2486,6 +2736,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mn",
 "cca3": "MNG",
 "name": "Mongolia",
@@ -2508,6 +2760,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "me",
 "cca3": "MNE",
 "name": "Montenegro",
@@ -2530,6 +2784,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ma",
 "cca3": "MAR",
 "name": "Morocco",
@@ -2552,6 +2808,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mz",
 "cca3": "MOZ",
 "name": "Mozambique",
@@ -2574,6 +2832,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mm",
 "cca3": "MMR",
 "name": "Myanmar",
@@ -2596,6 +2856,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "na",
 "cca3": "NAM",
 "name": "Namibia",
@@ -2618,6 +2880,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "nr",
 "cca3": "NRU",
 "name": "Nauru",
@@ -2640,6 +2904,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "np",
 "cca3": "NPL",
 "name": "Nepal",
@@ -2662,6 +2928,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "nl",
 "cca3": "NLD",
 "name": "Netherlands",
@@ -2684,6 +2952,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "nz",
 "cca3": "NZL",
 "name": "New Zealand",
@@ -2706,6 +2976,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ni",
 "cca3": "NIC",
 "name": "Nicaragua",
@@ -2728,6 +3000,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ne",
 "cca3": "NER",
 "name": "Niger",
@@ -2750,6 +3024,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ng",
 "cca3": "NGA",
 "name": "Nigeria",
@@ -2772,6 +3048,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "kp",
 "cca3": "PRK",
 "name": "North Korea",
@@ -2794,6 +3072,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "mk",
 "cca3": "MKD",
 "name": "North Macedonia",
@@ -2816,6 +3096,32 @@
 ]
 },
 {
+"disputed": true,
+"capitalNote": "",
+"id": "xc",
+"cca3": "CYN",
+"name": "Northern Cyprus",
+"official": "Turkish Republic of Northern Cyprus",
+"capital": "North Nicosia",
+"capitals": [
+"North Nicosia"
+],
+"region": "Asia",
+"subregion": "Western Asia",
+"group": "Western Asia",
+"easy": false,
+"look": null,
+"pop": 326000,
+"area": null,
+"flag": "topics/countries/flags/xc.svg",
+"c": [
+93.4,
+-102.4
+]
+},
+{
+"disputed": false,
+"capitalNote": "",
 "id": "no",
 "cca3": "NOR",
 "name": "Norway",
@@ -2838,6 +3144,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "om",
 "cca3": "OMN",
 "name": "Oman",
@@ -2860,6 +3168,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "pk",
 "cca3": "PAK",
 "name": "Pakistan",
@@ -2882,6 +3192,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "pw",
 "cca3": "PLW",
 "name": "Palau",
@@ -2904,12 +3216,16 @@
 ]
 },
 {
+"disputed": true,
+"capitalNote": "administrative seat; East Jerusalem is claimed as the capital",
 "id": "ps",
 "cca3": "PSE",
 "name": "Palestine",
 "official": "West Bank and Gaza",
-"capital": "",
-"capitals": [],
+"capital": "Ramallah",
+"capitals": [
+"Ramallah"
+],
 "region": "Asia",
 "subregion": "Western Asia",
 "group": "Western Asia",
@@ -2924,6 +3240,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "pa",
 "cca3": "PAN",
 "name": "Panama",
@@ -2946,6 +3264,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "pg",
 "cca3": "PNG",
 "name": "Papua New Guinea",
@@ -2968,6 +3288,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "py",
 "cca3": "PRY",
 "name": "Paraguay",
@@ -2990,6 +3312,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "pe",
 "cca3": "PER",
 "name": "Peru",
@@ -3012,6 +3336,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ph",
 "cca3": "PHL",
 "name": "Philippines",
@@ -3034,6 +3360,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "pl",
 "cca3": "POL",
 "name": "Poland",
@@ -3056,6 +3384,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "pt",
 "cca3": "PRT",
 "name": "Portugal",
@@ -3078,6 +3408,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "qa",
 "cca3": "QAT",
 "name": "Qatar",
@@ -3100,6 +3432,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "cg",
 "cca3": "COG",
 "name": "Republic of the Congo",
@@ -3122,6 +3456,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ro",
 "cca3": "ROU",
 "name": "Romania",
@@ -3144,6 +3480,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ru",
 "cca3": "RUS",
 "name": "Russia",
@@ -3166,6 +3504,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "rw",
 "cca3": "RWA",
 "name": "Rwanda",
@@ -3188,6 +3528,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "kn",
 "cca3": "KNA",
 "name": "Saint Kitts and Nevis",
@@ -3210,6 +3552,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "lc",
 "cca3": "LCA",
 "name": "Saint Lucia",
@@ -3232,6 +3576,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "vc",
 "cca3": "VCT",
 "name": "Saint Vincent and the Grenadines",
@@ -3254,6 +3600,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ws",
 "cca3": "WSM",
 "name": "Samoa",
@@ -3276,6 +3624,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sm",
 "cca3": "SMR",
 "name": "San Marino",
@@ -3298,6 +3648,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sa",
 "cca3": "SAU",
 "name": "Saudi Arabia",
@@ -3320,6 +3672,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sn",
 "cca3": "SEN",
 "name": "Senegal",
@@ -3342,6 +3696,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "rs",
 "cca3": "SRB",
 "name": "Serbia",
@@ -3364,6 +3720,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sc",
 "cca3": "SYC",
 "name": "Seychelles",
@@ -3386,6 +3744,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sl",
 "cca3": "SLE",
 "name": "Sierra Leone",
@@ -3408,6 +3768,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sg",
 "cca3": "SGP",
 "name": "Singapore",
@@ -3430,6 +3792,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sk",
 "cca3": "SVK",
 "name": "Slovakia",
@@ -3452,6 +3816,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "si",
 "cca3": "SVN",
 "name": "Slovenia",
@@ -3474,6 +3840,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sb",
 "cca3": "SLB",
 "name": "Solomon Islands",
@@ -3496,6 +3864,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "so",
 "cca3": "SOM",
 "name": "Somalia",
@@ -3518,6 +3888,32 @@
 ]
 },
 {
+"disputed": true,
+"capitalNote": "",
+"id": "xs",
+"cca3": "SOL",
+"name": "Somaliland",
+"official": "Republic of Somaliland",
+"capital": "Hargeisa",
+"capitals": [
+"Hargeisa"
+],
+"region": "Africa",
+"subregion": "Eastern Africa",
+"group": "Eastern Africa",
+"easy": false,
+"look": null,
+"pop": 5096159,
+"area": null,
+"flag": "topics/countries/flags/xs.svg",
+"c": [
+127.2,
+-27.2
+]
+},
+{
+"disputed": false,
+"capitalNote": "",
 "id": "za",
 "cca3": "ZAF",
 "name": "South Africa",
@@ -3540,6 +3936,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "kr",
 "cca3": "KOR",
 "name": "South Korea",
@@ -3562,6 +3960,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ss",
 "cca3": "SSD",
 "name": "South Sudan",
@@ -3584,6 +3984,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "es",
 "cca3": "ESP",
 "name": "Spain",
@@ -3606,6 +4008,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "lk",
 "cca3": "LKA",
 "name": "Sri Lanka",
@@ -3628,6 +4032,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sd",
 "cca3": "SDN",
 "name": "Sudan",
@@ -3650,6 +4056,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sr",
 "cca3": "SUR",
 "name": "Suriname",
@@ -3672,6 +4080,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "se",
 "cca3": "SWE",
 "name": "Sweden",
@@ -3694,6 +4104,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ch",
 "cca3": "CHE",
 "name": "Switzerland",
@@ -3716,6 +4128,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "sy",
 "cca3": "SYR",
 "name": "Syria",
@@ -3738,6 +4152,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "st",
 "cca3": "STP",
 "name": "São Tomé and Principe",
@@ -3760,6 +4176,32 @@
 ]
 },
 {
+"disputed": true,
+"capitalNote": "",
+"id": "tw",
+"cca3": "TWN",
+"name": "Taiwan",
+"official": "Taiwan",
+"capital": "Taipei",
+"capitals": [
+"Taipei"
+],
+"region": "Asia",
+"subregion": "Eastern Asia",
+"group": "Eastern Asia",
+"easy": true,
+"look": null,
+"pop": 23568378,
+"area": null,
+"flag": "topics/countries/flags/tw.svg",
+"c": [
+336.1,
+-66.8
+]
+},
+{
+"disputed": false,
+"capitalNote": "",
 "id": "tj",
 "cca3": "TJK",
 "name": "Tajikistan",
@@ -3782,6 +4224,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "tz",
 "cca3": "TZA",
 "name": "Tanzania",
@@ -3804,6 +4248,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "th",
 "cca3": "THA",
 "name": "Thailand",
@@ -3826,6 +4272,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "tg",
 "cca3": "TGO",
 "name": "Togo",
@@ -3848,6 +4296,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "to",
 "cca3": "TON",
 "name": "Tonga",
@@ -3870,6 +4320,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "tt",
 "cca3": "TTO",
 "name": "Trinidad and Tobago",
@@ -3892,6 +4344,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "tn",
 "cca3": "TUN",
 "name": "Tunisia",
@@ -3914,6 +4368,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "tr",
 "cca3": "TUR",
 "name": "Turkey",
@@ -3936,6 +4392,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "tm",
 "cca3": "TKM",
 "name": "Turkmenistan",
@@ -3958,6 +4416,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "tv",
 "cca3": "TUV",
 "name": "Tuvalu",
@@ -3980,6 +4440,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ug",
 "cca3": "UGA",
 "name": "Uganda",
@@ -4002,6 +4464,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ua",
 "cca3": "UKR",
 "name": "Ukraine",
@@ -4024,6 +4488,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ae",
 "cca3": "ARE",
 "name": "United Arab Emirates",
@@ -4046,6 +4512,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "gb",
 "cca3": "GBR",
 "name": "United Kingdom",
@@ -4068,6 +4536,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "us",
 "cca3": "USA",
 "name": "United States",
@@ -4090,6 +4560,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "uy",
 "cca3": "URY",
 "name": "Uruguay",
@@ -4112,6 +4584,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "uz",
 "cca3": "UZB",
 "name": "Uzbekistan",
@@ -4134,6 +4608,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "vu",
 "cca3": "VUT",
 "name": "Vanuatu",
@@ -4156,6 +4632,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "va",
 "cca3": "VAT",
 "name": "Vatican City",
@@ -4178,6 +4656,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "ve",
 "cca3": "VEN",
 "name": "Venezuela",
@@ -4200,6 +4680,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "vn",
 "cca3": "VNM",
 "name": "Vietnam",
@@ -4222,6 +4704,32 @@
 ]
 },
 {
+"disputed": true,
+"capitalNote": "claimed capital; the territory is largely administered by Morocco",
+"id": "eh",
+"cca3": "ESH",
+"name": "Western Sahara",
+"official": "Sahrawi Arab Democratic Republic",
+"capital": "El Aaiún",
+"capitals": [
+"El Aaiún"
+],
+"region": "Africa",
+"subregion": "Northern Africa",
+"group": "Northern Africa",
+"easy": false,
+"look": 8,
+"pop": 603253,
+"area": null,
+"flag": "topics/countries/flags/eh.svg",
+"c": [
+-35.8,
+-68.8
+]
+},
+{
+"disputed": false,
+"capitalNote": "",
 "id": "ye",
 "cca3": "YEM",
 "name": "Yemen",
@@ -4244,6 +4752,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "zm",
 "cca3": "ZMB",
 "name": "Zambia",
@@ -4266,6 +4776,8 @@
 ]
 },
 {
+"disputed": false,
+"capitalNote": "",
 "id": "zw",
 "cca3": "ZWE",
 "name": "Zimbabwe",

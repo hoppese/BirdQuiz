@@ -16,7 +16,7 @@ def get(url):
 NE = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/"
 ne = json.loads(get(NE + "ne_50m_admin_0_countries.geojson"))
 places = json.loads(get(NE + "ne_50m_populated_places_simple.geojson"))
-SKIP = {"Taiwan", "Kosovo", "Somaliland", "N. Cyprus", "Northern Cyprus", "W. Sahara", "Western Sahara", "Aruba", "Curaçao", "Greenland",
+SKIP = {"Aruba", "Curaçao", "Greenland",
         "Guernsey", "Hong Kong", "Isle of Man", "Jersey", "Macao", "Sint Maarten", "Åland Islands", "Åland"}
 RENAME = {"Czech Republic": "Czechia", "Swaziland": "Eswatini", "Republic of Korea": "South Korea", "Dem. Rep. Korea": "North Korea",
           "Lao PDR": "Laos", "Russian Federation": "Russia", "Macedonia": "North Macedonia", "The Bahamas": "Bahamas",
@@ -25,12 +25,13 @@ RENAME = {"Czech Republic": "Czechia", "Swaziland": "Eswatini", "Republic of Kor
           "Democratic Republic of the Congo": "DR Congo", "Republic of the Congo": "Republic of the Congo",
           "Vatican": "Vatican City", "Palestine": "Palestine", "Gambia, The": "Gambia", "Myanmar (Burma)": "Myanmar",
           "Kingdom of eSwatini": "Eswatini", "Republic of Cabo Verde": "Cape Verde", "The Gambia": "Gambia", "East Timor": "Timor-Leste"}
-def iso2(p): return (p.get("ISO_A2_EH") if p.get("ISO_A2_EH") not in (None, "-99") else p.get("ISO_A2") or "")
+ISO2_FIX = {"SOL": "XS", "CYN": "XC", "KOS": "XK"}   # no standard ISO code for these
+def iso2(p): return ISO2_FIX.get(iso3(p)) or (p.get("ISO_A2_EH") if p.get("ISO_A2_EH") not in (None, "-99") else p.get("ISO_A2") or "")
 def iso3(p): return p.get("ISO_A3_EH") if p.get("ISO_A3_EH") not in (None, "-99") else p.get("ADM0_A3")
 cands = []
 for f in ne["features"]:
     p = f["properties"]
-    if p.get("TYPE") not in ("Sovereign country", "Country", "Sovereignty") and iso3(p) not in ("PSE", "VAT", "ISR"): continue
+    if p.get("TYPE") not in ("Sovereign country", "Country", "Sovereignty") and iso3(p) not in ("PSE", "VAT", "ISR", "KOS", "ESH"): continue
     if p["NAME"] in SKIP or p.get("NAME_LONG") in SKIP or p.get("CONTINENT") == "Antarctica" or (p.get("CONTINENT") == "Seven seas (open ocean)" and iso3(p) not in ("SYC", "MUS", "MDV")): continue
     cands.append(f)
 # capitals (Admin-0 capital) matched by ISO2, falling back to country name
@@ -44,13 +45,18 @@ rc = []
 for f in cands:
     p = f["properties"]; name = RENAME.get(p.get("NAME_LONG") or p["NAME"], p.get("NAME_LONG") or p["NAME"])
     c = caps.get(iso2(p)) or caps.get(p["ADMIN"]) or caps.get(p["NAME"]) or []
-    rc.append({"name": {"common": name, "official": p.get("FORMAL_EN") or name}, "cca2": iso2(p).upper(), "cca3": iso3(p),
+    DISPUTED = {"TWN", "KOS", "ESH", "SOL", "CYN", "PSE"}   # disputed or not universally recognised
+    name = {"ESH": "Western Sahara", "CYN": "Northern Cyprus", "SOL": "Somaliland"}.get(iso3(p), name)
+    rc.append({"disputed": iso3(p) in DISPUTED, "name": {"common": name, "official": p.get("FORMAL_EN") or name}, "cca2": iso2(p).upper(), "cca3": iso3(p),
                "capital": list(dict.fromkeys(c)), "region": {"SYC": "Africa", "MUS": "Africa", "MDV": "Asia"}.get(iso3(p), p["CONTINENT"]), "subregion": p["SUBREGION"],
                "population": int(p["POP_EST"]), "latlng": None, "area": None})
 CAPFIX = {"Benin": "Porto-Novo", "Bolivia": "Sucre", "Chile": "Santiago", "Côte d'Ivoire": "Yamoussoukro", "Japan": "Tokyo",
           "Eswatini": "Mbabane", "Malaysia": "Kuala Lumpur", "Morocco": "Rabat", "Myanmar": "Naypyidaw", "Netherlands": "Amsterdam",
           "Nigeria": "Abuja", "Philippines": "Manila", "South Africa": "Pretoria", "Sri Lanka": "Sri Jayawardenepura Kotte",
-          "Tanzania": "Dodoma", "Nauru": "Yaren", "Israel": "Jerusalem", "Palestine": ""}
+          "Tanzania": "Dodoma", "Nauru": "Yaren", "Israel": "Jerusalem", "Palestine": "Ramallah", "Taiwan": "Taipei",
+          "Kosovo": "Pristina", "Western Sahara": "El Aaiún", "Somaliland": "Hargeisa", "Northern Cyprus": "North Nicosia"}
+CAPNOTE = {"Palestine": "administrative seat; East Jerusalem is claimed as the capital", "Israel": "Jerusalem is claimed by both Israel and Palestine",
+           "Western Sahara": "claimed capital; the territory is largely administered by Morocco", "Taiwan": "", "Kosovo": "", "Somaliland": "", "Northern Cyprus": ""}
 for c in rc:
     n = c["name"]["common"]
     if n in CAPFIX: c["capital"] = [CAPFIX[n]] if CAPFIX[n] else []
@@ -68,23 +74,35 @@ look_of = {}
 for i, g in enumerate(LOOK):
     for cc in g: look_of.setdefault(cc, i)
 
-EXTRA_EASY = {"CH","SE","NO","IE","GR","PT","CU","JM","IL","NZ","FI","DK","AT","BE","NL","SG","AE","SA","KE","PL","UA","AR","CL","PE","CO","VE","TR","IR","IQ","AF","CA","AU"}
+EXTRA_EASY = {"TW","CH","SE","NO","IE","GR","PT","CU","JM","IL","NZ","FI","DK","AT","BE","NL","SG","AE","SA","KE","PL","UA","AR","CL","PE","CO","VE","TR","IR","IQ","AF","CA","AU"}
 pops = sorted(rc, key=lambda c: -c["population"]); top = {c["cca2"] for c in pops[:55]}
 items = []
 for c in rc:
     cc = c["cca2"]; caps = c.get("capital") or []
     name = c["name"]["common"]
-    items.append({"id": cc.lower(), "cca3": c["cca3"], "name": name, "official": c["name"]["official"],
+    items.append({"disputed": c["disputed"], "capitalNote": CAPNOTE.get(c["name"]["common"], ""), "id": cc.lower(), "cca3": c["cca3"], "name": name, "official": c["name"]["official"],
                   "capital": caps[0] if caps else "", "capitals": caps, "region": c["region"], "subregion": c.get("subregion", ""),
                   "group": c.get("subregion") or c["region"], "easy": cc in top or cc in EXTRA_EASY,
                   "look": look_of.get(cc), "pop": c["population"], "area": c.get("area"), "latlng": c.get("latlng"),
                   "flag": f"topics/countries/flags/{cc.lower()}.svg"})
 
-# ---- flags (flag-icons, MIT) ----
+# ---- flags: flag-icons (MIT); Commons for the two it lacks ----
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from fetch_birds import api as _api, strip as _strip, OK_LICENSES as _OK
+COMMONS_FLAGS = {"xs": "File:Flag of Somaliland.svg", "xc": "File:Flag of the Turkish Republic of Northern Cyprus.svg"}
+for cid, title in COMMONS_FLAGS.items():
+    fp = os.path.join(OUT, "flags", cid + ".svg")
+    if os.path.exists(fp): continue
+    d = _api("https://commons.wikimedia.org/w/api.php", action="query", titles=title, prop="imageinfo", iiprop="url|extmetadata")
+    ii = next(iter(d["query"]["pages"].values()))["imageinfo"][0]
+    lic = _strip(ii["extmetadata"].get("LicenseShortName", {}).get("value")); print("flag", cid, lic)
+    assert _OK.match(lic) or "public" in lic.lower(), lic
+    open(fp, "wb").write(get(ii["url"]))
+
 os.makedirs(os.path.join(OUT, "flags"), exist_ok=True)
 for it in items:
     fp = os.path.join(ROOT, "docs", it["flag"])
-    if not os.path.exists(fp):
+    if not os.path.exists(fp) and it["id"] not in COMMONS_FLAGS:
         open(fp, "wb").write(get(f"https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/{it['id']}.svg")); time.sleep(0.05)
 
 # ---- shapes (Natural Earth 50m, public domain) ----
