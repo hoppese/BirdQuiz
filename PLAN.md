@@ -52,3 +52,40 @@ On the end-of-round screen, each missed bird in the "Review" list becomes tappab
 - Bump `VERSION` in `docs/sw.js` on every deploy. Service worker doesn't precache images/audio (cached on demand).
 - Photos are 640px JPEG, ~36 MB total.
 - Deploy: commit + `git push` to main (GitHub Pages serves `/docs`).
+
+---
+# Phase 2 — more quiz topics (planned, not started)
+Requested topics: country flags · US state flags · geography (ID the highlighted country) · US state capitals · world capitals · tree identification (+ existing birds).
+
+## Architecture (do first: turn the bird quiz into a topic framework)
+- Home screen becomes a topic grid; each topic keeps the Easy/Medium/Hard picker, 10-question rounds, review, End quiz, flag/bug buttons.
+- Each topic = `docs/topics/<id>/data.json` (items with `id`, `name`, `group` for hard-mode look-alike distractors, optional `easy` flag, media + credits) plus a small config: question types (photo / flag / map / text / sound), how to render the info card, how to credit.
+- Birds becomes topic #1 (its data stays in `docs/birds.json` until migrated; `docs/img`, `docs/audio`, `docs/maps` stay put so installed copies keep working).
+- Bug/flag reports get a `topic` field (Worker + `tools/apply_flags.py` need a small update).
+- Keep repo/URL `BirdQuiz` (the installed home-screen app points at it); change only the display name/icon unless the user wants a new repo.
+
+## Topics & data sources (all must be open-licensed)
+| Topic | Question | Data source | Notes |
+|---|---|---|---|
+| Country flags | flag → country (and reverse) | `flag-icons` (MIT) or Wikimedia Commons (mostly public domain) | ~200 SVGs, tiny. Hard = similar flags (e.g. Romania/Chad, Ireland/Côte d'Ivoire). Credit per file if from Commons. |
+| US state flags | flag → state | Wikimedia Commons (mostly PD) | 50 SVGs. Many look alike (blue field + seal) so Hard is hard. |
+| Geography | highlighted country on a map → name | Natural Earth (public domain) GeoJSON, drawn as SVG in the app, no images to download | Zoom to the region; tiny countries need an inset/marker. Easy = big/famous, hard = small/regional. Same map renderer can later power US-state highlight and range maps. |
+| US state capitals | state → capital (and reverse; optional highlighted-state map) | public-domain facts | Distractors from other capitals; hard = same region. |
+| World capitals | country → capital (and reverse) | Wikidata (CC0) / Natural Earth populated places | Watch contested/multiple capitals (Bolivia, South Africa, Netherlands...). |
+| Trees | photo of leaf / bark / whole tree / fruit → species | Wikimedia Commons / iNaturalist CC photos (same pipeline as birds); info card from Wikipedia; range maps from USGS "Atlas of United States Trees" (Little maps, public domain, consistent style) | ~100-150 North American trees; separate photo "part" tags enable leaf-only / bark-only modes. |
+
+## Suggested build order
+1. Topic framework refactor (birds keeps working, tested), home topic grid.
+2. Cheap, no-photo topics: US state capitals, world capitals, country flags, US state flags.
+3. Geography (map renderer).
+4. Trees (photo pipeline + info + range maps).
+
+## Open decisions for the user
+- App display name (now "Bird Quiz").
+- Scope per topic: whole world for flags/capitals/geography, or start with a subset by continent (levels by region)?
+- Trees: North America only? Include shrubs?
+- Do they want per-topic progress/streaks (on-device) before logins.
+
+## Still-open items from the bird quiz
+- Male/female photos requirement (bug report `2026-10-10T13-18-58Z_lqpwh6`): needs per-photo sex tags; approach = Commons subcategories "(male)"/"(female)" for dimorphic species, then ensure >= 1 each, and tag them in the info gallery.
+- Range maps: 159/167 have one; ~70% share the Cephas/Jebbles BirdLife-derived style (key now shown); the rest use their own colors. Fully consistent maps would need a single data source drawn by us (e.g. eBird Status & Trends, free but non-commercial + key, or GBIF occurrence density).
