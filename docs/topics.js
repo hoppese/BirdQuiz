@@ -4,6 +4,10 @@
 //   modes[]: { id, label, intro, usable(item), make(item) -> {promptHTML, revealHTML?, creditHTML, flagFile?},
 //              optionText?(item), note?(item), missLabel?(item) }
 const mkMode = o => ({ ...o, usableCount: items => items.filter(o.usable).length >= 8 });
+// Reverse mode: the question shows a NAME; the four choices are PICTURES (o.pickMedia(item) -> {html, file?, credit}).
+const revMode = o => mkMode({ ...o,
+  make(it) { const media = o.pickMedia(it);
+    return { media, promptHTML: qText(o.prompt(it)), creditHTML: media.credit, flagFile: media.file || null, reviewHTML: media.html }; } });
 const credit = (label, c) => `${label}: ${esc(c.author)}, ${esc(c.license)} — ${link(c.source, "source")}`;
 const fmtNum = n => n.toLocaleString("en-US");
 
@@ -22,6 +26,10 @@ registerTopic({
       note: b => `<span class="sci">(${esc(b.scientific)})</span>`,
       make(b) { const p = pick(goodPhotos(b));
         return { promptHTML: photoHTML(p, "Bird to identify"), creditHTML: credit("Photo", p), flagFile: p.file }; } }),
+    revMode({ id: "photorev", label: "🖼️ Name → photo", intro: "Pick the photo that shows this bird.",
+      usable: b => goodPhotos(b).length > 0, note: b => `<span class="sci">(${esc(b.scientific)})</span>`,
+      prompt: b => `Which photo shows the <b>${esc(b.name)}</b>?`,
+      pickMedia: b => { const p = pick(goodPhotos(b)); return { html: photoHTML(p, "Bird"), file: p.file, credit: credit("Photo", p) }; } }),
     mkMode({ id: "song", label: "🔊 Sounds", intro: "Name the bird from its call or song.",
       usable: b => (b.sounds || []).length > 0 && goodPhotos(b).length > 0,
       note: b => `<span class="sci">(${esc(b.scientific)})</span>`,
@@ -76,6 +84,7 @@ function mapHTML(it, wide) {
     <g class="land">${WORLD_PATHS}</g><path class="hl" d="${WORLD[it.id].d}"/>
     ${v.tiny ? `<circle class="ring" cx="${v.cx.toFixed(1)}" cy="${v.cy.toFixed(1)}" r="${(v.w * 0.028).toFixed(1)}"/>` : ""}</svg></div>`;
 }
+const flagCreditHTML = c => c.flagCredit ? credit("Flag", c.flagCredit) : `Flag: ${link("https://commons.wikimedia.org/", "Wikimedia Commons")} (public domain)`;
 const flagBox = src => `<div class="flagbox"><img alt="Flag" src="${esc(src)}"></div>`;
 const qText = (html, flag) => `<div class="qtext">${flag ? `<img class="miniflag" alt="" src="${esc(flag)}">` : ""}<p>${html}</p></div>`;
 
@@ -90,11 +99,14 @@ registerTopic({
   levels: { easy: "Well-known countries, very different choices", medium: "All countries and disputed areas, random choices",
             hard: "Look-alikes and neighbours; maps show the whole world" },
   praise: ["Globetrotter! 🌍", "Well traveled!", "Keep exploring 🧭"],
-  near(a, o) { return (mode === "flag" && a.look != null && a.look === o.look ? 2 : 0) + (a.group === o.group ? 1 : 0); },
+  near(a, o) { return (mode.startsWith("flag") && a.look != null && a.look === o.look ? 2 : 0) + (a.group === o.group ? 1 : 0); },
   modes: [
     mkMode({ id: "flag", label: "🏳️ Flags", intro: "Which country's flag is this?", usable: () => true,
       note: c => c.capital ? `· capital: ${esc(c.capital)}` : "",
-      make: c => ({ promptHTML: flagBox(c.flag), creditHTML: `Flags: ${link("https://github.com/lipis/flag-icons", "flag-icons")} (MIT)` }) }),
+      make: c => ({ promptHTML: flagBox(c.flag), creditHTML: flagCreditHTML(c) }) }),
+    revMode({ id: "flagrev", label: "🚩 Name → flag", intro: "Pick the flag of this country.", usable: () => true,
+      note: c => c.capital ? `· capital: ${esc(c.capital)}` : "", prompt: c => `Which is the flag of <b>${esc(c.name)}</b>?`,
+      pickMedia: c => ({ html: flagBox(c.flag), credit: flagCreditHTML(c) }) }),
     mkMode({ id: "map", label: "🗺️ Maps", intro: "Name the highlighted country.", usable: c => !!WORLD[c.id],
       note: c => c.capital ? `· capital: ${esc(c.capital)}` : "",
       make: c => ({ promptHTML: mapHTML(c, level === "hard"), creditHTML: `Map: ${link("https://www.naturalearthdata.com/", "Natural Earth")} (public domain)` }) }),
@@ -114,8 +126,7 @@ registerTopic({
       Population: ${fmtNum(c.pop)}</p>
       ${c.disputed ? `<p class="credit">Status: disputed or not universally recognised as a sovereign state. It is included here as a distinct area; no position is implied.</p>` : ""}
       ${WORLD[c.id] ? `<h3>Where is it?</h3>${mapHTML(c, false)}` : ""}
-      <p class="credit">Flags: ${link("https://github.com/lipis/flag-icons", "flag-icons")} (MIT). Map &amp; capitals:
-      ${link("https://www.naturalearthdata.com/", "Natural Earth")} (public domain).</p>`;
+      <p class="credit">${flagCreditHTML(c)}. Map &amp; capitals: ${link("https://www.naturalearthdata.com/", "Natural Earth")} (public domain).</p>`;
   },
 });
 
@@ -138,11 +149,14 @@ registerTopic({
   levels: { easy: "Well-known states, very different choices", medium: "All 50 states, random choices",
             hard: "Similar-looking flags and neighbouring states" },
   praise: ["Road-trip pro! 🇺🇸", "Not bad!", "Keep studying 📚"],
-  near(a, o) { return (mode === "flag" && a.look != null && a.look === o.look ? 2 : 0) + (a.group === o.group ? 1 : 0); },
+  near(a, o) { return (mode.startsWith("flag") && a.look != null && a.look === o.look ? 2 : 0) + (a.group === o.group ? 1 : 0); },
   modes: [
     mkMode({ id: "flag", label: "🚩 Flags", intro: "Which state's flag is this?", usable: () => true,
       note: s => `· capital: ${esc(s.capital)}`,
       make: s => ({ promptHTML: flagBox(s.flag), creditHTML: credit("Flag", s.flagCredit) }) }),
+    revMode({ id: "flagrev", label: "🚩 Name → flag", intro: "Pick the flag of this state.", usable: () => true,
+      note: s => `· capital: ${esc(s.capital)}`, prompt: s => `Which is the flag of <b>${esc(s.name)}</b>?`,
+      pickMedia: s => ({ html: flagBox(s.flag), credit: credit("Flag", s.flagCredit) }) }),
     mkMode({ id: "map", label: "🗺️ Map", intro: "Name the highlighted state.", usable: s => !!STATE_MAP[s.id],
       note: s => `· capital: ${esc(s.capital)}`,
       make: s => ({ promptHTML: stateMapHTML(s), creditHTML: `Map: ${link("https://www.naturalearthdata.com/", "Natural Earth")} (public domain)` }) }),
@@ -164,6 +178,11 @@ registerTopic({
 // ================================ TREES ================================
 const PART_LABEL = { leaf: "Leaf", bark: "Bark", tree: "Whole tree", fruit: "Fruit / cones" };
 const treePhotos = (t, part) => goodPhotos(t).filter(p => !part || p.part === part);
+const treeRev = (id, label, intro, part) => revMode({ id, label, intro, usable: t => treePhotos(t, part).length > 0,
+  note: t => `<span class="sci">(${esc(t.scientific)})</span>`,
+  prompt: t => `Which ${part === "leaf" ? "leaf" : "photo"} is from the <b>${esc(t.name)}</b>?`,
+  pickMedia: t => { const p = pick(treePhotos(t, part));
+    return { html: photoHTML(p, "Tree"), file: p.file, credit: `${PART_LABEL[p.part] || "Photo"} — ` + credit("Photo", p) }; } });
 const treeMode = (id, label, intro, part) => mkMode({ id, label, intro,
   usable: t => treePhotos(t, part).length > 0,
   note: t => `<span class="sci">(${esc(t.scientific)})</span>`,
@@ -180,6 +199,8 @@ registerTopic({
   near(a, o) { return (a.genus === o.genus ? 3 : 0) + (a.type === o.type ? 1 : 0); },
   modes: [
     treeMode("all", "🌳 Mixed", "Name the tree from its photo.", null),
+    treeRev("allrev", "🖼️ Name → photo", "Pick the photo that shows this tree.", null),
+    treeRev("leafrev", "🍃 Name → leaf", "Pick the leaf or needles of this tree.", "leaf"),
     treeMode("leaf", "🍃 Leaves", "Name the tree from its leaves or needles.", "leaf"),
     treeMode("bark", "🪵 Bark", "Name the tree from its bark.", "bark"),
     treeMode("tree", "🌲 Whole tree", "Name the tree from its shape.", "tree"),

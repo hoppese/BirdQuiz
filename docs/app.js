@@ -63,8 +63,10 @@ function newRound() {
   if (level === "easy") { const easy = pool.filter(x => x.easy); if (easy.length >= CHOICES * 3) pool = easy; }
   const picked = shuffle(pool).slice(0, ROUND_LENGTH);
   state = { i: 0, score: 0, answered: 0, missed: [],
-            questions: picked.map(it => ({ ...m.make(it), answer: it, mode: m,
-              options: shuffle([it, ...distractors(t, m, it, pool)]) })) };
+            questions: picked.map(it => {
+              const q = { ...m.make(it), answer: it, mode: m, options: shuffle([it, ...distractors(t, m, it, pool)]) };
+              if (m.pickMedia) q.opts = q.options.map(o => o === it ? q.media : m.pickMedia(o));   // picture choices
+              return q; }) };
   renderQuestion();
 }
 
@@ -111,10 +113,11 @@ function renderQuestion() {
     <div class="top"><button class="quit" id="quit">✕ End quiz</button><span>${LEVEL_LABEL[level]} · ${state.i + 1} of ${state.questions.length}</span><span>Score ${state.score}</span></div>
     <div class="bar"><i style="width:${state.i / state.questions.length * 100}%"></i></div>
     <div id="pic">${q.promptHTML}</div>
-    <div class="choices">${q.options.map((o, k) =>
-      `<button class="choice" data-k="${k}">${esc(optText(q.mode, o))}</button>`).join("")}</div>
+    <div class="choices${q.opts ? " imgs" : ""}">${q.options.map((o, k) => q.opts
+      ? `<button class="choice img" data-k="${k}">${q.opts[k].html}<span class="cap">${esc(optText(q.mode, o))}</span></button>`
+      : `<button class="choice" data-k="${k}">${esc(optText(q.mode, o))}</button>`).join("")}</div>
     <div id="after"></div>`;
-  app.querySelectorAll(".choice").forEach(b => b.onclick = () => answer(q, +b.dataset.k));
+  app.querySelectorAll(".choice").forEach(b => b.onclick = () => { if (!q.done) answer(q, +b.dataset.k); });
   document.getElementById("quit").onclick = () => {
     if (!confirm(state.answered ? "End this quiz and see your results so far?" : "End this quiz?")) return;
     stopClips(); state.answered ? renderResults() : renderHome();
@@ -134,25 +137,31 @@ function wirePlayer() {
 const stopClips = () => document.querySelectorAll("audio").forEach(a => a.pause());
 
 const flagButton = q => q.flagFile ? `<button class="flagbtn" id="flag" title="Flag this photo">🚩 Flag photo</button>` : "";
+function flagFileWithPrompt(file, btn) {
+  const reason = prompt("What's wrong with this photo? (bad crop, wrong subject, blurry, …)", "");
+  if (reason === null) return;
+  setFlag(file, reason.trim());
+  btn.textContent = btn.classList.contains("optflag") ? "✓" : "🚩 Flagged — won't show again"; btn.disabled = true;
+}
 function wireFlag(q) {
   const btn = document.getElementById("flag"); if (!btn || !q.flagFile) return;
-  btn.onclick = () => {
-    const reason = prompt("What's wrong with this photo? (bad crop, wrong subject, blurry, …)", "");
-    if (reason === null) return;
-    setFlag(q.flagFile, reason.trim());
-    btn.textContent = "🚩 Flagged — won't show again"; btn.disabled = true;
-  };
+  btn.onclick = () => flagFileWithPrompt(q.flagFile, btn);
 }
 
 function answer(q, k) {
   const right = q.options[k] === q.answer, m = q.mode, t = topic;
-  state.answered++;
+  q.done = true; state.answered++;
   if (right) state.score++; else state.missed.push({ q, chosen: q.options[k] });
   app.querySelectorAll(".choice").forEach((b, j) => {
-    b.disabled = true;
+    b.classList.add("done");
     if (q.options[j] === q.answer) b.classList.add("good");
     else if (j === k) b.classList.add("bad");
+    if (q.opts && q.opts[j].file) {          // let the user flag any of the pictures that was shown
+      b.insertAdjacentHTML("beforeend", `<span class="optflag" role="button" aria-label="Flag this photo">🚩</span>`);
+      b.querySelector(".optflag").onclick = e => { e.stopPropagation(); flagFileWithPrompt(q.opts[j].file, e.currentTarget); };
+    }
   });
+  if (q.opts) document.querySelector(".choices").classList.add("revealed");
   const pic = document.getElementById("pic");
   if (q.revealHTML) { pic.querySelector(".player")?.classList.add("mini"); pic.insertAdjacentHTML("beforeend", q.revealHTML); }
   const host = pic.querySelector(".photowrap") || pic;
@@ -214,7 +223,7 @@ function renderReview(k) {
   view = "review";
   const { q, chosen } = state.missed[k], m = q.mode;
   app.innerHTML = `<button class="btn ghost back" id="back">‹ Back to results</button>
-    <div id="pic">${q.promptHTML}${q.revealHTML || ""}</div>
+    <div id="pic">${q.promptHTML}${q.reviewHTML || q.revealHTML || ""}</div>
     <p class="credit">You picked <b>${esc(optText(m, chosen))}</b> · answer: <b>${esc(optText(m, q.answer))}</b><br>
       ${q.creditHTML || ""}${flagButton(q) ? " · " + flagButton(q) : ""}</p>
     <div class="review">${topic.infoHTML(q.answer)}</div>`;

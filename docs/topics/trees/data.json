@@ -1332,13 +1332,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:The_bark_of_the_beech_tree_showing_signs_of_beech_bark_disease._(0bfa1340-c4ae-488a-bf25-0805049ea28b).JPG"
    },
    {
-    "file": "topics/trees/img/american-beech-tree.jpg",
-    "part": "tree",
-    "license": "CC BY-SA 4.0",
-    "author": "Marty Aligata",
-    "source": "https://commons.wikimedia.org/wiki/File:Joan_Maloof_with_old_American_Beech_tree_in_Hartford,_CT.jpg"
-   },
-   {
     "file": "topics/trees/img/american-beech-fruit.jpg",
     "part": "fruit",
     "license": "CC BY-SA 4.0",
@@ -3010,13 +3003,6 @@
     "license": "CC BY-SA 3.0",
     "author": "Tuxyso",
     "source": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_National_Park_2013.jpg"
-   },
-   {
-    "file": "topics/trees/img/joshua-tree-fruit.jpg",
-    "part": "fruit",
-    "license": "CC BY-SA 2.0",
-    "author": "BLM Nevada",
-    "source": "https://commons.wikimedia.org/wiki/File:Joshua_Tree_with_Fruit_by_Leah_Daniel_(8950741178).jpg"
    }
   ],
   "info": {
@@ -3613,13 +3599,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sun_through_Conifer_Leaves.jpg"
    },
    {
-    "file": "topics/trees/img/balsam-fir-bark.jpg",
-    "part": "bark",
-    "license": "CC BY-SA 3.0",
-    "author": "Treetime.ca",
-    "source": "https://commons.wikimedia.org/wiki/File:Abies_balsamea_bark_with_blisters.jpg"
-   },
-   {
     "file": "topics/trees/img/balsam-fir-tree.jpg",
     "part": "tree",
     "license": "Public domain",
@@ -3837,13 +3816,6 @@
     "license": "CC BY-SA 2.0",
     "author": "Michael Garlick",
     "source": "https://commons.wikimedia.org/wiki/File:Silsoe,_Wrest_Park,_Cretan_bryony_%27Bryonia_cretica%27_in_a_Blue_spruce_%27Picea_pungens%27_tree_-_geograph.org.uk_-_7542618.jpg"
-   },
-   {
-    "file": "topics/trees/img/blue-spruce-fruit.jpg",
-    "part": "fruit",
-    "license": "CC BY 2.0",
-    "author": "cultivar413",
-    "source": "https://commons.wikimedia.org/wiki/File:Chicago_Botanic_Gdn,_Fruit_Veg_Island_180723_427_Hydrangea_Invincibelle%C2%AE_Spirit,_Filipendula_rubra_%27Venusta%27,_Acer_saccharum,_Picea_pungens_%27Lutea%27.jpg"
    }
   ],
   "info": {
@@ -4137,13 +4109,6 @@
     "license": "CC0",
     "author": "Aethonatic",
     "source": "https://commons.wikimedia.org/wiki/File:Sequoiadendron_giganteum_leaves_-_22_March_2026.jpg"
-   },
-   {
-    "file": "topics/trees/img/giant-sequoia-bark.jpg",
-    "part": "bark",
-    "license": "CC BY-SA 3.0",
-    "author": "The Angels 2010",
-    "source": "https://commons.wikimedia.org/wiki/File:Bark_Sequoiadendron_giganteum.JPG"
    },
    {
     "file": "topics/trees/img/giant-sequoia-tree.jpg",

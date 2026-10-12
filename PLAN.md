@@ -1,6 +1,7 @@
 # Bird Quiz — plan & status
 
 **Live app topics:** Birds (photos + sounds) · Countries (flags, maps, capitals, capital→country; 195 countries) · US States (flags, capitals) · Trees (leaf/bark/whole/fruit photos; in progress).
+**Modes:** every topic has forward (picture -> name) and, where it makes sense, reverse (name -> picture) modes (`revMode` in `docs/topics.js`; picture choices are 2x2, each flaggable). Country flags are true-proportion PNGs from Commons (`tools/fix_flag_ratios.py`); state flags already were.
 **Engine:** `docs/app.js` (shared screens, rounds, review, flags, bug reports) + `docs/topics.js` (one registered topic per quiz). Add a topic = data builder script in `tools/` + a `registerTopic` block.
 **Tools:** `tools/build_countries.py`, `build_states.py`, `fetch_trees.py` + `fetch_tree_info.py`, bird scripts (`fetch_birds/info/sounds/sexes.py`), `apply_flags.py` (triage any topic's flagged photos), `fix_maps.py`.
 **Waiting on the user:** nothing blocking. Triage with `git pull && python3 tools/apply_flags.py`.
